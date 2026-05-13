@@ -1,0 +1,23 @@
+{
+  "total_generated": 281,
+  "total_errors": 0,
+  "themes": {
+    "bernoulli-binomiale": 63,
+    "calcul-integral": 4,
+    "combinatoire-denombrement": 2,
+    "derivation-convexite": 32,
+    "geometrie-orthogonalite-distances": 51,
+    "geometrie-reperage": 17,
+    "limites-fonctions": 1,
+    "logarithme": 25,
+    "primitives-equations-differentielles": 17,
+    "suites": 66,
+    "variables-aleatoires": 3
+  },
+  "domains": {
+    "algebre-geometrie": 70,
+    "analyse": 145,
+    "probabilites": 66
+  },
+  "errors_path": ""
+}

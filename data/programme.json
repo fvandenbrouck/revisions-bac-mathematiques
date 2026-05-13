@@ -1,0 +1,300 @@
+{
+  "discipline": "mathématiques",
+  "niveau": "Terminale générale",
+  "enseignement": "Spécialité mathématiques",
+  "programme_version": "2019",
+  "bac_target": "bac_2026_2027",
+  "domains": {
+    "algebre-geometrie": "Algèbre et géométrie",
+    "analyse": "Analyse",
+    "probabilites": "Probabilités",
+    "algorithmique-programmation": "Algorithmique et programmation",
+    "logique-ensembles": "Vocabulaire ensembliste et logique"
+  },
+  "domain_order": [
+    "algebre-geometrie",
+    "analyse",
+    "probabilites",
+    "algorithmique-programmation",
+    "logique-ensembles"
+  ],
+  "theme_order": [
+    "combinatoire-denombrement",
+    "geometrie-vecteurs-espace",
+    "geometrie-orthogonalite-distances",
+    "geometrie-reperage",
+    "suites",
+    "limites-fonctions",
+    "derivation-convexite",
+    "continuite",
+    "logarithme",
+    "trigonometrie",
+    "primitives-equations-differentielles",
+    "calcul-integral",
+    "bernoulli-binomiale",
+    "variables-aleatoires",
+    "concentration-grands-nombres",
+    "algorithmique-python",
+    "logique-raisonnement"
+  ],
+  "theme_to_domain": {
+    "combinatoire-denombrement": "algebre-geometrie",
+    "geometrie-vecteurs-espace": "algebre-geometrie",
+    "geometrie-orthogonalite-distances": "algebre-geometrie",
+    "geometrie-reperage": "algebre-geometrie",
+    "suites": "analyse",
+    "limites-fonctions": "analyse",
+    "derivation-convexite": "analyse",
+    "continuite": "analyse",
+    "logarithme": "analyse",
+    "trigonometrie": "analyse",
+    "primitives-equations-differentielles": "analyse",
+    "calcul-integral": "analyse",
+    "bernoulli-binomiale": "probabilites",
+    "variables-aleatoires": "probabilites",
+    "concentration-grands-nombres": "probabilites",
+    "algorithmique-python": "algorithmique-programmation",
+    "logique-raisonnement": "logique-ensembles"
+  },
+  "thematiques": [
+    {
+      "id": "combinatoire-denombrement",
+      "titre": "Combinatoire et dénombrement",
+      "description": "Principes additif et multiplicatif, k-uplets, permutations, combinaisons, coefficients binomiaux, triangle et relation de Pascal.",
+      "domaine_id": "algebre-geometrie",
+      "domaine": "Algèbre et géométrie",
+      "icone": "◇",
+      "relations_cles": [
+        "n^k k-uplets",
+        "n! permutations",
+        "C(n,k)=n!/(k!(n-k)!)",
+        "Relation de Pascal"
+      ]
+    },
+    {
+      "id": "geometrie-vecteurs-espace",
+      "titre": "Vecteurs, droites et plans de l’espace",
+      "description": "Vecteurs de l’espace, combinaisons linéaires, droites, plans, directions, bases, repères et positions relatives.",
+      "domaine_id": "algebre-geometrie",
+      "domaine": "Algèbre et géométrie",
+      "icone": "◇",
+      "relations_cles": [
+        "Droite : point + vecteur directeur",
+        "Plan : point + deux vecteurs non colinéaires",
+        "Base de l’espace"
+      ]
+    },
+    {
+      "id": "geometrie-orthogonalite-distances",
+      "titre": "Orthogonalité et distances dans l’espace",
+      "description": "Produit scalaire dans l’espace, orthogonalité, normes, distances, vecteur normal, projections orthogonales.",
+      "domaine_id": "algebre-geometrie",
+      "domaine": "Algèbre et géométrie",
+      "icone": "◇",
+      "relations_cles": [
+        "u·v=||u||||v||cos(theta)",
+        "u·v=0",
+        "Norme et distance en repère orthonormé"
+      ]
+    },
+    {
+      "id": "geometrie-reperage",
+      "titre": "Représentations paramétriques et équations cartésiennes",
+      "description": "Représentations paramétriques de droites, équations cartésiennes de plans, intersections, appartenance, systèmes linéaires simples.",
+      "domaine_id": "algebre-geometrie",
+      "domaine": "Algèbre et géométrie",
+      "icone": "◇",
+      "relations_cles": [
+        "Droite paramétrique",
+        "Plan ax+by+cz+d=0",
+        "Vecteur normal (a,b,c)"
+      ]
+    },
+    {
+      "id": "suites",
+      "titre": "Suites",
+      "description": "Convergence, divergence, limites de suites, comparaison, théorème des gendarmes, suites géométriques, suites monotones majorées ou minorées.",
+      "domaine_id": "analyse",
+      "domaine": "Analyse",
+      "icone": "∫",
+      "relations_cles": [
+        "Suite croissante majorée converge",
+        "Théorème des gendarmes",
+        "Comportement de q^n",
+        "Récurrence"
+      ]
+    },
+    {
+      "id": "limites-fonctions",
+      "titre": "Limites de fonctions",
+      "description": "Limites finies ou infinies, asymptotes, opérations sur les limites, comparaison, croissances comparées.",
+      "domaine_id": "analyse",
+      "domaine": "Analyse",
+      "icone": "∫",
+      "relations_cles": [
+        "Asymptote verticale",
+        "Asymptote horizontale",
+        "Croissances comparées",
+        "Terme prépondérant"
+      ]
+    },
+    {
+      "id": "derivation-convexite",
+      "titre": "Dérivation et convexité",
+      "description": "Dérivée d’une composée, dérivée seconde, variations, tangentes, convexité, concavité, points d’inflexion.",
+      "domaine_id": "analyse",
+      "domaine": "Analyse",
+      "icone": "∫",
+      "relations_cles": [
+        "(v o u)'=(v' o u)u'",
+        "(e^u)'=u'e^u",
+        "Signe de f'",
+        "f''>=0 convexité",
+        "Tangente"
+      ]
+    },
+    {
+      "id": "continuite",
+      "titre": "Continuité et théorème des valeurs intermédiaires",
+      "description": "Continuité, image d’une suite convergente, théorème des valeurs intermédiaires, existence et unicité de solutions.",
+      "domaine_id": "analyse",
+      "domaine": "Analyse",
+      "icone": "∫",
+      "relations_cles": [
+        "Toute fonction dérivable est continue",
+        "TVI",
+        "Continuité + stricte monotonie => unicité"
+      ]
+    },
+    {
+      "id": "logarithme",
+      "titre": "Fonction logarithme",
+      "description": "Logarithme népérien, propriétés algébriques, dérivée, variations, limites et croissances comparées.",
+      "domaine_id": "analyse",
+      "domaine": "Analyse",
+      "icone": "∫",
+      "relations_cles": [
+        "ln(ab)=ln(a)+ln(b)",
+        "(ln x)'=1/x",
+        "ln réciproque de exp",
+        "croissances comparées"
+      ]
+    },
+    {
+      "id": "trigonometrie",
+      "titre": "Fonctions sinus et cosinus",
+      "description": "Fonctions sinus et cosinus, dérivées, variations, courbes représentatives, équations et inéquations trigonométriques.",
+      "domaine_id": "analyse",
+      "domaine": "Analyse",
+      "icone": "∫",
+      "relations_cles": [
+        "sin'=cos",
+        "cos'=-sin",
+        "sin^2+cos^2=1",
+        "sin impair, cos pair"
+      ]
+    },
+    {
+      "id": "primitives-equations-differentielles",
+      "titre": "Primitives et équations différentielles",
+      "description": "Primitives, équations différentielles y'=f, y'=ay et y'=ay+b.",
+      "domaine_id": "analyse",
+      "domaine": "Analyse",
+      "icone": "∫",
+      "relations_cles": [
+        "F'=f",
+        "primitive de 1/x",
+        "y'=ay => y=Ce^{ax}",
+        "constante d’intégration"
+      ]
+    },
+    {
+      "id": "calcul-integral",
+      "titre": "Calcul intégral",
+      "description": "Intégrale comme aire, lien avec les primitives, linéarité, positivité, Chasles, valeur moyenne, intégration par parties.",
+      "domaine_id": "analyse",
+      "domaine": "Analyse",
+      "icone": "∫",
+      "relations_cles": [
+        "∫ f = F(b)-F(a)",
+        "linéarité",
+        "Chasles",
+        "valeur moyenne",
+        "intégration par parties"
+      ]
+    },
+    {
+      "id": "bernoulli-binomiale",
+      "titre": "Schéma de Bernoulli et loi binomiale",
+      "description": "Succession d’épreuves indépendantes, Bernoulli, loi binomiale, calculs de probabilités.",
+      "domaine_id": "probabilites",
+      "domaine": "Probabilités",
+      "icone": "𝑃",
+      "relations_cles": [
+        "P(X=k)=C(n,k)p^k(1-p)^{n-k}",
+        "E(X)=np",
+        "V(X)=np(1-p)",
+        "indépendance"
+      ]
+    },
+    {
+      "id": "variables-aleatoires",
+      "titre": "Sommes de variables aléatoires",
+      "description": "Sommes de variables aléatoires, espérance, variance, échantillons, somme et moyenne d’un échantillon.",
+      "domaine_id": "probabilites",
+      "domaine": "Probabilités",
+      "icone": "𝑃",
+      "relations_cles": [
+        "E(X+Y)=E(X)+E(Y)",
+        "V(X+Y)=V(X)+V(Y) si indépendantes",
+        "V(aX)=a^2V(X)",
+        "Mn=Sn/n"
+      ]
+    },
+    {
+      "id": "concentration-grands-nombres",
+      "titre": "Concentration et loi des grands nombres",
+      "description": "Bienaymé-Tchebychev, inégalité de concentration, taille d’échantillon, précision, risque et loi des grands nombres.",
+      "domaine_id": "probabilites",
+      "domaine": "Probabilités",
+      "icone": "𝑃",
+      "relations_cles": [
+        "P(|X-mu|>=delta)<=V/delta^2",
+        "P(|Mn-mu|>=delta)<=V/(n delta^2)",
+        "loi des grands nombres"
+      ]
+    },
+    {
+      "id": "algorithmique-python",
+      "titre": "Algorithmique et Python",
+      "description": "Listes, indices, boucles, conditions, fonctions, simulations, méthodes numériques, seuils, dichotomie, Euler, Monte-Carlo.",
+      "domaine_id": "algorithmique-programmation",
+      "domaine": "Algorithmique et programmation",
+      "icone": "⌘",
+      "relations_cles": [
+        "for",
+        "while",
+        "listes",
+        "dichotomie",
+        "Euler",
+        "Monte-Carlo",
+        "indices"
+      ]
+    },
+    {
+      "id": "logique-raisonnement",
+      "titre": "Logique, ensembles et raisonnement",
+      "description": "Ensembles, implication, équivalence, réciproque, contraposée, quantificateurs, récurrence, contre-exemple, absurde.",
+      "domaine_id": "logique-ensembles",
+      "domaine": "Vocabulaire ensembliste et logique",
+      "icone": "∀",
+      "relations_cles": [
+        "appartenance vs inclusion",
+        "implication vs réciproque",
+        "contraposée",
+        "contre-exemple",
+        "récurrence"
+      ]
+    }
+  ]
+}

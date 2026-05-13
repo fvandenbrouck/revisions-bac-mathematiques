@@ -1,0 +1,18 @@
+theme_id,theme_label,domain_id,domain_label,nb_exercices,nb_quiz,cours_genere
+combinatoire-denombrement,Combinatoire et dénombrement,algebre-geometrie,Algèbre et géométrie,2,10,1
+geometrie-vecteurs-espace,"Vecteurs, droites et plans de l’espace",algebre-geometrie,Algèbre et géométrie,0,10,1
+geometrie-orthogonalite-distances,Orthogonalité et distances dans l’espace,algebre-geometrie,Algèbre et géométrie,51,10,1
+geometrie-reperage,Représentations paramétriques et équations cartésiennes,algebre-geometrie,Algèbre et géométrie,17,10,1
+suites,Suites,analyse,Analyse,66,10,1
+limites-fonctions,Limites de fonctions,analyse,Analyse,1,10,1
+derivation-convexite,Dérivation et convexité,analyse,Analyse,32,10,1
+continuite,Continuité et théorème des valeurs intermédiaires,analyse,Analyse,0,10,1
+logarithme,Fonction logarithme,analyse,Analyse,25,10,1
+trigonometrie,Fonctions sinus et cosinus,analyse,Analyse,0,10,1
+primitives-equations-differentielles,Primitives et équations différentielles,analyse,Analyse,17,10,1
+calcul-integral,Calcul intégral,analyse,Analyse,4,10,1
+bernoulli-binomiale,Schéma de Bernoulli et loi binomiale,probabilites,Probabilités,63,10,1
+variables-aleatoires,Sommes de variables aléatoires,probabilites,Probabilités,3,10,1
+concentration-grands-nombres,Concentration et loi des grands nombres,probabilites,Probabilités,0,10,1
+algorithmique-python,Algorithmique et Python,algorithmique-programmation,Algorithmique et programmation,0,10,1
+logique-raisonnement,"Logique, ensembles et raisonnement",logique-ensembles,Vocabulaire ensembliste et logique,0,10,1

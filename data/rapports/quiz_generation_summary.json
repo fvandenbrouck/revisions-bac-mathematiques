@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "questions_per_theme": 10,
+    "themes_total": 17,
+    "themes_generated_or_present": 17,
+    "questions_total": 170,
+    "errors": []
+  },
+  "themes": [
+    {
+      "theme_id": "combinatoire-denombrement",
+      "label": "Combinatoire et dénombrement",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "geometrie-vecteurs-espace",
+      "label": "Vecteurs, droites et plans de l’espace",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "geometrie-orthogonalite-distances",
+      "label": "Orthogonalité et distances dans l’espace",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "geometrie-reperage",
+      "label": "Représentations paramétriques et équations cartésiennes",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "suites",
+      "label": "Suites",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "limites-fonctions",
+      "label": "Limites de fonctions",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "derivation-convexite",
+      "label": "Dérivation et convexité",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "continuite",
+      "label": "Continuité et théorème des valeurs intermédiaires",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "logarithme",
+      "label": "Fonction logarithme",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "trigonometrie",
+      "label": "Fonctions sinus et cosinus",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "primitives-equations-differentielles",
+      "label": "Primitives et équations différentielles",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "calcul-integral",
+      "label": "Calcul intégral",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "bernoulli-binomiale",
+      "label": "Schéma de Bernoulli et loi binomiale",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "variables-aleatoires",
+      "label": "Sommes de variables aléatoires",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "concentration-grands-nombres",
+      "label": "Concentration et loi des grands nombres",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "algorithmique-python",
+      "label": "Algorithmique et Python",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    },
+    {
+      "theme_id": "logique-raisonnement",
+      "label": "Logique, ensembles et raisonnement",
+      "status": "ok",
+      "questions": 10,
+      "errors": ""
+    }
+  ]
+}

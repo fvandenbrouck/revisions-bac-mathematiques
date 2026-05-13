@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Révisions Bac Mathématiques</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+:root{--bg:#f7f8fb;--panel:#fff;--panel2:#f1f5f9;--text:#0f172a;--muted:#64748b;--line:#e2e8f0;--accent:#4f46e5;--accent2:#3730a3;--ok:#16a34a;--warn:#d97706;--danger:#dc2626;--shadow:0 16px 50px rgba(15,23,42,.12);--radius:18px}
+*{box-sizing:border-box}html,body{height:100%}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}button,input,select{font:inherit}.app{min-height:100%;display:grid;grid-template-columns:330px minmax(0,1fr)}
+.sidebar{background:linear-gradient(180deg,#111827,#312e81);color:#fff;padding:22px 18px;position:sticky;top:0;height:100vh;overflow:auto}.brand{display:flex;gap:12px;align-items:center;margin-bottom:20px}.brand .logo{width:44px;height:44px;display:grid;place-items:center;border-radius:14px;background:rgba(255,255,255,.12);font-size:24px}.brand h1{font-size:19px;line-height:1.15;margin:0}.brand p{font-size:12px;margin:3px 0 0;color:#cbd5e1}.side-section{margin:20px 0 10px;font-size:11px;text-transform:uppercase;letter-spacing:.11em;color:#c4b5fd;font-weight:800}.theme-row{width:100%;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:#fff;border-radius:14px;padding:11px;margin:7px 0;text-align:left;cursor:pointer;transition:.15s}.theme-row:hover,.theme-row.active{background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.35)}.theme-main{display:flex;gap:10px;align-items:center}.theme-ico{font-size:19px}.theme-title{font-weight:780;font-size:13px;line-height:1.25}.theme-domain{font-size:11px;color:#cbd5e1;margin-top:3px}.theme-progress{height:6px;background:rgba(255,255,255,.18);border-radius:999px;overflow:hidden;margin-top:9px}.theme-progress span{display:block;height:100%;background:#a5b4fc;border-radius:999px}.side-btn{width:100%;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.08);color:#fff;border-radius:12px;padding:10px 12px;cursor:pointer;text-align:left;margin:6px 0}.side-btn.active{background:#fff;color:#312e81}.global-progress{margin-top:18px;padding:14px;border:1px solid rgba(255,255,255,.14);border-radius:16px;background:rgba(255,255,255,.08)}.global-progress strong{display:block;font-size:13px;margin-bottom:8px}.bar{height:8px;border-radius:999px;background:rgba(255,255,255,.18);overflow:hidden}.bar span{display:block;height:100%;background:#22c55e}.small{font-size:12px;color:#cbd5e1;margin-top:8px}
+.main{min-width:0;padding:24px 28px 84px}.top{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:18px}.top h2{font-size:29px;margin:0 0 5px}.top p{margin:0;color:var(--muted)}.status{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}.pill{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:8px 12px;font-size:12px;color:var(--muted);box-shadow:0 3px 14px rgba(15,23,42,.04)}.tabs{display:flex;gap:8px;margin:18px 0}.tab{border:1px solid var(--line);background:var(--panel);padding:10px 14px;border-radius:999px;cursor:pointer;color:var(--muted);font-weight:750}.tab.active{background:var(--accent);border-color:var(--accent);color:#fff}.filters{display:grid;grid-template-columns:minmax(220px,1fr) 160px 210px 160px;gap:10px;margin:15px 0 22px}.filters input,.filters select{border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:11px 12px;color:var(--text);outline:none}.filters input:focus,.filters select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(79,70,229,.12)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:0 4px 22px rgba(15,23,42,.05);cursor:pointer;transition:.15s;display:flex;flex-direction:column;min-height:238px}.card:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:#c7d2fe}.card-top{display:flex;justify-content:space-between;gap:8px;margin-bottom:10px}.badge{font-size:11px;border-radius:999px;padding:5px 8px;background:var(--panel2);color:var(--muted);font-weight:750}.card h3{font-size:17px;margin:4px 0 8px;line-height:1.25}.card p{font-size:13px;color:var(--muted);line-height:1.45;margin:0 0 12px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}.tag{font-size:11px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 7px;color:#475569}.actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}.actions button{border:0;border-radius:10px;padding:8px 9px;cursor:pointer;font-size:12px;font-weight:750}.btn-light{background:var(--panel2);color:#334155}.btn-primary{background:var(--accent);color:#fff}.btn-ok{background:#dcfce7;color:#166534}.btn-ok.done{background:var(--ok);color:#fff}.empty{background:var(--panel);border:1px dashed var(--line);border-radius:18px;padding:40px;text-align:center;color:var(--muted);grid-column:1/-1}.hide{display:none!important}
+.section-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:0 4px 22px rgba(15,23,42,.05);margin-bottom:16px}.section-card h3{margin:0 0 10px;font-size:20px}.course{display:grid;gap:16px}.def-grid,.formula-grid,.method-grid,.competence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.mini-card,.method-item{border:1px solid var(--line);border-radius:14px;padding:14px;background:#fff}.mini-card strong,.method-item strong{display:block;margin-bottom:5px}.formula{font-size:18px;margin:8px 0;color:#0f172a}.advice{border-left:4px solid var(--accent);padding:9px 12px;background:#eef2ff;border-radius:10px;margin:8px 0;color:#312e81}.source-note{font-size:12px;color:var(--muted);margin-top:10px}.textblock{line-height:1.62;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}.textblock p{margin:0 0 12px}.method-step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:12px;align-items:start;border:1px solid var(--line);border-radius:14px;background:#fff;padding:14px;margin:10px 0}.step-num{width:36px;height:36px;border-radius:999px;background:var(--accent);color:#fff;display:grid;place-items:center;font-weight:850}.method-list{margin:8px 0 0;padding-left:20px;color:#334155;line-height:1.55}.method-kicker{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800;margin-bottom:8px}.quiz-card{max-width:880px}.q-option{width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:12px;padding:12px;margin:8px 0;cursor:pointer}.q-option.good{border-color:#22c55e;background:#dcfce7}.q-option.bad{border-color:#ef4444;background:#fee2e2}.q-expl{display:none;margin-top:12px;background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:12px}.q-expl.show{display:block}.mermaid-wrap{width:100%;overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:14px}.mermaid-wrap .mermaid{min-width:900px}.mind-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}.mind-branch{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px}.mind-branch h4{margin:0 0 10px;font-size:17px}.mind-branch ul{margin:0;padding-left:18px;color:#334155;line-height:1.5}
+.overlay{position:fixed;inset:0;background:rgba(15,23,42,.68);display:none;align-items:center;justify-content:center;padding:18px;z-index:50}.overlay.open{display:flex}.modal{width:min(1180px,96vw);height:min(900px,94vh);background:var(--panel);border-radius:24px;box-shadow:var(--shadow);display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;overflow:hidden}.modal-head{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px}.modal-title{font-size:20px;font-weight:850}.modal-meta{font-size:13px;color:var(--muted);margin-top:4px}.close{border:0;background:var(--panel2);border-radius:12px;width:40px;height:40px;cursor:pointer}.modal-tabs{display:flex;gap:8px;padding:10px 14px;border-bottom:1px solid var(--line);overflow:auto}.modal-tab{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:8px 12px;cursor:pointer;white-space:nowrap;color:var(--muted);font-weight:750}.modal-tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}.modal-body{min-height:0;overflow:auto;background:#f8fafc}.pane{display:none;height:100%}.pane.active{display:block}.pane-pad{padding:18px}.modal-foot{border-top:1px solid var(--line);padding:12px 16px;display:flex;justify-content:flex-end;gap:10px}.modal-foot button{border:0;border-radius:12px;padding:10px 14px;cursor:pointer;font-weight:800}.btn-secondary{background:var(--panel2);color:#334155}.viewer{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr);background:#334155}.viewer-toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;background:#fff;border-bottom:1px solid var(--line);padding:10px 14px}.viewer-toolbar button,.viewer-toolbar select,.viewer-toolbar a{border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 10px;text-decoration:none;color:#334155;cursor:pointer;font-size:13px}.viewer-toolbar button:disabled{opacity:.35;cursor:not-allowed}.viewer-toolbar strong{font-size:13px}.image-stage{overflow:auto;text-align:center;padding:18px;background:#475569}.page-img{display:block;margin:0 auto 18px;background:#fff;box-shadow:0 8px 30px rgba(0,0,0,.28);border-radius:4px;max-width:none;transform-origin:top center}.page-error{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;color:var(--muted)}.notion-cloud{display:flex;gap:8px;flex-wrap:wrap}
+@media(max-width:900px){.app{grid-template-columns:1fr}.sidebar{position:relative;height:auto}.filters{grid-template-columns:1fr}.main{padding:18px}.top{display:block}.status{justify-content:flex-start;margin-top:12px}.modal{height:96vh;width:98vw}.viewer-toolbar{font-size:12px}.page-img{width:100%!important;height:auto!important}.image-stage{padding:8px}}
+</style>
+</head>
+<body>
+<script id="embedded-data" type="application/json">{
+  "site_title":"Révisions Bac Mathématiques",
+  "site_subtitle":"Terminale générale — spécialité mathématiques",
+  "discipline":"mathématiques",
+  "niveau":"Terminale générale",
+  "enseignement":"Spécialité mathématiques",
+  "programme_version":"2019",
+  "domains":{
+    "algebre-geometrie":"Algèbre et géométrie",
+    "analyse":"Analyse",
+    "probabilites":"Probabilités",
+    "algorithmique-programmation":"Algorithmique et programmation",
+    "logique-ensembles":"Vocabulaire ensembliste et logique"
+  },
+  "theme_order":["combinatoire-denombrement","geometrie-vecteurs-espace","geometrie-orthogonalite-distances","geometrie-reperage","suites","limites-fonctions","derivation-convexite","continuite","logarithme","trigonometrie","primitives-equations-differentielles","calcul-integral","bernoulli-binomiale","variables-aleatoires","concentration-grands-nombres","algorithmique-python","logique-raisonnement"],
+  "themes":{
+    "combinatoire-denombrement":"Combinatoire et dénombrement",
+    "geometrie-vecteurs-espace":"Vecteurs, droites et plans de l’espace",
+    "geometrie-orthogonalite-distances":"Orthogonalité et distances dans l’espace",
+    "geometrie-reperage":"Représentations paramétriques et équations cartésiennes",
+    "suites":"Suites",
+    "limites-fonctions":"Limites de fonctions",
+    "derivation-convexite":"Dérivation et convexité",
+    "continuite":"Continuité et théorème des valeurs intermédiaires",
+    "logarithme":"Fonction logarithme",
+    "trigonometrie":"Fonctions sinus et cosinus",
+    "primitives-equations-differentielles":"Primitives et équations différentielles",
+    "calcul-integral":"Calcul intégral",
+    "bernoulli-binomiale":"Schéma de Bernoulli et loi binomiale",
+    "variables-aleatoires":"Sommes de variables aléatoires",
+    "concentration-grands-nombres":"Concentration et loi des grands nombres",
+    "algorithmique-python":"Algorithmique et Python",
+    "logique-raisonnement":"Logique, ensembles et raisonnement"
+  },
+  "theme_to_domain":{
+    "combinatoire-denombrement":"algebre-geometrie","geometrie-vecteurs-espace":"algebre-geometrie","geometrie-orthogonalite-distances":"algebre-geometrie","geometrie-reperage":"algebre-geometrie","suites":"analyse","limites-fonctions":"analyse","derivation-convexite":"analyse","continuite":"analyse","logarithme":"analyse","trigonometrie":"analyse","primitives-equations-differentielles":"analyse","calcul-integral":"analyse","bernoulli-binomiale":"probabilites","variables-aleatoires":"probabilites","concentration-grands-nombres":"probabilites","algorithmique-python":"algorithmique-programmation","logique-raisonnement":"logique-ensembles"
+  },
+  "programme":{"thematiques":[]},
+  "manifest":[],"exercices":[],"cours":{},"quiz":{},"methodologie":{}
+}</script>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><div class="logo">∑</div><div><h1>Révisions Bac<br>Mathématiques</h1><p>Terminale · spécialité</p></div></div>
+    <button class="side-btn active" id="allThemesBtn" data-theme="all">Tous les exercices</button>
+    <div class="side-section">Thématiques</div>
+    <div id="themeList"></div>
+    <div class="side-section">Vues</div>
+    <button class="side-btn active" data-view="exercises">Exercices</button>
+    <button class="side-btn" data-view="courses">Cours</button>
+    <button class="side-btn" data-view="methodology">Méthode bac</button>
+    <button class="side-btn" data-view="quiz">Quiz local</button>
+    <div class="global-progress"><strong>Progression globale</strong><div class="bar"><span id="globalBar" style="width:0%"></span></div><div class="small" id="globalText">0 / 0 maîtrisés</div></div>
+  </aside>
+  <main class="main">
+    <div class="top"><div><h2 id="pageTitle">Exercices</h2><p id="pageSubtitle">Chargement des données…</p></div><div class="status"><span class="pill" id="dataStatus">mode local</span><span class="pill" id="countStatus">0 exercices</span></div></div>
+    <div class="tabs"><button class="tab active" data-view="exercises">Exercices</button><button class="tab" data-view="courses">Cours</button><button class="tab" data-view="methodology">Méthode bac</button><button class="tab" data-view="quiz">Quiz</button></div>
+    <section id="viewExercises"><div class="filters"><input id="search" placeholder="Rechercher : titre, notion, mot-clé…"><select id="yearFilter"><option value="0">Toutes les années</option></select><select id="domainFilter"><option value="all">Tous domaines</option></select><select id="diffFilter"><option value="0">Toutes difficultés</option><option value="1">Difficulté 1</option><option value="2">Difficulté 2</option><option value="3">Difficulté 3</option></select><select id="themeFilter" class="hide"><option value="all">Toutes thématiques</option></select></div><div class="grid" id="exerciseGrid"></div></section>
+    <section id="viewCourses" class="hide"><div id="courseRoot" class="course"></div></section>
+    <section id="viewMethodology" class="hide"><div id="methodologyRoot"></div></section>
+    <section id="viewQuiz" class="hide"><div id="quizRoot" class="section-card quiz-card"></div></section>
+  </main>
+</div>
+<div class="overlay" id="overlay">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-head"><div><div class="modal-title" id="modalTitle"></div><div class="modal-meta" id="modalMeta"></div></div><button class="close" id="closeBtn">✕</button></div>
+    <div class="modal-tabs"><button class="modal-tab active" data-pane="enonce">📄 Énoncé</button><button class="modal-tab" data-pane="aide">💡 Aide</button><button class="modal-tab" data-pane="corrige">✅ Corrigé</button><button class="modal-tab" data-pane="notions">🏷 Notions</button></div>
+    <div class="modal-body">
+      <div class="pane active" id="pane-enonce"><div class="viewer"><div class="viewer-toolbar"><button id="prevPage">◀ Page</button><strong id="pageInfo">Page</strong><button id="nextPage">Page ▶</button><select id="zoom"><option value="0.75">75 %</option><option value="1" selected>100 %</option><option value="1.25">125 %</option><option value="1.5">150 %</option><option value="2">200 %</option></select><a id="openPdf" href="#" target="_blank" rel="noreferrer">Ouvrir le PDF</a><span class="source-note" id="sourceNote"></span></div><div class="image-stage" id="imageStage"></div></div></div>
+      <div class="pane" id="pane-aide"><div class="pane-pad"><div class="textblock" id="modalHelp"></div></div></div>
+      <div class="pane" id="pane-corrige"><div class="pane-pad"><div class="textblock" id="modalSolution"></div></div></div>
+      <div class="pane" id="pane-notions"><div class="pane-pad"><div class="section-card"><h3>Notions et mots-clés</h3><div class="notion-cloud" id="modalNotions"></div><p class="source-note" id="modalSource"></p></div></div></div>
+    </div>
+    <div class="modal-foot"><button class="btn-secondary" id="closeFoot">Fermer</button><button class="btn-ok" id="masterBtn">Marquer comme maîtrisé</button></div>
+  </div>
+</div>
+<script>
+const $=sel=>document.querySelector(sel);const $$=sel=>Array.from(document.querySelectorAll(sel));
+let DATA={programme:{thematiques:[]},exercices:[],cours:{},quiz:{},methodologie:{}};let theme='all',view='exercises',search='',year='0',domain='all',diff='0';let mastered=new Set(JSON.parse(localStorage.getItem('bac_math_mastered')||'[]'));let modalEx=null,pageIndex=0,zoom=1;
+const ICONS={'combinatoire-denombrement':'◇','geometrie-vecteurs-espace':'🧭','geometrie-orthogonalite-distances':'⊥','geometrie-reperage':'📐','suites':'#','limites-fonctions':'↗','derivation-convexite':'∂','continuite':'≈','logarithme':'ln','trigonometrie':'sin','primitives-equations-differentielles':'∫','calcul-integral':'∫','bernoulli-binomiale':'𝔹','variables-aleatoires':'E(X)','concentration-grands-nombres':'σ','algorithmique-python':'Py','logique-raisonnement':'∀'};
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function asArray(v){if(!v)return[];return Array.isArray(v)?v:[v];}
+function listHtml(items){items=asArray(items).filter(Boolean);return items.length?`<ul class="method-list">${items.map(x=>`<li>${fmt(x)}</li>`).join('')}</ul>`:'';}
+function fmt(s){s=String(s??'');const math=[];function hold(m){const k=`@@MATH_${math.length}@@`;math.push(m);return k;}s=s.replace(/\$\$[\s\S]*?\$\$/g,hold).replace(/\$[^$\n]+?\$/g,hold).replace(/\\\[[\s\S]*?\\\]/g,hold).replace(/\\\([\s\S]*?\\\)/g,hold);s=esc(s).replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>').replace(/\n\n+/g,'</p><p>').replace(/\n/g,'<br>');s='<p>'+s+'</p>';math.forEach((m,i)=>{s=s.replace(`@@MATH_${i}@@`,m);});return s;}
+function renderMath(root=document.body){setTimeout(()=>{try{if(window.renderMathInElement){renderMathInElement(root,{delimiters:[{left:'$$',right:'$$',display:true},{left:'\\[',right:'\\]',display:true},{left:'$',right:'$',display:false},{left:'\\(',right:'\\)',display:false}],throwOnError:false,strict:false});}}catch(e){console.warn('KaTeX',e);}},30);}
+function normalizeData(){DATA.programme=DATA.programme||{};DATA.exercices=DATA.exercices||[];DATA.cours=DATA.cours||{};DATA.quiz=DATA.quiz||{};DATA.methodologie=DATA.methodologie||DATA.methodology||{};DATA.domains=DATA.domains||DATA.programme.domains||DATA.PROGRAMME_DOMAINS||{};DATA.theme_to_domain=DATA.theme_to_domain||DATA.programme.theme_to_domain||{};DATA.themes=DATA.themes||DATA.programme.themes||{};DATA.theme_order=DATA.theme_order||DATA.programme.theme_order||Object.keys(DATA.themes||{});let thematiques=DATA.programme.thematiques||[];if(!thematiques.length){thematiques=DATA.theme_order.map(id=>({id,titre:DATA.themes[id]||id,domain_id:DATA.theme_to_domain[id]||'',domain:DATA.domains?.[DATA.theme_to_domain?.[id]]||'',icone:ICONS[id]||'∑'}));}else{thematiques=thematiques.map(t=>({...t,icone:t.icone||ICONS[t.id]||'∑',domain_id:t.domain_id||DATA.theme_to_domain?.[t.id]||'',domain:t.domain||DATA.domains?.[t.domain_id||DATA.theme_to_domain?.[t.id]]||''}));}DATA.programme.thematiques=thematiques;DATA.exercices=DATA.exercices.map(e=>({...e,thematique_id:e.thematique_id||e.theme_id||e.theme_hint||'',domaine_id:e.domaine_id||e.domain_id||DATA.theme_to_domain?.[e.thematique_id||e.theme_id||e.theme_hint]||'',resume_enonce:e.resume_enonce||e.enonce_court||e.resume||'',numero:e.numero||e.type||'',mots_cles:e.mots_cles||e.mots_clés||[]}));}
+async function loadData(){let from='données embarquées';try{const r=await fetch('data/data.json',{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);DATA=await r.json();from='data/data.json';}catch(e){DATA=JSON.parse($('#embedded-data').textContent);}try{if(!DATA.methodologie&&!DATA.methodology){const m=await fetch('data/methodologie.json',{cache:'no-store'});if(m.ok){DATA.methodologie=await m.json();from+=' + methodologie.json';}}}catch(e){}normalizeData();$('#dataStatus').textContent=from;init();}
+function init(){if(window.mermaid)try{mermaid.initialize({startOnLoad:false,theme:'default'});}catch(e){};populateFilters();bind();renderAll();}
+function bind(){$('#allThemesBtn').onclick=()=>setTheme('all');$$('[data-view]').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));$('#search').addEventListener('input',e=>{search=e.target.value.toLowerCase();renderExercises();renderSidebar();});$('#yearFilter').addEventListener('change',e=>{year=e.target.value;renderExercises();renderSidebar();});$('#domainFilter').addEventListener('change',e=>{domain=e.target.value;renderExercises();renderSidebar();});$('#diffFilter').addEventListener('change',e=>{diff=e.target.value;renderExercises();renderSidebar();});$('#overlay').addEventListener('click',e=>{if(e.target.id==='overlay')closeModal();});$('#closeBtn').onclick=closeModal;$('#closeFoot').onclick=closeModal;$('#prevPage').onclick=()=>navPage(-1);$('#nextPage').onclick=()=>navPage(1);$('#zoom').onchange=e=>{zoom=Number(e.target.value);renderPage();};$('#masterBtn').onclick=()=>{if(modalEx)toggleMaster(modalEx.id,true);};$$('.modal-tab').forEach(b=>b.onclick=()=>showPane(b.dataset.pane));document.addEventListener('keydown',e=>{if(!$('#overlay').classList.contains('open'))return;if(e.key==='Escape')closeModal();if(e.key==='ArrowRight')navPage(1);if(e.key==='ArrowLeft')navPage(-1);});}
+function populateFilters(){const years=[...new Set(DATA.exercices.map(e=>e.annee).filter(Boolean))].sort();$('#yearFilter').innerHTML='<option value="0">Toutes les années</option>'+years.map(y=>`<option value="${esc(y)}">${esc(y)}</option>`).join('');const domains=DATA.domains||{};$('#domainFilter').innerHTML='<option value="all">Tous domaines</option>'+Object.entries(domains).map(([id,label])=>`<option value="${esc(id)}">${esc(label)}</option>`).join('');}
+function themeById(id){return DATA.programme.thematiques.find(t=>t.id===id)||{id,titre:id,icone:ICONS[id]||'∑'};}
+
+const EXERCISE_GROUPS=[
+  {
+    id:'algebre-geometrie',
+    titre:'Algèbre et géométrie',
+    icone:'◇',
+    domain:'Algèbre et géométrie',
+    themes:[
+      'combinatoire-denombrement',
+      'geometrie-vecteurs-espace',
+      'geometrie-orthogonalite-distances',
+      'geometrie-reperage'
+    ]
+  },
+  {
+    id:'analyse',
+    titre:'Analyse',
+    icone:'ƒ',
+    domain:'Analyse',
+    themes:[
+      'suites',
+      'limites-fonctions',
+      'derivation-convexite',
+      'continuite',
+      'logarithme',
+      'trigonometrie',
+      'primitives-equations-differentielles',
+      'calcul-integral'
+    ]
+  },
+  {
+    id:'probabilites',
+    titre:'Probabilités',
+    icone:'Ω',
+    domain:'Probabilités',
+    themes:[
+      'bernoulli-binomiale',
+      'variables-aleatoires',
+      'concentration-grands-nombres'
+    ]
+  }
+];
+
+function isExerciseGroupId(id){
+  return EXERCISE_GROUPS.some(g=>g.id===id);
+}
+
+function exerciseGroupById(id){
+  return EXERCISE_GROUPS.find(g=>g.id===id)||null;
+}
+
+function exerciseGroupByThemeId(themeId){
+  return EXERCISE_GROUPS.find(g=>g.themes.includes(themeId))||null;
+}
+
+function exerciseGroupEntries(){
+  return EXERCISE_GROUPS
+    .map(g=>({
+      ...g,
+      kind:'group',
+      count:DATA.exercices.filter(e=>g.themes.includes(e.thematique_id)).length
+    }))
+    .filter(g=>g.count>0);
+}
+
+function selectedLabelById(id){
+  if(id==='all') return null;
+  return exerciseGroupById(id)||themeById(id);
+}
+
+function sidebarEntries(){
+  if(view==='exercises'){
+    return exerciseGroupEntries();
+  }
+  return DATA.programme.thematiques.map(t=>({...t,kind:'theme'}));
+}
+
+function exercicesForSidebarEntry(entry){
+  if(entry.kind==='group'){
+    return DATA.exercices.filter(e=>entry.themes.includes(e.thematique_id));
+  }
+  return DATA.exercices.filter(e=>e.thematique_id===entry.id);
+}
+
+function detailedThemeIdsForCurrentSelection(){
+  if(theme==='all') return DATA.programme.thematiques.map(t=>t.id);
+  const g=exerciseGroupById(theme);
+  return g?g.themes:[theme];
+}
+
+function domainLabel(id){return (DATA.domains||{})[id]||id||'';}
+function filtered(){return DATA.exercices.filter(e=>{if(theme!=='all'){const g=exerciseGroupById(theme);if(g){if(!g.themes.includes(e.thematique_id))return false;}else if(e.thematique_id!==theme)return false;}if(domain!=='all'&&e.domaine_id!==domain)return false;if(year!=='0'&&String(e.annee)!==year)return false;if(diff!=='0'&&String(e.difficulte)!==diff)return false;if(search){const hay=[e.titre,e.resume_enonce,e.texte_extrait,e.enonce,...asArray(e.notions),...asArray(e.mots_cles)].join(' ').toLowerCase();if(!hay.includes(search))return false;}return true;});}
+function renderSidebar(){const root=$('#themeList');const entries=sidebarEntries();root.innerHTML=entries.map(t=>{const exs=exercicesForSidebarEntry(t);const done=exs.filter(e=>mastered.has(e.id)).length;const pct=exs.length?Math.round(100*done/exs.length):0;return `<button class="theme-row ${theme===t.id?'active':''}" data-theme="${esc(t.id)}"><div class="theme-main"><span class="theme-ico">${esc(t.icone||'∑')}</span><span class="theme-title">${esc(t.titre)}</span></div><div class="theme-domain">${esc(t.domain||domainLabel(t.domain_id))}</div><div class="theme-progress"><span style="width:${pct}%"></span></div><div class="small">${done}/${exs.length} maîtrisés</div></button>`}).join('');root.querySelectorAll('[data-theme]').forEach(b=>b.addEventListener('click',()=>setTheme(b.dataset.theme)));$('#allThemesBtn').classList.toggle('active',theme==='all');const total=DATA.exercices.length,done=DATA.exercices.filter(e=>mastered.has(e.id)).length;$('#globalBar').style.width=(total?100*done/total:0)+'%';$('#globalText').textContent=`${done} / ${total} maîtrisés`;$('#countStatus').textContent=`${filtered().length} exercice(s)`;}
+function setTheme(id){theme=id||'all';renderAll();}
+function setView(v){view=v||'exercises';renderAll();}
+function renderAll(){renderSidebar();$$('.tab,[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));$('#viewExercises').classList.toggle('hide',view!=='exercises');$('#viewCourses').classList.toggle('hide',view!=='courses');$('#viewMethodology').classList.toggle('hide',view!=='methodology');$('#viewQuiz').classList.toggle('hide',view!=='quiz');const t=selectedLabelById(theme);const titles={exercises:'Exercices',courses:'Cours',methodology:'Méthode bac',quiz:'Quiz'};$('#pageTitle').textContent=titles[view]||'Exercices';$('#pageSubtitle').textContent=view==='methodology'?'Méthodes générales pour les exercices de mathématiques':(t?`${t.icone||'∑'} ${t.titre}`:'Toutes les thématiques');if(view==='exercises')renderExercises();if(view==='courses')renderCourses();if(view==='methodology')renderMethodology();if(view==='quiz')renderQuiz();}
+function renderExercises(){const exs=filtered();$('#countStatus').textContent=`${exs.length} exercice(s)`;$('#exerciseGrid').innerHTML=exs.length?exs.map(card).join(''):'<div class="empty">Aucun exercice ne correspond aux filtres.</div>';$('#exerciseGrid').querySelectorAll('.card').forEach(c=>c.addEventListener('click',()=>openEx(c.dataset.id,'enonce')));$('#exerciseGrid').querySelectorAll('[data-action]').forEach(b=>b.addEventListener('click',ev=>{ev.stopPropagation();const id=b.closest('.card').dataset.id;if(b.dataset.action==='help')openEx(id,'aide');if(b.dataset.action==='solution')openEx(id,'corrige');if(b.dataset.action==='master')toggleMaster(id,false);}));}
+function card(e){const t=themeById(e.thematique_id);const done=mastered.has(e.id);return `<article class="card" data-id="${esc(e.id)}"><div class="card-top"><span class="badge">${esc(e.annee||'')} · ${esc(e.session||'')}</span><span class="badge">${esc(e.numero||'Ex.')} · ${esc(e.points||'')} pts</span></div><h3>${esc(e.titre||'Exercice')}</h3><p>${esc(e.resume_enonce||e.texte_extrait?.slice(0,220)||'')}</p><div class="tags"><span class="tag">${esc(t.icone||'∑')} ${esc(t.titre||'À classer')}</span><span class="tag">${esc(domainLabel(e.domaine_id)||'')}</span>${e.difficulte?`<span class="tag">Difficulté ${esc(e.difficulte)}/3</span>`:''}${asArray(e.notions).slice(0,3).map(n=>`<span class="tag">${esc(n)}</span>`).join('')}</div><div class="actions"><button class="btn-light" data-action="help">Aide</button><button class="btn-primary" data-action="solution">Corrigé</button><button class="btn-ok ${done?'done':''}" data-action="master">${done?'Maîtrisé':'À maîtriser'}</button></div></article>`}
+function renderCourses(){const root=$('#courseRoot');const ids=detailedThemeIdsForCurrentSelection();const blocks=ids.map(id=>courseBlock(id)).join('');root.innerHTML=blocks||'<div class="empty">Aucun cours disponible. Lance le script 05_generate_courses.py puis 06_build_site_data.py.</div>';renderMath(root);renderMermaid(root);$('#countStatus').textContent=`${ids.length} thème(s)`;}
+function courseBlock(id){const course=DATA.cours[id];const t=themeById(id);if(!course)return `<div class="section-card"><h3>${esc(t.icone||'∑')} ${esc(t.titre||id)}</h3><p class="source-note">Cours non généré pour ce thème.</p></div>`;let html=`<div class="section-card"><h3>${esc(t.icone||'∑')} ${esc(course.titre||t.titre||id)}</h3>${course.domaine_label?`<p class="source-note">${esc(course.domaine_label)}</p>`:''}${course.synthese?`<div class="textblock">${fmt(course.synthese)}</div>`:''}</div>`;html+=sectionList('Objectifs bac',course.objectifs_bac);html+=cards('Définitions',course.definitions,['terme','definition']);html+=cards('Propriétés et théorèmes',course.proprietes_theoremes||course.propriétés_théorèmes,['nom','enonce','conditions']);html+=cards('Formules',course.formules,['nom','formule','variables','conditions'],'formula');html+=cards('Méthodes type bac',course.methodes,['titre','etapes','points_vigilance']);html+=cards('Automatismes',course.automatismes,['competence','exemple']);html+=cards('Erreurs fréquentes',course.erreurs_frequentes||course.points_vigilance,['erreur','correction']);html+=sectionList('Conseils bac',course.conseils_bac);if(course.algorithmes_python)html+=cards('Algorithmique / Python',course.algorithmes_python,['titre','description','code','vigilance']);if(course.carte_mentale)html+=mindmapHtml(course.carte_mentale);else if(course.carte_mentale_mermaid)html+=`<div class="section-card"><h3>Carte mentale</h3><div class="mermaid-wrap"><div class="mermaid">${esc(course.carte_mentale_mermaid)}</div></div></div>`;return `<div>${html}</div>`;}
+function sectionList(title,items){items=asArray(items).filter(Boolean);if(!items.length)return'';return `<div class="section-card"><h3>${esc(title)}</h3>${items.map(x=>`<div class="advice">${fmt(typeof x==='string'?x:JSON.stringify(x))}</div>`).join('')}</div>`;}
+function cards(title,items,keys,cls=''){items=asArray(items).filter(Boolean);if(!items.length)return'';return `<div class="section-card"><h3>${esc(title)}</h3><div class="method-grid">${items.map(it=>{if(typeof it==='string')return`<div class="mini-card">${fmt(it)}</div>`;let body=keys.map(k=>{let v=it[k];if(!v)return'';if(Array.isArray(v))v=v.join('\n');return `<p class="${cls&&k==='formule'?'formula':''}"><strong>${esc(labelKey(k))}</strong>${fmt(v)}</p>`;}).join('');return `<div class="mini-card">${body}</div>`;}).join('')}</div></div>`;}
+function labelKey(k){return {terme:'Terme',definition:'Définition',nom:'Nom',enonce:'Énoncé',formule:'Formule',variables:'Variables',conditions:'Conditions',titre:'Titre',etapes:'Étapes',points_vigilance:'Vigilances',description:'Description',code:'Code',vigilance:'Vigilance'}[k]||k;}
+function mindmapHtml(carte){const branches=asArray(carte.branches);if(!branches.length)return'';return `<div class="section-card"><h3>${esc(carte.titre||'Carte mentale')}</h3><div class="mind-grid">${branches.map(b=>`<div class="mind-branch"><h4>${esc(b.nom||b.titre||'Branche')}</h4>${listHtml(b.items||b.elements||[])}</div>`).join('')}</div></div>`;}
+function renderMermaid(root){setTimeout(()=>{try{if(window.mermaid){root.querySelectorAll('.mermaid').forEach((el,i)=>{const id='mmd-'+Date.now()+'-'+i;mermaid.render(id,el.textContent).then(({svg})=>{el.innerHTML=svg;}).catch(()=>{});});}}catch(e){}},50);}
+function renderMethodology(){const root=$('#methodologyRoot');const m=DATA.methodologie||{};if(Object.keys(m).length){root.innerHTML=`${m.synthese?`<div class="section-card"><h3>Méthode générale</h3><div class="textblock">${fmt(m.synthese)}</div></div>`:''}${sectionList('Compétences mathématiques',m.competences_mathematiques||m.competences)}${sectionList('Rédaction au bac',m.redaction_bac)}${sectionList('Validation des résultats',m.validation_des_resultats)}${sectionList('Usage des figures et données',m.usage_des_figures_et_donnees)}${sectionList('Checklists',m.checklists)}`;}else{root.innerHTML=`<div class="section-card"><h3>Méthode bac en mathématiques</h3><div class="method-step"><div class="step-num">1</div><div><strong>Identifier le chapitre réel</strong><p>Ne te fie pas seulement au contexte : repère les objets mathématiques mobilisés, puis la méthode attendue.</p></div></div><div class="method-step"><div class="step-num">2</div><div><strong>Écrire les hypothèses</strong><p>Pour utiliser un théorème, vérifie les conditions : continuité, dérivabilité, indépendance, orthogonalité, etc.</p></div></div><div class="method-step"><div class="step-num">3</div><div><strong>Structurer la réponse</strong><p>Un calcul isolé ne suffit pas : annonce l’idée, calcule, conclus dans le contexte.</p></div></div><div class="method-step"><div class="step-num">4</div><div><strong>Contrôler la cohérence</strong><p>Signe, ordre de grandeur, domaine de définition, probabilité entre 0 et 1, unité éventuelle.</p></div></div></div>`;}$('#countStatus').textContent='Méthode bac';renderMath(root);}
+function renderQuiz(){const ids=detailedThemeIdsForCurrentSelection();const qs=ids.flatMap(id=>asArray(DATA.quiz[id]).map(q=>({...q,theme:id})));if(!qs.length){$('#quizRoot').innerHTML='<h3>Quiz local</h3><p>Aucune question disponible pour ce filtre.</p>';return;}let i=0,score=0;function show(){const q=qs[i],t=themeById(q.theme);$('#quizRoot').innerHTML=`<h3>Quiz local — ${esc(t.icone||'∑')} ${esc(t.titre||q.theme)}</h3><p>Question ${i+1}/${qs.length} · Score ${score}/${i}</p><h2>${fmt(q.question)}</h2>${asArray(q.options).map((o,j)=>`<button class="q-option" data-choice="${j}">${fmt(o)}</button>`).join('')}<div class="q-expl" id="qExpl"></div>`;$('#quizRoot').querySelectorAll('[data-choice]').forEach(b=>b.onclick=()=>{const choice=Number(b.dataset.choice),ok=choice===Number(q.correct);if(ok)score++;$('#quizRoot').querySelectorAll('[data-choice]').forEach(x=>{x.disabled=true;const c=Number(x.dataset.choice);if(c===Number(q.correct))x.classList.add('good');else if(c===choice)x.classList.add('bad');});$('#qExpl').innerHTML=`${ok?'Correct.':'Erreur.'} ${fmt(q.explanation||'')}<br><br><button class="tab active" id="nextQ">${i+1<qs.length?'Question suivante':'Recommencer'}</button>`;$('#qExpl').classList.add('show');$('#nextQ').onclick=()=>{i++;if(i>=qs.length){i=0;score=0;}show();};});renderMath($('#quizRoot'));}show();}
+function renderCorrige(ex){const c=ex.corrige;if(!c)return'<p>Corrigé non disponible.</p>';if(typeof c==='string')return fmt(c);const qs=c.questions||[];if(Array.isArray(qs)&&qs.length){return qs.map(q=>`<div class="corrige-question"><h4>Question ${esc(q.numero||'')}</h4><div>${fmt(q.reponse||q.réponse||'')}</div>${q.points_attention||q.vigilance?`<p class="source-note"><strong>Point d’attention :</strong> ${esc(q.points_attention||q.vigilance)}</p>`:''}</div>`).join('');}return `<pre>${esc(JSON.stringify(c,null,2))}</pre>`;}
+function exerciseImages(ex){if(ex.page_images?.length)return ex.page_images;if(ex.source?.images?.length)return ex.source.images;if(ex.image_page)return[ex.image_page];return[];}
+function exercisePages(ex){if(ex.pages?.length)return ex.pages;if(ex.source?.pages?.length)return ex.source.pages;return[];}
+function exercisePdfUrl(ex){if(ex.pdf_embed_url)return ex.pdf_embed_url;if(ex.pdf_url&&ex.pdf_page)return`${ex.pdf_url}#page=${ex.pdf_page}`;if(ex.pdf_path&&exercisePages(ex)[0])return`${ex.pdf_path}#page=${exercisePages(ex)[0]}`;if(ex.pdf_path)return ex.pdf_path;if(ex.source?.pdf){const p=exercisePages(ex)[0];return ex.source.pdf+(p?`#page=${p}`:'');}return'';}
+function openEx(id,pane='enonce'){modalEx=DATA.exercices.find(e=>e.id===id);if(!modalEx)return;pageIndex=0;zoom=1;$('#zoom').value='1';const t=themeById(modalEx.thematique_id);$('#modalTitle').textContent=modalEx.titre||'Exercice';$('#modalMeta').textContent=`${modalEx.annee||''} · ${modalEx.session||''} · ${modalEx.zone||''} · ${modalEx.points||''} points · difficulté ${modalEx.difficulte||'?'} · ${t.titre||''}`;$('#modalHelp').innerHTML=asArray(modalEx.aide).length?'<ul>'+asArray(modalEx.aide).map(a=>`<li>${fmt(a)}</li>`).join('')+'</ul>':'<p>Aide non disponible.</p>';$('#modalSolution').innerHTML=renderCorrige(modalEx);$('#modalNotions').innerHTML=[...asArray(modalEx.notions),...asArray(modalEx.mots_cles)].map(n=>`<span class="tag">${esc(n)}</span>`).join('')||'<p>Aucune notion renseignée.</p>';const pages=exercisePages(modalEx),imgs=exerciseImages(modalEx),pdfUrl=exercisePdfUrl(modalEx);$('#modalSource').textContent=`Source : ${modalEx.pdf_path||modalEx.pdf_url||modalEx.source?.pdf||'PDF'} · pages ${pages.join(', ')||'non renseignées'}`;$('#openPdf').href=pdfUrl||modalEx.pdf_path||modalEx.pdf_url||'#';$('#sourceNote').textContent=pdfUrl?`PDF · ${imgs.length} image(s) disponible(s)`: `${imgs.length} page(s) image`;$('#masterBtn').textContent=mastered.has(modalEx.id)?'✅ Maîtrisé':'○ Marquer comme maîtrisé';$('#overlay').classList.add('open');showPane(pane);renderPage();renderMath($('#pane-aide'));renderMath($('#pane-corrige'));}
+function showPane(name){$$('.modal-tab').forEach(b=>b.classList.toggle('active',b.dataset.pane===name));$$('.pane').forEach(p=>p.classList.remove('active'));const p=$('#pane-'+name);p.classList.add('active');renderMath(p);}
+function renderPage(){const stage=$('#imageStage');const imgs=exerciseImages(modalEx);const pages=exercisePages(modalEx);if(imgs.length){pageIndex=Math.max(0,Math.min(pageIndex,imgs.length-1));$('#pageInfo').textContent=`${pageIndex+1}/${imgs.length} · page ${pages[pageIndex]||'?'}`;$('#prevPage').disabled=pageIndex===0;$('#nextPage').disabled=pageIndex===imgs.length-1;stage.innerHTML=`<img class="page-img" src="${esc(imgs[pageIndex])}" alt="Page ${esc(pages[pageIndex]||'')} du sujet" style="width:${Math.round(830*zoom)}px">`;return;}const pdfUrl=exercisePdfUrl(modalEx);if(pdfUrl){$('#pageInfo').textContent=pages.length?`PDF · page ${pages[0]}`:'PDF';$('#prevPage').disabled=true;$('#nextPage').disabled=true;stage.innerHTML=`<iframe src="${esc(pdfUrl)}" title="Énoncé PDF" style="width:100%;height:76vh;border:0;background:#fff;border-radius:8px"></iframe>`;return;}const enonce=modalEx?.enonce||modalEx?.texte_extrait||'';stage.innerHTML=enonce?`<div class="page-error"><h3>Énoncé extrait</h3><div class="textblock">${fmt(enonce)}</div></div>`:'<div class="page-error">Aucun PDF ni aucune image de page n’est associée à cet exercice.</div>';}
+function navPage(d){if(!modalEx)return;const len=exerciseImages(modalEx).length;if(!len)return;const ni=Math.max(0,Math.min(len-1,pageIndex+d));if(ni!==pageIndex){pageIndex=ni;renderPage();}}
+function closeModal(){$('#overlay').classList.remove('open');modalEx=null;$('#imageStage').innerHTML='';}
+function toggleMaster(id,fromModal){if(mastered.has(id))mastered.delete(id);else mastered.add(id);localStorage.setItem('bac_math_mastered',JSON.stringify([...mastered]));if(fromModal&&modalEx?.id===id)$('#masterBtn').textContent=mastered.has(id)?'✅ Maîtrisé':'○ Marquer comme maîtrisé';renderAll();}
+loadData();
+</script>
+
+<script id="math-card-render-patch">
+(function(){
+  function weakTitle(t){
+    t = String(t || '').trim().toLowerCase();
+    return !t
+      || t === 'commun à tous les candidats'
+      || t === 'commun a tous les candidats'
+      || t === 'exercice'
+      || t === 'exercice au choix'
+      || t === 'partie a'
+      || t === 'partie b'
+      || t.startsWith('commun ');
+  }
+
+  function fallbackTitle(e){
+    if(!e) return 'Exercice de mathématiques';
+    if(e.titre_court) return e.titre_court;
+    if(e.titre_genere) return e.titre_genere;
+
+    const notions = Array.isArray(e.notions)
+      ? e.notions.filter(Boolean).slice(0, 2).join(' · ')
+      : '';
+
+    if(notions) return notions;
+
+    const theme = e.thematique_label || e.theme_label || e.thematique_id || '';
+    return theme || 'Exercice de mathématiques';
+  }
+
+  function getExercises(){
+    try {
+      if(typeof DATA !== 'undefined' && Array.isArray(DATA.exercices)) {
+        return DATA.exercices;
+      }
+    } catch(e) {}
+    return [];
+  }
+
+  function improveExerciseCards(){
+    const grid = document.getElementById('exerciseGrid');
+    if(!grid) return;
+
+    const exercices = getExercises();
+
+    grid.querySelectorAll('.card[data-id]').forEach(card => {
+      const id = card.getAttribute('data-id');
+      const ex = exercices.find(e => String(e.id) === String(id));
+      const h3 = card.querySelector('h3');
+
+      if(h3 && weakTitle(h3.textContent)) {
+        h3.textContent = fallbackTitle(ex);
+      }
+    });
+
+    if(typeof renderMath === 'function') {
+      renderMath(grid);
+    }
+  }
+
+  function installPatch(){
+    try {
+      if(typeof renderExercises === 'function' && !renderExercises.__mathCardPatch) {
+        const originalRenderExercises = renderExercises;
+        const wrapped = function(){
+          const result = originalRenderExercises.apply(this, arguments);
+          setTimeout(improveExerciseCards, 0);
+          return result;
+        };
+        wrapped.__mathCardPatch = true;
+        renderExercises = wrapped;
+      }
+    } catch(e) {
+      console.warn('Patch cartes exercices : impossible d’envelopper renderExercises', e);
+    }
+
+    setTimeout(improveExerciseCards, 0);
+    setTimeout(improveExerciseCards, 300);
+  }
+
+  if(document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', installPatch);
+  } else {
+    installPatch();
+  }
+})();
+</script>
+
+
+<script id="hide-empty-theme-cards-patch">
+(function(){
+  function hideEmptyThemeCards(){
+    document.querySelectorAll('.theme-card, .progress-card, .theme-progress, .module-card').forEach(card => {
+      const text = card.textContent || '';
+      if(/0\s*\/\s*0\s+maîtrisés/i.test(text)) {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  function installHideEmptyPatch(){
+    hideEmptyThemeCards();
+
+    if(typeof renderProgress === 'function' && !renderProgress.__hideEmptyPatch) {
+      const original = renderProgress;
+      const wrapped = function(){
+        const result = original.apply(this, arguments);
+        setTimeout(hideEmptyThemeCards, 0);
+        return result;
+      };
+      wrapped.__hideEmptyPatch = true;
+      renderProgress = wrapped;
+    }
+
+    setTimeout(hideEmptyThemeCards, 200);
+    setTimeout(hideEmptyThemeCards, 800);
+  }
+
+  if(document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', installHideEmptyPatch);
+  } else {
+    installHideEmptyPatch();
+  }
+})();
+</script>
+
+
+<script id="hide-empty-exercise-themes-patch">
+(function(){
+  function hideEmptyExerciseThemes(){
+    document.querySelectorAll('.theme-card, .progress-card, .theme-progress, .module-card').forEach(card => {
+      const text = card.textContent || '';
+
+      // Vue progression : masquer uniquement les cartes sans aucun exercice.
+      // On garde les thèmes dans les données pour les cours, quiz et couverture du programme.
+      if(/0\s*\/\s*0\s+maîtrisés/i.test(text)) {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  function installHideEmptyExerciseThemesPatch(){
+    hideEmptyExerciseThemes();
+
+    if(typeof renderProgress === 'function' && !renderProgress.__hideEmptyExerciseThemesPatch) {
+      const original = renderProgress;
+      const wrapped = function(){
+        const result = original.apply(this, arguments);
+        setTimeout(hideEmptyExerciseThemes, 0);
+        return result;
+      };
+      wrapped.__hideEmptyExerciseThemesPatch = true;
+      renderProgress = wrapped;
+    }
+
+    setTimeout(hideEmptyExerciseThemes, 200);
+    setTimeout(hideEmptyExerciseThemes, 800);
+  }
+
+  if(document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', installHideEmptyExerciseThemesPatch);
+  } else {
+    installHideEmptyExerciseThemesPatch();
+  }
+})();
+</script>
+
+</body>
+</html>

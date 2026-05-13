@@ -1,0 +1,282 @@
+id,source_id,annee,session,zone,numero,points,thematique_id,domaine_id,difficulte,nb_questions_corrige,titre
+ex-2021-jour-1-me-21matj1me2page1-exercice-1,2021-jour-1-me-21matj1me2page1,2021,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,4,derivation-convexite,analyse,1,4,commun à tous les candidats
+ex-2021-jour-1-me-21matj1me2page1-exercice-2,2021-jour-1-me-21matj1me2page1,2021,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,bernoulli-binomiale,probabilites,2,7,commun à tous les candidats
+ex-2021-jour-1-me-21matj1me2page1-exercice-a,2021-jour-1-me-21matj1me2page1,2021,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",A,5,geometrie-orthogonalite-distances,algebre-geometrie,3,6,Exercice A au choix
+ex-2021-jour-1-me-21matj1me2page1-exercice-b,2021-jour-1-me-21matj1me2page1,2021,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",B,5,primitives-equations-differentielles,analyse,2,6,Exercice B au choix
+ex-2021-jour-2-me-21matj2me3page1-exercice-1,2021-jour-2-me-21matj2me3page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,4,bernoulli-binomiale,probabilites,2,6,commun à tous les candidats
+ex-2021-jour-2-me-21matj2me3page1-exercice-2,2021-jour-2-me-21matj2me3page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,geometrie-reperage,algebre-geometrie,2,5,commun à tous les candidats
+ex-2021-jour-2-me-21matj2me3page1-exercice-a,2021-jour-2-me-21matj2me3page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",A,5,suites,analyse,3,9,Exercice A au choix
+ex-2021-jour-2-me-21matj2me3page1-exercice-b,2021-jour-2-me-21matj2me3page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",B,5,logarithme,analyse,2,8,Exercice B au choix
+ex-2021-jour-2-me-21matj2me2page1-exercice-1,2021-jour-2-me-21matj2me2page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,4,geometrie-reperage,algebre-geometrie,1,4,commun à tous les candidats
+ex-2021-jour-2-me-21matj2me2page1-exercice-2,2021-jour-2-me-21matj2me2page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,6,bernoulli-binomiale,probabilites,2,11,commun à tous les candidats
+ex-2021-jour-2-me-21matj2me2page1-exercice-a,2021-jour-2-me-21matj2me2page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",A,5,logarithme,analyse,3,7,Exercice A au choix
+ex-2021-jour-2-me-21matj2me2page1-exercice-b,2021-jour-2-me-21matj2me2page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",B,5,derivation-convexite,analyse,2,7,Exercice B au choix
+ex-2021-jour-1-ja-21matj1ja11-exercice-1,2021-jour-1-ja-21matj1ja11,2021,Jour 1,Asie,1,5,suites,analyse,2,10,commun `a tous les candidats
+ex-2021-jour-1-ja-21matj1ja11-exercice-2,2021-jour-1-ja-21matj1ja11,2021,Jour 1,Asie,2,5,geometrie-orthogonalite-distances,algebre-geometrie,2,7,commun `a tous les candidats
+ex-2021-jour-1-ja-21matj1ja11-exercice-a,2021-jour-1-ja-21matj1ja11,2021,Jour 1,Asie,A,5,derivation-convexite,analyse,2,9,Exercice A au choix
+ex-2021-jour-1-ja-21matj1ja11-exercice-b,2021-jour-1-ja-21matj1ja11,2021,Jour 1,Asie,B,5,primitives-equations-differentielles,analyse,3,9,Exercice B au choix
+ex-2021-jour-2-ja-21matj2ja11-exercice-1,2021-jour-2-ja-21matj2ja11,2021,Jour 2,Asie,1,5,derivation-convexite,analyse,2,5,commun `a tous les candidats
+ex-2021-jour-2-ja-21matj2ja11-exercice-2,2021-jour-2-ja-21matj2ja11,2021,Jour 2,Asie,2,5,geometrie-orthogonalite-distances,algebre-geometrie,3,8,commun `a tous les candidats
+ex-2021-jour-2-ja-21matj2ja11-exercice-a,2021-jour-2-ja-21matj2ja11,2021,Jour 2,Asie,A,5,suites,analyse,2,8,Exercice A au choix
+ex-2021-jour-2-ja-21matj2ja11-exercice-b,2021-jour-2-ja-21matj2ja11,2021,Jour 2,Asie,B,5,suites,analyse,3,10,Exercice B au choix
+ex-2022-jour-1-as-22matj1as11-exercice-1,2022-jour-1-as-22matj1as11,2022,Jour 1,Amérique du Sud,1,7,bernoulli-binomiale,probabilites,2,9,[Probabilités]
+ex-2022-jour-1-as-22matj1as11-exercice-2,2022-jour-1-as-22matj1as11,2022,Jour 1,Amérique du Sud,2,7,suites,analyse,3,11,[Suites]
+ex-2022-jour-1-as-22matj1as11-exercice-3,2022-jour-1-as-22matj1as11,2022,Jour 1,Amérique du Sud,3,7,logarithme,analyse,3,10,"[Fonctions, fonction logarithme]"
+ex-2022-jour-1-as-22matj1as11-exercice-4,2022-jour-1-as-22matj1as11,2022,Jour 1,Amérique du Sud,4,7,geometrie-orthogonalite-distances,algebre-geometrie,3,9,[Géométrie dans l'espace]
+ex-2022-jour-1-g1-22matj1g11page1-exercice-1,2022-jour-1-g1-22matj1g11page1,2022,Jour 1,Centres étrangers groupe 1,1,7,logarithme,analyse,2,6,Fonction logarithme
+ex-2022-jour-1-g1-22matj1g11page1-exercice-2,2022-jour-1-g1-22matj1g11page1,2022,Jour 1,Centres étrangers groupe 1,2,7,geometrie-orthogonalite-distances,algebre-geometrie,3,10,Géométrie dans l'espace
+ex-2022-jour-1-g1-22matj1g11page1-exercice-3,2022-jour-1-g1-22matj1g11page1,2022,Jour 1,Centres étrangers groupe 1,3,7,suites,analyse,2,8,Fonction exponentielle et suite
+ex-2022-jour-1-g1-22matj1g11page1-exercice-4,2022-jour-1-g1-22matj1g11page1,2022,Jour 1,Centres étrangers groupe 1,4,7,bernoulli-binomiale,probabilites,2,9,Probabilités
+ex-2022-jour-1-me-22matj1me3page1-exercice-1,2022-jour-1-me-22matj1me3page1,2022,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,7,suites,analyse,2,6,"fonctions, suites"
+ex-2022-jour-1-me-22matj1me3page1-exercice-2,2022-jour-1-me-22matj1me3page1,2022,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,7,bernoulli-binomiale,probabilites,2,10,probabilités
+ex-2022-jour-1-me-22matj1me3page1-exercice-3,2022-jour-1-me-22matj1me3page1,2022,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,7,logarithme,analyse,3,11,"fonctions logarithme et exponentielle, suites"
+ex-2022-jour-1-me-22matj1me3page1-exercice-4,2022-jour-1-me-22matj1me3page1,2022,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,7,geometrie-reperage,algebre-geometrie,3,11,géométrie dans l'espace
+ex-2022-jour-1-nc-22matj1nc1page-exercice-1,2022-jour-1-nc-22matj1nc1page,2022,Jour 1,Nouvelle-Calédonie,1,7,logarithme,analyse,3,7,Principaux domaines abordés :
+ex-2022-jour-1-nc-22matj1nc1page-exercice-2,2022-jour-1-nc-22matj1nc1page,2022,Jour 1,Nouvelle-Calédonie,2,7,suites,analyse,3,7,Principaux domaines abordés :
+ex-2022-jour-1-nc-22matj1nc1page-exercice-3,2022-jour-1-nc-22matj1nc1page,2022,Jour 1,Nouvelle-Calédonie,3,7,geometrie-reperage,algebre-geometrie,2,7,Principaux domaines abordés :
+ex-2022-jour-1-nc-22matj1nc1page-exercice-4,2022-jour-1-nc-22matj1nc1page,2022,Jour 1,Nouvelle-Calédonie,4,7,bernoulli-binomiale,probabilites,2,7,Principaux domaines abordés :
+ex-2022-jour-2-as-22matj2as11-exercice-1,2022-jour-2-as-22matj2as11,2022,Jour 2,Amérique du Sud,1,7,bernoulli-binomiale,probabilites,2,8,[probabilités]
+ex-2022-jour-2-as-22matj2as11-exercice-2,2022-jour-2-as-22matj2as11,2022,Jour 2,Amérique du Sud,2,7,logarithme,analyse,3,9,"[Fonctions, fonction logarithme]"
+ex-2022-jour-2-as-22matj2as11-exercice-3,2022-jour-2-as-22matj2as11,2022,Jour 2,Amérique du Sud,3,7,suites,analyse,2,9,[Suites]
+ex-2022-jour-2-as-22matj2as11-exercice-4,2022-jour-2-as-22matj2as11,2022,Jour 2,Amérique du Sud,4,7,geometrie-reperage,algebre-geometrie,3,10,[Géométrie dans l'espace]
+ex-2022-jour-2-g1-22matj2g11page1-exercice-1,2022-jour-2-g1-22matj2g11page1,2022,Jour 2,Centres étrangers groupe 1,1,7,derivation-convexite,analyse,2,6,Fonction exponentielle
+ex-2022-jour-2-g1-22matj2g11page1-exercice-2,2022-jour-2-g1-22matj2g11page1,2022,Jour 2,Centres étrangers groupe 1,2,7,logarithme,analyse,3,10,Fonction logarithme et suite
+ex-2022-jour-2-g1-22matj2g11page1-exercice-3,2022-jour-2-g1-22matj2g11page1,2022,Jour 2,Centres étrangers groupe 1,3,7,geometrie-orthogonalite-distances,algebre-geometrie,3,8,Géométrie dans l'espace
+ex-2022-jour-2-g1-22matj2g11page1-exercice-4,2022-jour-2-g1-22matj2g11page1,2022,Jour 2,Centres étrangers groupe 1,4,7,bernoulli-binomiale,probabilites,3,7,Probabilités
+ex-2022-jour-2-me-22matj2me3page1-exercice-1,2022-jour-2-me-22matj2me3page1,2022,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,7,bernoulli-binomiale,probabilites,2,10,probabilités
+ex-2022-jour-2-me-22matj2me3page1-exercice-2,2022-jour-2-me-22matj2me3page1,2022,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,7,suites,analyse,2,6,"suites, fonctions"
+ex-2022-jour-2-me-22matj2me3page1-exercice-3,2022-jour-2-me-22matj2me3page1,2022,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,7,logarithme,analyse,3,10,"fonction logarithme, suites"
+ex-2022-jour-2-me-22matj2me3page1-exercice-4,2022-jour-2-me-22matj2me3page1,2022,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,7,geometrie-orthogonalite-distances,algebre-geometrie,3,13,géométrie dans l'espace
+ex-2022-jour-2-nc-22matj2nc1page-exercice-1,2022-jour-2-nc-22matj2nc1page,2022,Jour 2,Nouvelle-Calédonie,1,7,bernoulli-binomiale,probabilites,2,9,Principaux domaines abordés :
+ex-2022-jour-2-nc-22matj2nc1page-exercice-2,2022-jour-2-nc-22matj2nc1page,2022,Jour 2,Nouvelle-Calédonie,2,7,logarithme,analyse,2,11,Principaux domaines abordés :
+ex-2022-jour-2-nc-22matj2nc1page-exercice-3,2022-jour-2-nc-22matj2nc1page,2022,Jour 2,Nouvelle-Calédonie,3,7,geometrie-reperage,algebre-geometrie,3,8,Principaux domaines abordés :
+ex-2022-jour-2-nc-22matj2nc1page-exercice-4,2022-jour-2-nc-22matj2nc1page,2022,Jour 2,Nouvelle-Calédonie,4,7,suites,analyse,2,7,Principaux domaines abordés :
+ex-2023-jour-1-an-23matj1an1page1-exercice-1,2023-jour-1-an-23matj1an1page1,2023,Jour 1,Amérique du Nord,1,5,bernoulli-binomiale,probabilites,2,9,"Dans un souci d'améliorer sa politique en matière de développement durable, une"
+ex-2023-jour-1-an-23matj1an1page1-exercice-2,2023-jour-1-an-23matj1an1page1,2023,Jour 1,Amérique du Nord,2,5,derivation-convexite,analyse,3,11,On considère la fonction 𝑓 définie sur ℝ par :
+ex-2023-jour-1-an-23matj1an1page1-exercice-3,2023-jour-1-an-23matj1an1page1,2023,Jour 1,Amérique du Nord,3,5,geometrie-orthogonalite-distances,algebre-geometrie,2,5,"Pour chaque question, une seule des quatre réponses proposées est exacte. Le"
+ex-2023-jour-1-an-23matj1an1page1-exercice-4,2023-jour-1-an-23matj1an1page1,2023,Jour 1,Amérique du Nord,4,5,suites,analyse,3,12,"On considère la suite (𝑢 ) définie par 𝑢 = 5 et pour tout entier naturel 𝑛,"
+ex-2023-jour-2-ja-23matj2ja11-exercice-1,2023-jour-2-ja-23matj2ja11,2023,Jour 2,Asie,1,5,geometrie-orthogonalite-distances,algebre-geometrie,2,8,On consid`ere deux cubes ABCDEFGH et BKLCFJMG positionn´es comme sur la figure suivante :
+ex-2023-jour-2-ja-23matj2ja11-exercice-2,2023-jour-2-ja-23matj2ja11,2023,Jour 2,Asie,2,6,logarithme,analyse,3,12,On consid`ere la fonction f d´efinie sur R par f (x) = ln(e2x − ex + 1). On note C sa courbe
+ex-2023-jour-2-ja-23matj2ja11-exercice-3,2023-jour-2-ja-23matj2ja11,2023,Jour 2,Asie,3,4,suites,analyse,2,10,"Marie Sklodowska-Curie (1867-1934) est une physicienne (mais aussi chimiste et math´ematicienne),"
+ex-2023-jour-2-ja-23matj2ja11-exercice-4,2023-jour-2-ja-23matj2ja11,2023,Jour 2,Asie,4,5,bernoulli-binomiale,probabilites,2,5,"Pour chacune des cinq questions de cet exercice, une seule des quatre r´eponses propos´ees est exacte."
+ex-2023-jour-1-lr-23matj1lr1page-exercice-1,2023-jour-1-lr-23matj1lr1page,2023,Jour 1,La Réunion,1,5,bernoulli-binomiale,probabilites,2,7,Une entreprise appelle des personnes par téléphone pour leur vendre un produit.
+ex-2023-jour-1-lr-23matj1lr1page-exercice-2,2023-jour-1-lr-23matj1lr1page,2023,Jour 1,La Réunion,2,5,logarithme,analyse,3,9,On considère la fonction (cid:1858) définie sur ]0 ; +∞[ par :
+ex-2023-jour-1-lr-23matj1lr1page-exercice-3,2023-jour-1-lr-23matj1lr1page,2023,Jour 1,La Réunion,3,5,suites,analyse,2,6,"On considère la suite ((cid:1873) ) définie par (cid:1873) = 3 et, pour tout entier naturel (cid:1866),"
+ex-2023-jour-1-lr-23matj1lr1page-exercice-4,2023-jour-1-lr-23matj1lr1page,2023,Jour 1,La Réunion,4,5,geometrie-orthogonalite-distances,algebre-geometrie,3,8,On considère le cube ABCDEFGH ci-dessous tel que AB = 1.
+ex-2023-jour-1-nc-23matj1nc1page-exercice-1,2023-jour-1-nc-23matj1nc1page,2023,Jour 1,Nouvelle-Calédonie,1,5,bernoulli-binomiale,probabilites,2,9,Une entreprise de location de bateaux de tourisme propose à ses clients deux types
+ex-2023-jour-1-nc-23matj1nc1page-exercice-2,2023-jour-1-nc-23matj1nc1page,2023,Jour 1,Nouvelle-Calédonie,2,5,suites,analyse,3,11,"On considère la suite ((cid:1873) ) définie par (cid:1873) = 3 et, pour tout entier naturel (cid:1866), par :"
+ex-2023-jour-1-nc-23matj1nc1page-exercice-3,2023-jour-1-nc-23matj1nc1page,2023,Jour 1,Nouvelle-Calédonie,3,5,geometrie-orthogonalite-distances,algebre-geometrie,2,5,"une seule des quatre réponses proposées est exacte. Pour répondre, indiquer sur la copie le"
+ex-2023-jour-1-nc-23matj1nc1page-exercice-4,2023-jour-1-nc-23matj1nc1page,2023,Jour 1,Nouvelle-Calédonie,4,5,derivation-convexite,analyse,3,10,On considère la fonction (cid:1858) définie pour tout réel (cid:1876) de l'intervalle ]0; +∞[ par :
+ex-2023-jour-2-lr-23matj2lr1page-exercice-1,2023-jour-2-lr-23matj2lr1page,2023,Jour 2,La Réunion,1,5,bernoulli-binomiale,probabilites,2,7,Un commerçant vend deux types de matelas : matelas RESSORTS et matelas
+ex-2023-jour-2-lr-23matj2lr1page-exercice-2,2023-jour-2-lr-23matj2lr1page,2023,Jour 2,La Réunion,2,5,suites,analyse,3,9,"On considère la suite ((cid:1873) ) définie par (cid:1873) = 8 et, pour tout entier naturel (cid:1866) ,"
+ex-2023-jour-2-lr-23matj2lr1page-exercice-3,2023-jour-2-lr-23matj2lr1page,2023,Jour 2,La Réunion,3,5,geometrie-reperage,algebre-geometrie,3,9,"On se place dans l'espace rapporté à un repère orthonormé (O; (cid:1318)ı , j(cid:4652)(cid:1318) , k(cid:4652)(cid:1318))."
+ex-2023-jour-2-lr-23matj2lr1page-exercice-4,2023-jour-2-lr-23matj2lr1page,2023,Jour 2,La Réunion,4,5,derivation-convexite,analyse,2,5,"une seule des quatre réponses proposées est exacte. Pour répondre, indiquer sur la copie le"
+ex-2023-jour-2-nc-23matj2nc1page-exercice-1,2023-jour-2-nc-23matj2nc1page,2023,Jour 2,Nouvelle-Calédonie,1,5,geometrie-orthogonalite-distances,algebre-geometrie,3,10,On considère le cube ABCDEFGH
+ex-2023-jour-2-nc-23matj2nc1page-exercice-2,2023-jour-2-nc-23matj2nc1page,2023,Jour 2,Nouvelle-Calédonie,2,5,derivation-convexite,analyse,3,8,"On considère la fonction (cid:1858), définie sur [0 ; + ∞[ par :"
+ex-2023-jour-2-nc-23matj2nc1page-exercice-3,2023-jour-2-nc-23matj2nc1page,2023,Jour 2,Nouvelle-Calédonie,3,5,suites,analyse,3,9,On considère la suite ((cid:1873) ) telle que (cid:1873) = 0 et pour tout entier naturel (cid:1866) :
+ex-2023-jour-2-nc-23matj2nc1page-exercice-4,2023-jour-2-nc-23matj2nc1page,2023,Jour 2,Nouvelle-Calédonie,4,5,bernoulli-binomiale,probabilites,1,5,"une seule des quatre réponses proposées est exacte. Pour répondre, indiquer sur la copie le"
+ex-2024-jour-1-ja-24matj1ja1page-exercice-1,2024-jour-1-ja-24matj1ja1page,2024,Jour 1,Asie,1,5,calcul-integral,analyse,2,11,Partie A
+ex-2024-jour-1-ja-24matj1ja1page-exercice-2,2024-jour-1-ja-24matj1ja1page,2024,Jour 1,Asie,2,5,geometrie-orthogonalite-distances,algebre-geometrie,3,10,"Dans l'espace muni d'un repère orthonormé (O ; ⃗i , ⃗j , k⃗⃗) d'unité 1 cm,"
+ex-2024-jour-1-ja-24matj1ja1page-exercice-3,2024-jour-1-ja-24matj1ja1page,2024,Jour 1,Asie,3,5,bernoulli-binomiale,probabilites,2,10,"Dans la revue Lancet Public Health, les chercheurs affirment qu'au 11 mai 2020,"
+ex-2024-jour-1-ja-24matj1ja1page-exercice-4,2024-jour-1-ja-24matj1ja1page,2024,Jour 1,Asie,4,5,suites,analyse,2,5,"Pour chacune des affirmations suivantes, préciser si elle est vraie ou fausse puis justifier"
+ex-2024-jour-1-me-24matj1me1page1-exercice-1,2024-jour-1-me-24matj1me1page1,2024,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,4,limites-fonctions,analyse,2,4,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse. Chaque"
+ex-2024-jour-1-me-24matj1me1page1-exercice-2,2024-jour-1-me-24matj1me1page1,2024,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,bernoulli-binomiale,probabilites,2,9,Une agence de marketing a étudié la satisfaction des clients concernant le service
+ex-2024-jour-1-me-24matj1me1page1-exercice-3,2024-jour-1-me-24matj1me1page1,2024,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,5,geometrie-orthogonalite-distances,algebre-geometrie,3,9,L'espace est muni d'un repère orthonormé
+ex-2024-jour-1-me-24matj1me1page1-exercice-4,2024-jour-1-me-24matj1me1page1,2024,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,6,logarithme,analyse,3,13,Partie A : étude de la fonction 𝑓.
+ex-2024-jour-1-me-24matj1me3page1-exercice-1,2024-jour-1-me-24matj1me3page1,2024,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,6,geometrie-orthogonalite-distances,algebre-geometrie,3,12,On considère un cube 𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻 de côté 1.
+ex-2024-jour-1-me-24matj1me3page1-exercice-2,2024-jour-1-me-24matj1me3page1,2024,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,calcul-integral,analyse,3,9,Les deux parties sont indépendantes.
+ex-2024-jour-1-me-24matj1me3page1-exercice-3,2024-jour-1-me-24matj1me3page1,2024,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,5,suites,analyse,2,5,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse. Chaque"
+ex-2024-jour-1-me-24matj1me3page1-exercice-4,2024-jour-1-me-24matj1me3page1,2024,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,4,bernoulli-binomiale,probabilites,2,9,Les deux parties sont indépendantes.
+ex-2024-jour-1-po-24matj1po1page-exercice-1,2024-jour-1-po-24matj1po1page,2024,Jour 1,Polynésie,1,4,geometrie-orthogonalite-distances,algebre-geometrie,2,4,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse."
+ex-2024-jour-1-po-24matj1po1page-exercice-2,2024-jour-1-po-24matj1po1page,2024,Jour 1,Polynésie,2,5,primitives-equations-differentielles,analyse,2,6,Une entreprise fabrique des objets en plastique en injectant dans un moule de la matière
+ex-2024-jour-1-po-24matj1po1page-exercice-3,2024-jour-1-po-24matj1po1page,2024,Jour 1,Polynésie,3,5,bernoulli-binomiale,probabilites,2,7,Les probabilités demandées seront exprimées sous forme de fractions irréductibles.
+ex-2024-jour-1-po-24matj1po1page-exercice-4,2024-jour-1-po-24matj1po1page,2024,Jour 1,Polynésie,4,6,suites,analyse,3,9,L'objectif de cet exercice est de conjecturer en partie A puis de démontrer en partie B le
+ex-2024-jour-2-an-24matj2an11-exercice-1,2024-jour-2-an-24matj2an11,2024,Jour 2,Amérique du Nord,1,5,bernoulli-binomiale,probabilites,2,9,Les données publiées le 1er mars 2023 par le ministère de la transition écologique sur les
+ex-2024-jour-2-an-24matj2an11-exercice-2,2024-jour-2-an-24matj2an11,2024,Jour 2,Amérique du Nord,2,5,geometrie-orthogonalite-distances,algebre-geometrie,3,7,On considère le pavé droit 𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻 tel que 𝐴𝐵 = 3 et 𝐴𝐷 = 𝐴𝐸 =1 représenté
+ex-2024-jour-2-an-24matj2an11-exercice-3,2024-jour-2-an-24matj2an11,2024,Jour 2,Amérique du Nord,3,6,suites,analyse,3,9,On considère la fonction 𝑔 définie sur l'intervalle [0; 1] par 𝑔(𝑥) = 2𝑥 − 𝑥².
+ex-2024-jour-2-an-24matj2an11-exercice-4,2024-jour-2-an-24matj2an11,2024,Jour 2,Amérique du Nord,4,4,logarithme,analyse,2,4,Soit 𝑎 un réel strictement positif.
+ex-2024-jour-2-ja-24matj2ja1page-exercice-1,2024-jour-2-ja-24matj2ja1page,2024,Jour 2,Asie,1,,logarithme,analyse,3,10,"(5,5 points)"
+ex-2024-jour-2-ja-24matj2ja1page-exercice-2,2024-jour-2-ja-24matj2ja1page,2024,Jour 2,Asie,2,,suites,analyse,3,11,"(5,5 points)"
+ex-2024-jour-2-ja-24matj2ja1page-exercice-3,2024-jour-2-ja-24matj2ja1page,2024,Jour 2,Asie,3,4,suites,analyse,2,4,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse."
+ex-2024-jour-2-ja-24matj2ja1page-exercice-4,2024-jour-2-ja-24matj2ja1page,2024,Jour 2,Asie,4,5,geometrie-orthogonalite-distances,algebre-geometrie,3,10,"Dans un repère orthonormé (O ; i⃗ , ⃗j , ⃗⃗k⃗) de l'espace, on considère le plan (𝑃) d'équation :"
+ex-2024-jour-2-me-24matj2me2page1-exercice-1,2024-jour-2-me-24matj2me2page1,2024,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,5,bernoulli-binomiale,probabilites,2,9,La directrice d'une école souhaite réaliser une étude auprès des étudiants qui ont passé l'examen
+ex-2024-jour-2-me-24matj2me2page1-exercice-2,2024-jour-2-me-24matj2me2page1,2024,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,suites,analyse,2,9,Les parties A et B sont indépendantes.
+ex-2024-jour-2-me-24matj2me2page1-exercice-3,2024-jour-2-me-24matj2me2page1,2024,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,6,logarithme,analyse,3,14,On considère une fonction 𝑓 définie et deux fois dérivable sur ]−2 ; +∞[. On note 𝐶 sa courbe
+ex-2024-jour-2-me-24matj2me2page1-exercice-4,2024-jour-2-me-24matj2me2page1,2024,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,4,geometrie-orthogonalite-distances,algebre-geometrie,2,4,être justifiée. Une réponse non justifiée ne rapporte aucun point.
+ex-2024-jour-2-me-24matj2me3page1-exercice-1,2024-jour-2-me-24matj2me3page1,2024,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,5,geometrie-orthogonalite-distances,algebre-geometrie,3,9,On considère le cube 𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻 représenté ci-dessous.
+ex-2024-jour-2-me-24matj2me3page1-exercice-2,2024-jour-2-me-24matj2me3page1,2024,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,bernoulli-binomiale,probabilites,3,10,La partie C est indépendante des parties A et B.
+ex-2024-jour-2-me-24matj2me3page1-exercice-3,2024-jour-2-me-24matj2me3page1,2024,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,5,derivation-convexite,analyse,3,12,Partie A
+ex-2024-jour-2-me-24matj2me3page1-exercice-4,2024-jour-2-me-24matj2me3page1,2024,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,5,suites,analyse,2,5,être justifiée. Une réponse non justifiée ne rapporte aucun point.
+ex-2024-jour-2-po-24matj2po1page-exercice-1,2024-jour-2-po-24matj2po1page,2024,Jour 2,Polynésie,1,4,bernoulli-binomiale,probabilites,2,6,Un sondage réalisé en France fournit les informations suivantes :
+ex-2024-jour-2-po-24matj2po1page-exercice-2,2024-jour-2-po-24matj2po1page,2024,Jour 2,Polynésie,2,5,calcul-integral,analyse,1,5,"questions sont indépendantes. Pour chacune des questions, une seule des quatre réponses est"
+ex-2024-jour-2-po-24matj2po1page-exercice-3,2024-jour-2-po-24matj2po1page,2024,Jour 2,Polynésie,3,6,suites,analyse,3,8,"On considère la suite (𝑢 ), définie par :"
+ex-2024-jour-2-po-24matj2po1page-exercice-4,2024-jour-2-po-24matj2po1page,2024,Jour 2,Polynésie,4,5,geometrie-orthogonalite-distances,algebre-geometrie,2,7,Une commune décide de remplacer le traditionnel feu d'artifice du 14 juillet par un spectacle de
+ex-2024-jour-1-an-24matj1an11-exercice-1,2024-jour-1-an-24matj1an11,2024,Jour 1,Amérique du Nord,1,5,bernoulli-binomiale,probabilites,2,7,Un jeu vidéo récompense par un objet tiré au sort les joueurs ayant remporté un défi. L'objet
+ex-2024-jour-1-an-24matj1an11-exercice-2,2024-jour-1-an-24matj1an11,2024,Jour 1,Amérique du Nord,2,4,geometrie-reperage,algebre-geometrie,2,4,indiquera sur sa copie le numéro de la question et la réponse choisie. Aucune justification
+ex-2024-jour-1-an-24matj1an11-exercice-3,2024-jour-1-an-24matj1an11,2024,Jour 1,Amérique du Nord,3,5,derivation-convexite,analyse,3,9,Le but de cet exercice est d'étudier la fonction 𝑓 définie sur l'intervalle ]0; +∞[ par :
+ex-2024-jour-1-an-24matj1an11-exercice-4,2024-jour-1-an-24matj1an11,2024,Jour 1,Amérique du Nord,4,6,calcul-integral,analyse,3,10,"Pour tout entier naturel 𝑛, on considère les intégrales suivantes :"
+ex-2025-jour-1-an-25matj1an1-exercice-1,2025-jour-1-an-25matj1an1,2025,Jour 1,Amérique du Nord,1,6,bernoulli-binomiale,probabilites,2,12,"Pour accéder au réseau privé d'une entreprise depuis l'extérieur, les connexions des"
+ex-2025-jour-1-an-25matj1an1-exercice-2,2025-jour-1-an-25matj1an1,2025,Jour 1,Amérique du Nord,2,5,suites,analyse,3,9,On considère la suite numérique (𝑢 ) définie par son premier terme 𝑢 = 2 et pour tout
+ex-2025-jour-1-an-25matj1an1-exercice-3,2025-jour-1-an-25matj1an1,2025,Jour 1,Amérique du Nord,3,4,geometrie-orthogonalite-distances,algebre-geometrie,2,4,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse. Chaque"
+ex-2025-jour-1-an-25matj1an1-exercice-4,2025-jour-1-an-25matj1an1,2025,Jour 1,Amérique du Nord,4,5,primitives-equations-differentielles,analyse,3,12,La partie C est indépendante des parties A et B.
+ex-2025-jour-1-g1-25matj1g111-exercice-1,2025-jour-1-g1-25matj1g111,2025,Jour 1,Centres étrangers groupe 1,1,6,bernoulli-binomiale,probabilites,2,10,Cet exercice est constitué de trois parties indépendantes.
+ex-2025-jour-1-g1-25matj1g111-exercice-2,2025-jour-1-g1-25matj1g111,2025,Jour 1,Centres étrangers groupe 1,2,4,geometrie-orthogonalite-distances,algebre-geometrie,2,4,indiquera sur sa copie le numéro de la question et la réponse choisie. Aucune justification
+ex-2025-jour-1-g1-25matj1g111-exercice-3,2025-jour-1-g1-25matj1g111,2025,Jour 1,Centres étrangers groupe 1,3,6,suites,analyse,3,9,Partie A
+ex-2025-jour-1-g1-25matj1g111-exercice-4,2025-jour-1-g1-25matj1g111,2025,Jour 1,Centres étrangers groupe 1,4,4,primitives-equations-differentielles,analyse,3,8,Partie A
+ex-2025-jour-1-ja-25matj1ja11-exercice-1,2025-jour-1-ja-25matj1ja11,2025,Jour 1,Asie,1,5,geometrie-orthogonalite-distances,algebre-geometrie,2,5,"L'espace est rapport´e `a un rep`ere orthonorm´e O ; ~ı , ~ , k ."
+ex-2025-jour-1-ja-25matj1ja11-exercice-2,2025-jour-1-ja-25matj1ja11,2025,Jour 1,Asie,2,5,bernoulli-binomiale,probabilites,3,11,Une entreprise qui fabrique des jouets doit effectuer des contrˆoles de conformit´e avant leur commer-
+ex-2025-jour-1-ja-25matj1ja11-exercice-3,2025-jour-1-ja-25matj1ja11,2025,Jour 1,Asie,3,5,suites,analyse,3,10,Un patient doit prendre toutes les heures une dose de 2 mL d'un m´edicament.
+ex-2025-jour-1-ja-25matj1ja11-exercice-4,2025-jour-1-ja-25matj1ja11,2025,Jour 1,Asie,4,5,derivation-convexite,analyse,3,11,On consid`ere f la fonction d´efinie sur l'intervalle ]0 ; + [ par f (x) = et on appelle C sa
+ex-2025-jour-1-me-25matj1me1page1-exercice-1,2025-jour-1-me-25matj1me1page1,2025,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,5,bernoulli-binomiale,probabilites,2,11,"On compte quatre groupes sanguins dans l'espèce humaine : A, B, AB et O."
+ex-2025-jour-1-me-25matj1me1page1-exercice-2,2025-jour-1-me-25matj1me1page1,2025,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,6,derivation-convexite,analyse,3,11,On considère une fonction 𝑓 définie sur l'intervalle ]0 ; +∞[. On admet qu'elle est
+ex-2025-jour-1-me-25matj1me1page1-exercice-3,2025-jour-1-me-25matj1me1page1,2025,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,4,geometrie-orthogonalite-distances,algebre-geometrie,2,4,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse."
+ex-2025-jour-1-me-25matj1me1page1-exercice-4,2025-jour-1-me-25matj1me1page1,2025,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,5,suites,analyse,3,11,Une équipe de biologistes étudie l'évolution de la superficie recouverte par une algue
+ex-2025-jour-1-me-25matj1me3page1-exercice-1,2025-jour-1-me-25matj1me3page1,2025,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,5,primitives-equations-differentielles,analyse,3,12,Partie A
+ex-2025-jour-1-me-25matj1me3page1-exercice-2,2025-jour-1-me-25matj1me3page1,2025,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,geometrie-orthogonalite-distances,algebre-geometrie,3,11,On considère le cube ABCDEFGH.
+ex-2025-jour-1-me-25matj1me3page1-exercice-3,2025-jour-1-me-25matj1me3page1,2025,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,6,suites,analyse,3,12,Le but de cet exercice est d'étudier les convergences de deux suites vers une même
+ex-2025-jour-1-me-25matj1me3page1-exercice-4,2025-jour-1-me-25matj1me3page1,2025,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,4,bernoulli-binomiale,probabilites,2,4,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse. Chaque"
+ex-2025-jour-1-nc-25matj1nc1page-exercice-1,2025-jour-1-nc-25matj1nc1page,2025,Jour 1,Nouvelle-Calédonie,1,5,variables-aleatoires,probabilites,2,8,On dispose d'un sac et de deux urnes A et B.
+ex-2025-jour-1-nc-25matj1nc1page-exercice-2,2025-jour-1-nc-25matj1nc1page,2025,Jour 1,Nouvelle-Calédonie,2,4,geometrie-orthogonalite-distances,algebre-geometrie,2,7,"𝐴(4; −4; 4), 𝐵(5; −3; 2), 𝐶(6; −2; 3) et 𝐷(5; 1; 1)."
+ex-2025-jour-1-nc-25matj1nc1page-exercice-3,2025-jour-1-nc-25matj1nc1page,2025,Jour 1,Nouvelle-Calédonie,3,6,suites,analyse,3,10,On considère 𝑛 un entier naturel non nul.
+ex-2025-jour-1-nc-25matj1nc1page-exercice-4,2025-jour-1-nc-25matj1nc1page,2025,Jour 1,Nouvelle-Calédonie,4,5,suites,analyse,2,5,"Pour chacune des cinq affirmations suivantes, indiquer si elle est vraie ou fausse, en"
+ex-2025-jour-1-po-25matj1po1page-exercice-1,2025-jour-1-po-25matj1po1page,2025,Jour 1,Polynésie,1,5,bernoulli-binomiale,probabilites,2,9,Une équipe américaine a cartographié pour la première fois les allergies alimentaires
+ex-2025-jour-1-po-25matj1po1page-exercice-2,2025-jour-1-po-25matj1po1page,2025,Jour 1,Polynésie,2,5,geometrie-orthogonalite-distances,algebre-geometrie,2,8,Deux avions sont en approche d'un aéroport.
+ex-2025-jour-1-po-25matj1po1page-exercice-3,2025-jour-1-po-25matj1po1page,2025,Jour 1,Polynésie,3,5,suites,analyse,3,13,On munit le plan d'un repère orthonormé.
+ex-2025-jour-1-po-25matj1po1page-exercice-4,2025-jour-1-po-25matj1po1page,2025,Jour 1,Polynésie,4,5,primitives-equations-differentielles,analyse,2,5,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse."
+ex-2025-jour-1-po-25matj1po3page-exercice-1,2025-jour-1-po-25matj1po3page,2025,Jour 1,Polynésie,1,5,bernoulli-binomiale,probabilites,2,10,En France il y a deux formules pour obtenir le permis de conduire :
+ex-2025-jour-1-po-25matj1po3page-exercice-2,2025-jour-1-po-25matj1po3page,2025,Jour 1,Polynésie,2,5,primitives-equations-differentielles,analyse,3,9,On e tudie l'e volution de la population d'une espe ce animale au sein d'une re serve
+ex-2025-jour-1-po-25matj1po3page-exercice-3,2025-jour-1-po-25matj1po3page,2025,Jour 1,Polynésie,3,5,suites,analyse,3,9,"On considère la suite (𝑢 ) définie par 𝑢 = 5 et, pour tout entier naturel 𝑛 :"
+ex-2025-jour-1-po-25matj1po3page-exercice-4,2025-jour-1-po-25matj1po3page,2025,Jour 1,Polynésie,4,5,geometrie-orthogonalite-distances,algebre-geometrie,2,5,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse."
+ex-2025-jour-2-g1-25matj2g111-exercice-1,2025-jour-2-g1-25matj2g111,2025,Jour 2,Centres étrangers groupe 1,1,,suites,analyse,3,14,(6 point s)
+ex-2025-jour-2-g1-25matj2g111-exercice-2,2025-jour-2-g1-25matj2g111,2025,Jour 2,Centres étrangers groupe 1,2,6,derivation-convexite,analyse,3,13,Partie A
+ex-2025-jour-2-g1-25matj2g111-exercice-3,2025-jour-2-g1-25matj2g111,2025,Jour 2,Centres étrangers groupe 1,3,4,combinatoire-denombrement,algebre-geometrie,2,10,"Le codage « base64 », utilisé en informatique, permet de représenter et de transmettre des"
+ex-2025-jour-2-g1-25matj2g111-exercice-4,2025-jour-2-g1-25matj2g111,2025,Jour 2,Centres étrangers groupe 1,4,4,geometrie-orthogonalite-distances,algebre-geometrie,3,8,"On se place dans un repère orthonormé (𝑂; 𝑖⃗, 𝑗⃗, 𝑘⃗⃗) de l'espace."
+ex-2025-jour-2-ja-25matj2ja11-exercice-1,2025-jour-2-ja-25matj2ja11,2025,Jour 2,Asie,1,5,bernoulli-binomiale,probabilites,2,12,"Toutes les probabilit´es, sauf indication contraire, seront arrondies `a 10"
+ex-2025-jour-2-ja-25matj2ja11-exercice-2,2025-jour-2-ja-25matj2ja11,2025,Jour 2,Asie,2,5,suites,analyse,3,9,Partie A
+ex-2025-jour-2-ja-25matj2ja11-exercice-3,2025-jour-2-ja-25matj2ja11,2025,Jour 2,Asie,3,5,geometrie-orthogonalite-distances,algebre-geometrie,2,4,"L'espace est rapport´e `a un rep`ere orthonorm´e O ; ~ı , ~ , k ."
+ex-2025-jour-2-ja-25matj2ja11-exercice-4,2025-jour-2-ja-25matj2ja11,2025,Jour 2,Asie,4,5,primitives-equations-differentielles,analyse,3,9,"Dans un laboratoire, on ´etudie une r´eaction chimique dans un r´eacteur ferm´e, sous certaines condi-"
+ex-2025-jour-2-me-25matj2me1page1-exercice-1,2025-jour-2-me-25matj2me1page1,2025,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,5,bernoulli-binomiale,probabilites,2,10,Les deux parties peuvent être traitées indépendamment.
+ex-2025-jour-2-me-25matj2me1page1-exercice-2,2025-jour-2-me-25matj2me1page1,2025,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,geometrie-orthogonalite-distances,algebre-geometrie,3,8,"L'espace est muni d'un repère orthonormé (𝑂 ; 𝑖⃗, 𝑗⃗, 𝑘⃗⃗)."
+ex-2025-jour-2-me-25matj2me1page1-exercice-3,2025-jour-2-me-25matj2me1page1,2025,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,4,suites,analyse,2,4,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse. Justifier"
+ex-2025-jour-2-me-25matj2me1page1-exercice-4,2025-jour-2-me-25matj2me1page1,2025,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,6,primitives-equations-differentielles,analyse,3,14,"L'objet de cet exercice est l'étude de l'arrêt d'un chariot sur un manège, à partir du"
+ex-2025-jour-2-me-25matj2me3page1-exercice-1,2025-jour-2-me-25matj2me3page1,2025,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,6,bernoulli-binomiale,probabilites,3,15,El Niño est un phénomène océanique à grande échelle du Pacifique équatorial qui
+ex-2025-jour-2-me-25matj2me3page1-exercice-2,2025-jour-2-me-25matj2me3page1,2025,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,primitives-equations-differentielles,analyse,2,5,"Pour chacune des affirmations suivantes, indiquer si elle est juste ou fausse. Chaque"
+ex-2025-jour-2-me-25matj2me3page1-exercice-3,2025-jour-2-me-25matj2me3page1,2025,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,4,logarithme,analyse,2,9,On considère la fonction 𝑓 définie sur ]0 ; 8] par
+ex-2025-jour-2-me-25matj2me3page1-exercice-4,2025-jour-2-me-25matj2me3page1,2025,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,5,geometrie-orthogonalite-distances,algebre-geometrie,3,9,"L'espace est rapporté à un repère orthonormé (O ; 𝑖⃗, 𝑗⃗, 𝑘⃗⃗)."
+ex-2025-jour-2-nc-25matj2nc1page-exercice-1,2025-jour-2-nc-25matj2nc1page,2025,Jour 2,Nouvelle-Calédonie,1,4,geometrie-orthogonalite-distances,algebre-geometrie,2,4,"Pour chacune des quatre affirmations suivantes, indiquer si elle est vraie ou fausse, en"
+ex-2025-jour-2-nc-25matj2nc1page-exercice-2,2025-jour-2-nc-25matj2nc1page,2025,Jour 2,Nouvelle-Calédonie,2,6,variables-aleatoires,probabilites,2,9,"Dans le repère orthonormé (O ; I, J) ci-contre, on a"
+ex-2025-jour-2-nc-25matj2nc1page-exercice-3,2025-jour-2-nc-25matj2nc1page,2025,Jour 2,Nouvelle-Calédonie,3,5,suites,analyse,3,9,On considère la fonction 𝑓 définie pour tout réel 𝑥 par :
+ex-2025-jour-2-nc-25matj2nc1page-exercice-4,2025-jour-2-nc-25matj2nc1page,2025,Jour 2,Nouvelle-Calédonie,4,5,logarithme,analyse,3,9,On considère la fonction 𝑓 définie sur l'intervalle ]0 ; +∞[ par :
+ex-2025-jour-2-po-25matj2po1page-exercice-1,2025-jour-2-po-25matj2po1page,2025,Jour 2,Polynésie,1,5,bernoulli-binomiale,probabilites,3,8,"Dans tout l'exercice, les probabilite s seront, si ne cessaire, arrondies a 10−3 pre s."
+ex-2025-jour-2-po-25matj2po1page-exercice-2,2025-jour-2-po-25matj2po1page,2025,Jour 2,Polynésie,2,5,derivation-convexite,analyse,3,10,On considère la fonction 𝑓 définie sur l'intervalle ]2 ; +∞[ par 𝑓(𝑥) = 𝑥 ln(𝑥 − 2).
+ex-2025-jour-2-po-25matj2po1page-exercice-3,2025-jour-2-po-25matj2po1page,2025,Jour 2,Polynésie,3,5,geometrie-orthogonalite-distances,algebre-geometrie,3,9,"L'espace est rapporté à un repère orthonormé (𝑂 ; 𝑖⃗, 𝑗⃗, 𝑘⃗⃗)."
+ex-2025-jour-2-po-25matj2po1page-exercice-4,2025-jour-2-po-25matj2po1page,2025,Jour 2,Polynésie,4,5,combinatoire-denombrement,algebre-geometrie,2,5,"Pour chacune des affirmations suivantes, indiquer si elle est vraie ou fausse."
+ex-2022-jour-1-me-22matj1me1page1-exercice-1,2022-jour-1-me-22matj1me1page1,2022,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,7,suites,analyse,3,13,"fonction exponentielle, suites"
+ex-2022-jour-1-me-22matj1me1page1-exercice-2,2022-jour-1-me-22matj1me1page1,2022,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,7,geometrie-reperage,algebre-geometrie,3,10,géométrie dans l'espace
+ex-2022-jour-1-me-22matj1me1page1-exercice-3,2022-jour-1-me-22matj1me1page1,2022,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,7,bernoulli-binomiale,probabilites,2,10,probabilités
+ex-2022-jour-1-me-22matj1me1page1-exercice-4,2022-jour-1-me-22matj1me1page1,2022,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,7,derivation-convexite,analyse,2,6,fonctions numériques
+ex-2022-jour-2-lr-22matj2lr1page-exercice-1,2022-jour-2-lr-22matj2lr1page,2022,Jour 2,La Réunion,1,7,bernoulli-binomiale,probabilites,2,9,Principaux domaines abordés :
+ex-2022-jour-2-lr-22matj2lr1page-exercice-2,2022-jour-2-lr-22matj2lr1page,2022,Jour 2,La Réunion,2,7,geometrie-reperage,algebre-geometrie,3,9,Principaux domaines abordés :
+ex-2022-jour-2-lr-22matj2lr1page-exercice-3,2022-jour-2-lr-22matj2lr1page,2022,Jour 2,La Réunion,3,7,suites,analyse,2,7,Principaux domaines abordés :
+ex-2022-jour-2-lr-22matj2lr1page-exercice-4,2022-jour-2-lr-22matj2lr1page,2022,Jour 2,La Réunion,4,7,suites,analyse,3,10,Principaux domaines abordés :
+ex-2022-jour-1-lr-22matj1lr1page-exercice-1,2022-jour-1-lr-22matj1lr1page,2022,Jour 1,La Réunion,1,7,bernoulli-binomiale,probabilites,2,9,Principaux domaines abordés :
+ex-2022-jour-1-lr-22matj1lr1page-exercice-2,2022-jour-1-lr-22matj1lr1page,2022,Jour 1,La Réunion,2,7,suites,analyse,2,7,Principaux domaines abordés :
+ex-2022-jour-1-lr-22matj1lr1page-exercice-3,2022-jour-1-lr-22matj1lr1page,2022,Jour 1,La Réunion,3,7,suites,analyse,3,10,Principaux domaines abordés :
+ex-2022-jour-1-lr-22matj1lr1page-exercice-4,2022-jour-1-lr-22matj1lr1page,2022,Jour 1,La Réunion,4,7,geometrie-reperage,algebre-geometrie,3,8,Principaux domaines abordés :
+ex-2022-jour-1-po-22matj1po1page-exercice-1,2022-jour-1-po-22matj1po1page,2022,Jour 1,Polynésie,1,7,derivation-convexite,analyse,1,6,"fonctions, suites"
+ex-2022-jour-1-po-22matj1po1page-exercice-2,2022-jour-1-po-22matj1po1page,2022,Jour 1,Polynésie,2,7,bernoulli-binomiale,probabilites,2,7,probabilités
+ex-2022-jour-1-po-22matj1po1page-exercice-3,2022-jour-1-po-22matj1po1page,2022,Jour 1,Polynésie,3,7,suites,analyse,2,7,suites
+ex-2022-jour-1-po-22matj1po1page-exercice-4,2022-jour-1-po-22matj1po1page,2022,Jour 1,Polynésie,4,7,geometrie-orthogonalite-distances,algebre-geometrie,3,8,géométrie dans le plan et dans l'espace
+ex-2022-jour-2-po-22matj2po1page-exercice-1,2022-jour-2-po-22matj2po1page,2022,Jour 2,Polynésie,1,7,derivation-convexite,analyse,2,6,"fonctions, primitives, probabilités"
+ex-2022-jour-2-po-22matj2po1page-exercice-2,2022-jour-2-po-22matj2po1page,2022,Jour 2,Polynésie,2,7,bernoulli-binomiale,probabilites,2,7,probabilités
+ex-2022-jour-2-po-22matj2po1page-exercice-3,2022-jour-2-po-22matj2po1page,2022,Jour 2,Polynésie,3,7,suites,analyse,3,7,"suites, fonctions"
+ex-2022-jour-2-po-22matj2po1page-exercice-4,2022-jour-2-po-22matj2po1page,2022,Jour 2,Polynésie,4,7,geometrie-reperage,algebre-geometrie,3,10,géométrie dans le plan et dans l'espace
+ex-2022-jour-2-me-22matj2me1page1-exercice-1,2022-jour-2-me-22matj2me1page1,2022,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,7,bernoulli-binomiale,probabilites,2,9,probabilités
+ex-2022-jour-2-me-22matj2me1page1-exercice-2,2022-jour-2-me-22matj2me1page1,2022,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,7,derivation-convexite,analyse,2,6,fonctions numériques et suites
+ex-2022-jour-2-me-22matj2me1page1-exercice-3,2022-jour-2-me-22matj2me1page1,2022,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,7,geometrie-reperage,algebre-geometrie,3,9,géométrie dans l'espace
+ex-2022-jour-2-me-22matj2me1page1-exercice-4,2022-jour-2-me-22matj2me1page1,2022,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,7,derivation-convexite,analyse,3,15,"fonctions numériques, fonction exponentielle"
+ex-2023-jour-1-g1-23matj1g11page1-exercice-1,2023-jour-1-g1-23matj1g11page1,2023,Jour 1,Centres étrangers groupe 1,1,5,bernoulli-binomiale,probabilites,1,5,des quatre propositions est exacte. Indiquer sur la copie le numéro de la question et
+ex-2023-jour-1-g1-23matj1g11page1-exercice-2,2023-jour-1-g1-23matj1g11page1,2023,Jour 1,Centres étrangers groupe 1,2,6,suites,analyse,2,12,Les deux parties de cet exercice sont indépendantes.
+ex-2023-jour-1-g1-23matj1g11page1-exercice-3,2023-jour-1-g1-23matj1g11page1,2023,Jour 1,Centres étrangers groupe 1,3,6,geometrie-orthogonalite-distances,algebre-geometrie,3,8,"On considère le prisme droit ,"
+ex-2023-jour-1-g1-23matj1g11page1-exercice-4,2023-jour-1-g1-23matj1g11page1,2023,Jour 1,Centres étrangers groupe 1,4,3,derivation-convexite,analyse,2,3,Un biologiste a modélisé l'évolution d'une population de bactéries (en milliers d'entités)
+ex-2023-jour-2-g1-23matj2g11page1-exercice-1,2023-jour-2-g1-23matj2g11page1,2023,Jour 2,Centres étrangers groupe 1,1,5,primitives-equations-differentielles,analyse,2,5,quatre propositions est exacte. Indiquer sur la copie le numéro de la question et la lettre
+ex-2023-jour-2-g1-23matj2g11page1-exercice-2,2023-jour-2-g1-23matj2g11page1,2023,Jour 2,Centres étrangers groupe 1,2,6,suites,analyse,3,7,On considère la fonction définie sur par .
+ex-2023-jour-2-g1-23matj2g11page1-exercice-3,2023-jour-2-g1-23matj2g11page1,2023,Jour 2,Centres étrangers groupe 1,3,6,geometrie-orthogonalite-distances,algebre-geometrie,3,7,La figure ci-dessous correspond à la maquette d'un projet architectural.
+ex-2023-jour-2-g1-23matj2g11page1-exercice-4,2023-jour-2-g1-23matj2g11page1,2023,Jour 2,Centres étrangers groupe 1,4,3,bernoulli-binomiale,probabilites,2,3,Une société de production s'interroge sur l'opportunité de programmer un jeu télévisé. Ce
+ex-2023-jour-1-po-23matj1po1page-exercice-1,2023-jour-1-po-23matj1po1page,2023,Jour 1,Polynésie,1,4,bernoulli-binomiale,probabilites,2,5,probabilités
+ex-2023-jour-1-po-23matj1po1page-exercice-2,2023-jour-1-po-23matj1po1page,2023,Jour 1,Polynésie,2,5,geometrie-reperage,algebre-geometrie,3,8,géométrie dans l'espace
+ex-2023-jour-1-po-23matj1po1page-exercice-3,2023-jour-1-po-23matj1po1page,2023,Jour 1,Polynésie,3,5,derivation-convexite,analyse,2,5,"fonction exponentielle, algorithmique"
+ex-2023-jour-1-po-23matj1po1page-exercice-4,2023-jour-1-po-23matj1po1page,2023,Jour 1,Polynésie,4,6,suites,analyse,3,10,"suites, fonctions"
+ex-2023-jour-2-po-23matj2po1page-exercice-1,2023-jour-2-po-23matj2po1page,2023,Jour 2,Polynésie,1,5,bernoulli-binomiale,probabilites,2,9,"probabilités, suites"
+ex-2023-jour-2-po-23matj2po1page-exercice-2,2023-jour-2-po-23matj2po1page,2023,Jour 2,Polynésie,2,5,geometrie-reperage,algebre-geometrie,2,7,Géométrie dans l'espace
+ex-2023-jour-2-po-23matj2po1page-exercice-3,2023-jour-2-po-23matj2po1page,2023,Jour 2,Polynésie,3,5,derivation-convexite,analyse,2,6,étude de fonctions
+ex-2023-jour-2-po-23matj2po1page-exercice-4,2023-jour-2-po-23matj2po1page,2023,Jour 2,Polynésie,4,5,suites,analyse,2,5,"suites, fonction logarithme, algorithmique"
+ex-2023-jour-1-me-23matj1me1page1-exercice-1,2023-jour-1-me-23matj1me1page1,2023,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,5,bernoulli-binomiale,probabilites,2,5,"Pour chaque question, une seule des quatre réponses proposées est exacte. Le"
+ex-2023-jour-1-me-23matj1me1page1-exercice-2,2023-jour-1-me-23matj1me1page1,2023,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,logarithme,analyse,2,7,"On considère la fonction 𝑓 définie sur ]0 ; +∞[ par 𝑓(𝑥) = 𝑥2 − 8 ln(𝑥), où ln désigne"
+ex-2023-jour-1-me-23matj1me1page1-exercice-3,2023-jour-1-me-23matj1me1page1,2023,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,5,suites,analyse,2,8,Une entreprise a créé une Foire Aux Questions (« FAQ ») sur son site internet.
+ex-2023-jour-1-me-23matj1me1page1-exercice-4,2023-jour-1-me-23matj1me1page1,2023,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,5,geometrie-orthogonalite-distances,algebre-geometrie,3,9,On considère le cube 𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻
+ex-2023-jour-2-me-23matj2me1page1-exercice-1,2023-jour-2-me-23matj2me1page1,2023,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",1,5,bernoulli-binomiale,probabilites,2,5,indiquera sur sa copie le numéro de la question et la réponse choisie. Aucune justification n'est
+ex-2023-jour-2-me-23matj2me1page1-exercice-2,2023-jour-2-me-23matj2me1page1,2023,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",2,5,suites,analyse,3,12,Des biologistes étudient l'évolution d'une population d'insectes dans un jardin botanique.
+ex-2023-jour-2-me-23matj2me1page1-exercice-3,2023-jour-2-me-23matj2me1page1,2023,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,5,geometrie-orthogonalite-distances,algebre-geometrie,3,9,"Dans l'espace rapporté à un repère orthonormé (𝑂; 𝚤⃗ , 𝚥⃗ , 𝑘S⃗ ), on considère :"
+ex-2023-jour-2-me-23matj2me1page1-exercice-4,2023-jour-2-me-23matj2me1page1,2023,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",4,5,logarithme,analyse,3,9,"On considère la fonction 𝑓 définie sur ℝ par 𝑓(𝑥) = ln (1 + egh), où ln désigne la fonction"
+ex-2023-jour-1-li-23matj1li1-exercice-1,2023-jour-1-li-23matj1li1,2023,Jour 1,Centres étrangers,1,5,logarithme,analyse,3,11,Partie A
+ex-2023-jour-1-li-23matj1li1-exercice-2,2023-jour-1-li-23matj1li1,2023,Jour 1,Centres étrangers,2,5,suites,analyse,2,7,"Dans un souci de préservation de l'environnement, Monsieur Durand décide de se rendre"
+ex-2023-jour-1-li-23matj1li1-exercice-3,2023-jour-1-li-23matj1li1,2023,Jour 1,Centres étrangers,3,5,primitives-equations-differentielles,analyse,2,5,"Pour chaque question, une seule des quatre réponses proposées est exacte."
+ex-2023-jour-1-li-23matj1li1-exercice-4,2023-jour-1-li-23matj1li1,2023,Jour 1,Centres étrangers,4,5,geometrie-orthogonalite-distances,algebre-geometrie,3,7,"Dans l'espace muni d'un repère orthonormé (𝑂 ; 𝑖⃗ , 𝑗 , 𝑘⃗ ), on considère les"
+ex-2023-jour-2-li-23matj2li1-exercice-1,2023-jour-2-li-23matj2li1,2023,Jour 2,Centres étrangers,1,5,derivation-convexite,analyse,2,12,On considère la fonction 𝑓 définie sur ℝ par :
+ex-2023-jour-2-li-23matj2li1-exercice-2,2023-jour-2-li-23matj2li1,2023,Jour 2,Centres étrangers,2,5,suites,analyse,2,11,Partie A
+ex-2023-jour-2-li-23matj2li1-exercice-3,2023-jour-2-li-23matj2li1,2023,Jour 2,Centres étrangers,3,5,geometrie-orthogonalite-distances,algebre-geometrie,2,8,"L'espace est muni d'un repère orthonormé (O ; 𝑖⃗ , 𝑗⃗ , 𝑘⃗⃗)."
+ex-2023-jour-2-li-23matj2li1-exercice-4,2023-jour-2-li-23matj2li1,2023,Jour 2,Centres étrangers,4,5,bernoulli-binomiale,probabilites,2,5,"Pour chaque question, une seule des quatre réponses proposées est exacte. Le"
+ex-2022-jour-1-ja-22matj1ja11-exercice-1,2022-jour-1-ja-22matj1ja11,2022,Jour 1,Asie,1,7,bernoulli-binomiale,probabilites,2,10,Principaux domaines abord´es :
+ex-2022-jour-1-ja-22matj1ja11-exercice-2,2022-jour-1-ja-22matj1ja11,2022,Jour 1,Asie,2,7,suites,analyse,3,12,Principaux domaines abord´es :
+ex-2022-jour-1-ja-22matj1ja11-exercice-3,2022-jour-1-ja-22matj1ja11,2022,Jour 1,Asie,3,7,geometrie-orthogonalite-distances,algebre-geometrie,3,10,Principaux domaines abord´es :
+ex-2022-jour-1-ja-22matj1ja11-exercice-4,2022-jour-1-ja-22matj1ja11,2022,Jour 1,Asie,4,7,logarithme,analyse,2,11,Principaux domaines abord´es :
+ex-2022-jour-2-ja-22matj2ja11-exercice-1,2022-jour-2-ja-22matj2ja11,2022,Jour 2,Asie,1,7,geometrie-orthogonalite-distances,algebre-geometrie,2,10,Principaux domaines abord´es :
+ex-2022-jour-2-ja-22matj2ja11-exercice-2,2022-jour-2-ja-22matj2ja11,2022,Jour 2,Asie,2,7,logarithme,analyse,3,11,Principaux domaines abord´es :
+ex-2022-jour-2-ja-22matj2ja11-exercice-3,2022-jour-2-ja-22matj2ja11,2022,Jour 2,Asie,3,7,bernoulli-binomiale,probabilites,2,12,Principaux domaines abord´es :
+ex-2022-jour-2-ja-22matj2ja11-exercice-4,2022-jour-2-ja-22matj2ja11,2022,Jour 2,Asie,4,7,suites,analyse,3,8,Principaux domaines abord´es :
+ex-2021-jour-2-po-21matj2po1page1-exercice-1,2021-jour-2-po-21matj2po1page1,2021,Jour 2,Polynésie,1,5,suites,analyse,2,8,commun à tous les candidats
+ex-2021-jour-2-po-21matj2po1page1-exercice-2,2021-jour-2-po-21matj2po1page1,2021,Jour 2,Polynésie,2,5,bernoulli-binomiale,probabilites,2,7,commun à tous les candidats
+ex-2021-jour-2-po-21matj2po1page1-exercice-3,2021-jour-2-po-21matj2po1page1,2021,Jour 2,Polynésie,3,5,geometrie-orthogonalite-distances,algebre-geometrie,3,9,commun à tous les candidats
+ex-2021-jour-2-po-21matj2po1page1-exercice-a,2021-jour-2-po-21matj2po1page1,2021,Jour 2,Polynésie,A,5,primitives-equations-differentielles,analyse,2,9,Exercice A au choix
+ex-2021-jour-2-po-21matj2po1page1-exercice-b,2021-jour-2-po-21matj2po1page1,2021,Jour 2,Polynésie,B,5,logarithme,analyse,2,9,Exercice B au choix
+ex-2021-jour-1-an-21matj1an1page-exercice-1,2021-jour-1-an-21matj1an1page,2021,Jour 1,Amérique du Nord,1,5,bernoulli-binomiale,probabilites,2,8,commun à tous les candidats
+ex-2021-jour-1-an-21matj1an1page-exercice-2,2021-jour-1-an-21matj1an1page,2021,Jour 1,Amérique du Nord,2,5,suites,analyse,3,8,commun à tous les candidats
+ex-2021-jour-1-an-21matj1an1page-exercice-3,2021-jour-1-an-21matj1an1page,2021,Jour 1,Amérique du Nord,3,5,geometrie-orthogonalite-distances,algebre-geometrie,2,6,commun à tous les candidats
+ex-2021-jour-1-an-21matj1an1page-exercice-a,2021-jour-1-an-21matj1an1page,2021,Jour 1,Amérique du Nord,A,5,derivation-convexite,analyse,2,5,Exercice A au choix
+ex-2021-jour-1-an-21matj1an1page-exercice-b,2021-jour-1-an-21matj1an1page,2021,Jour 1,Amérique du Nord,B,5,derivation-convexite,analyse,2,7,Exercice B au choix
+ex-2021-jour-1-g1-21matj1g11page1-exercice-1,2021-jour-1-g1-21matj1g11page1,2021,Jour 1,Centres étrangers groupe 1,1,5,derivation-convexite,analyse,1,5,commun à tous les candidats
+ex-2021-jour-1-g1-21matj1g11page1-exercice-2,2021-jour-1-g1-21matj1g11page1,2021,Jour 1,Centres étrangers groupe 1,2,5,bernoulli-binomiale,probabilites,2,8,commun à tous les candidats
+ex-2021-jour-1-g1-21matj1g11page1-exercice-3,2021-jour-1-g1-21matj1g11page1,2021,Jour 1,Centres étrangers groupe 1,3,5,suites,analyse,3,10,commun à tous les candidats
+ex-2021-jour-1-g1-21matj1g11page1-exercice-a,2021-jour-1-g1-21matj1g11page1,2021,Jour 1,Centres étrangers groupe 1,A,5,geometrie-orthogonalite-distances,algebre-geometrie,2,9,Géométrie dans l'espace
+ex-2021-jour-1-g1-21matj1g11page1-exercice-b,2021-jour-1-g1-21matj1g11page1,2021,Jour 1,Centres étrangers groupe 1,B,5,primitives-equations-differentielles,analyse,2,9,Équations différentielles
+ex-2021-jour-2-g1-21matj2g11page1-exercice-1,2021-jour-2-g1-21matj2g11page1,2021,Jour 2,Centres étrangers groupe 1,1,5,bernoulli-binomiale,probabilites,1,5,commun à tous les candidats
+ex-2021-jour-2-g1-21matj2g11page1-exercice-2,2021-jour-2-g1-21matj2g11page1,2021,Jour 2,Centres étrangers groupe 1,2,5,suites,analyse,2,13,commun à tous les candidats
+ex-2021-jour-2-g1-21matj2g11page1-exercice-3,2021-jour-2-g1-21matj2g11page1,2021,Jour 2,Centres étrangers groupe 1,3,5,geometrie-reperage,algebre-geometrie,3,11,commun à tous les candidats
+ex-2021-jour-2-g1-21matj2g11page1-exercice-a,2021-jour-2-g1-21matj2g11page1,2021,Jour 2,Centres étrangers groupe 1,A,5,bernoulli-binomiale,probabilites,3,8,Fonction 𝐥𝐧
+ex-2021-jour-2-g1-21matj2g11page1-exercice-b,2021-jour-2-g1-21matj2g11page1,2021,Jour 2,Centres étrangers groupe 1,B,5,primitives-equations-differentielles,analyse,2,11,Équation différentielle
+ex-2022-jour-1-po-22matj1po3page-exercice-1,2022-jour-1-po-22matj1po3page,2022,Jour 1,Polynésie,1,7,bernoulli-binomiale,probabilites,2,9,probabilités
+ex-2022-jour-1-po-22matj1po3page-exercice-2,2022-jour-1-po-22matj1po3page,2022,Jour 1,Polynésie,2,7,suites,analyse,3,8,"suites, fonctions"
+ex-2022-jour-1-po-22matj1po3page-exercice-3,2022-jour-1-po-22matj1po3page,2022,Jour 1,Polynésie,3,7,derivation-convexite,analyse,3,10,fonctions
+ex-2022-jour-1-po-22matj1po3page-exercice-4,2022-jour-1-po-22matj1po3page,2022,Jour 1,Polynésie,4,7,geometrie-orthogonalite-distances,algebre-geometrie,3,8,géométrie dans le plan et dans l'espace
+ex-2022-jour-1-an-22matj1an1page-exercice-1,2022-jour-1-an-22matj1an1page,2022,Jour 1,Amérique du Nord,1,7,bernoulli-binomiale,probabilites,2,8,probabilités
+ex-2022-jour-1-an-22matj1an1page-exercice-2,2022-jour-1-an-22matj1an1page,2022,Jour 1,Amérique du Nord,2,7,suites,analyse,2,9,suites
+ex-2022-jour-1-an-22matj1an1page-exercice-3,2022-jour-1-an-22matj1an1page,2022,Jour 1,Amérique du Nord,3,7,geometrie-orthogonalite-distances,algebre-geometrie,3,10,géométrie dans l'espace
+ex-2022-jour-1-an-22matj1an1page-exercice-4,2022-jour-1-an-22matj1an1page,2022,Jour 1,Amérique du Nord,4,7,derivation-convexite,analyse,2,6,fonction exponentielle
+ex-2022-jour-2-an-22matj2an1page-exercice-1,2022-jour-2-an-22matj2an1page,2022,Jour 2,Amérique du Nord,1,7,bernoulli-binomiale,probabilites,3,8,"probabilités, suites"
+ex-2022-jour-2-an-22matj2an1page-exercice-2,2022-jour-2-an-22matj2an1page,2022,Jour 2,Amérique du Nord,2,7,derivation-convexite,analyse,3,8,"fonctions, fonction exponentielle"
+ex-2022-jour-2-an-22matj2an1page-exercice-3,2022-jour-2-an-22matj2an1page,2022,Jour 2,Amérique du Nord,3,7,geometrie-reperage,algebre-geometrie,3,9,géométrie dans l'espace
+ex-2022-jour-2-an-22matj2an1page-exercice-4,2022-jour-2-an-22matj2an1page,2022,Jour 2,Amérique du Nord,4,7,logarithme,analyse,2,6,"fonction logarithme népérien, probabilités"
+ex-2024-jour-1-g1-24matj1g111-exercice-1,2024-jour-1-g1-24matj1g111,2024,Jour 1,Centres étrangers groupe 1,1,5,bernoulli-binomiale,probabilites,2,8,Partie A
+ex-2024-jour-1-g1-24matj1g111-exercice-2,2024-jour-1-g1-24matj1g111,2024,Jour 1,Centres étrangers groupe 1,2,5,suites,analyse,3,9,On considère la fonction 𝑓 définie sur l'intervalle [0; 1] par 𝑓(𝑥) = 2𝑥e−𝑥.
+ex-2024-jour-1-g1-24matj1g111-exercice-3,2024-jour-1-g1-24matj1g111,2024,Jour 1,Centres étrangers groupe 1,3,5,primitives-equations-differentielles,analyse,2,7,On considère l'équation différentielle (𝐸 ) : 𝑦′ = 𝑦 où 𝑦 est une fonction dérivable
+ex-2024-jour-1-g1-24matj1g111-exercice-4,2024-jour-1-g1-24matj1g111,2024,Jour 1,Centres étrangers groupe 1,4,5,geometrie-orthogonalite-distances,algebre-geometrie,3,8,"L'espace est muni d'un repère orthonormé (𝑂; 𝑖⃗, 𝑗⃗, 𝑘⃗⃗)."
+ex-2024-jour-2-g1-24matj2g111-exercice-1,2024-jour-2-g1-24matj2g111,2024,Jour 2,Centres étrangers groupe 1,1,5,variables-aleatoires,probabilites,2,9,"Un sac opaque contient huit jetons numérotés de 1 à 8, indiscernables au toucher."
+ex-2024-jour-2-g1-24matj2g111-exercice-2,2024-jour-2-g1-24matj2g111,2024,Jour 2,Centres étrangers groupe 1,2,6,derivation-convexite,analyse,3,10,On considère la fonction 𝑓 définie sur l'intervalle ]−∞; 1[ par 𝑓(𝑥) = .
+ex-2024-jour-2-g1-24matj2g111-exercice-3,2024-jour-2-g1-24matj2g111,2024,Jour 2,Centres étrangers groupe 1,3,5,geometrie-orthogonalite-distances,algebre-geometrie,3,7,Le cube 𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻 a pour arête 1 cm.
+ex-2024-jour-2-g1-24matj2g111-exercice-4,2024-jour-2-g1-24matj2g111,2024,Jour 2,Centres étrangers groupe 1,4,4,suites,analyse,3,8,Partie A
+ex-2021-jour-1-me-21matj1me2page1-exercice-3,2021-jour-1-me-21matj1me2page1,2021,Jour 1,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,6,suites,analyse,2,12,commun à tous les candidats
+ex-2021-jour-2-me-21matj2me3page1-exercice-3,2021-jour-2-me-21matj2me3page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,,derivation-convexite,analyse,3,8,commun à tous les candidats (sur 6 points)
+ex-2021-jour-2-me-21matj2me2page1-exercice-3,2021-jour-2-me-21matj2me2page1,2021,Jour 2,"Métropole, Antilles-Guyane, La Réunion, Mayotte",3,5,suites,analyse,3,6,commun à tous les candidats
+ex-2021-jour-1-ja-21matj1ja11-exercice-3,2021-jour-1-ja-21matj1ja11,2021,Jour 1,Asie,3,5,bernoulli-binomiale,probabilites,2,8,commun `a tous les candidats
+ex-2021-jour-2-ja-21matj2ja11-exercice-3,2021-jour-2-ja-21matj2ja11,2021,Jour 2,Asie,3,5,bernoulli-binomiale,probabilites,2,6,commun `a tous les candidats

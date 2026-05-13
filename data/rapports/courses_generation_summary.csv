@@ -1,0 +1,18 @@
+theme_id,theme_label,status,definitions,proprietes_theoremes,formules,methodes,erreurs_frequentes,exemples_exercices_associes
+combinatoire-denombrement,Combinatoire et dénombrement,ok,8,7,5,4,6,2
+geometrie-vecteurs-espace,"Vecteurs, droites et plans de l’espace",ok,10,10,7,6,7,0
+geometrie-orthogonalite-distances,Orthogonalité et distances dans l’espace,ok,7,8,6,5,7,5
+geometrie-reperage,Représentations paramétriques et équations cartésiennes,ok,4,9,4,6,7,5
+suites,Suites,ok,12,8,6,6,8,5
+limites-fonctions,Limites de fonctions,ok,8,10,5,6,7,1
+derivation-convexite,Dérivation et convexité,ok,6,11,7,5,7,5
+continuite,Continuité et théorème des valeurs intermédiaires,ok,3,7,3,5,7,0
+logarithme,Fonction logarithme,ok,2,14,9,5,8,5
+trigonometrie,Fonctions sinus et cosinus,ok,4,11,9,5,7,0
+primitives-equations-differentielles,Primitives et équations différentielles,ok,6,6,10,5,7,5
+calcul-integral,Calcul intégral,ok,4,7,7,5,7,4
+bernoulli-binomiale,Schéma de Bernoulli et loi binomiale,ok,5,5,5,5,7,5
+variables-aleatoires,Sommes de variables aléatoires,ok,5,7,10,4,7,3
+concentration-grands-nombres,Concentration et loi des grands nombres,ok,3,4,3,4,6,0
+algorithmique-python,Algorithmique et Python,ok,9,5,4,6,9,0
+logique-raisonnement,"Logique, ensembles et raisonnement",ok,15,7,6,6,8,0
