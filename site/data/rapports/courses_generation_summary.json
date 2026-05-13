@@ -1,0 +1,374 @@
+{
+  "total_themes": 17,
+  "themes_generes": 17,
+  "themes_attendus": [
+    "combinatoire-denombrement",
+    "geometrie-vecteurs-espace",
+    "geometrie-orthogonalite-distances",
+    "geometrie-reperage",
+    "suites",
+    "limites-fonctions",
+    "derivation-convexite",
+    "continuite",
+    "logarithme",
+    "trigonometrie",
+    "primitives-equations-differentielles",
+    "calcul-integral",
+    "bernoulli-binomiale",
+    "variables-aleatoires",
+    "concentration-grands-nombres",
+    "algorithmique-python",
+    "logique-raisonnement"
+  ],
+  "domaines": {
+    "algebre-geometrie": "Algèbre et géométrie",
+    "analyse": "Analyse",
+    "probabilites": "Probabilités",
+    "algorithmique-programmation": "Algorithmique et programmation",
+    "logique-ensembles": "Vocabulaire ensembliste et logique"
+  },
+  "summary": [
+    {
+      "theme_id": "combinatoire-denombrement",
+      "theme_label": "Combinatoire et dénombrement",
+      "status": "ok",
+      "definitions": 8,
+      "proprietes_theoremes": 7,
+      "formules": 5,
+      "methodes": 4,
+      "erreurs_frequentes": 6,
+      "exemples_exercices_associes": 2
+    },
+    {
+      "theme_id": "geometrie-vecteurs-espace",
+      "theme_label": "Vecteurs, droites et plans de l’espace",
+      "status": "ok",
+      "definitions": 10,
+      "proprietes_theoremes": 10,
+      "formules": 7,
+      "methodes": 6,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 0
+    },
+    {
+      "theme_id": "geometrie-orthogonalite-distances",
+      "theme_label": "Orthogonalité et distances dans l’espace",
+      "status": "ok",
+      "definitions": 7,
+      "proprietes_theoremes": 8,
+      "formules": 6,
+      "methodes": 5,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 5
+    },
+    {
+      "theme_id": "geometrie-reperage",
+      "theme_label": "Représentations paramétriques et équations cartésiennes",
+      "status": "ok",
+      "definitions": 4,
+      "proprietes_theoremes": 9,
+      "formules": 4,
+      "methodes": 6,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 5
+    },
+    {
+      "theme_id": "suites",
+      "theme_label": "Suites",
+      "status": "ok",
+      "definitions": 12,
+      "proprietes_theoremes": 8,
+      "formules": 6,
+      "methodes": 6,
+      "erreurs_frequentes": 8,
+      "exemples_exercices_associes": 5
+    },
+    {
+      "theme_id": "limites-fonctions",
+      "theme_label": "Limites de fonctions",
+      "status": "ok",
+      "definitions": 8,
+      "proprietes_theoremes": 10,
+      "formules": 5,
+      "methodes": 6,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 1
+    },
+    {
+      "theme_id": "derivation-convexite",
+      "theme_label": "Dérivation et convexité",
+      "status": "ok",
+      "definitions": 6,
+      "proprietes_theoremes": 11,
+      "formules": 7,
+      "methodes": 5,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 5
+    },
+    {
+      "theme_id": "continuite",
+      "theme_label": "Continuité et théorème des valeurs intermédiaires",
+      "status": "ok",
+      "definitions": 3,
+      "proprietes_theoremes": 7,
+      "formules": 3,
+      "methodes": 5,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 0
+    },
+    {
+      "theme_id": "logarithme",
+      "theme_label": "Fonction logarithme",
+      "status": "ok",
+      "definitions": 2,
+      "proprietes_theoremes": 14,
+      "formules": 9,
+      "methodes": 5,
+      "erreurs_frequentes": 8,
+      "exemples_exercices_associes": 5
+    },
+    {
+      "theme_id": "trigonometrie",
+      "theme_label": "Fonctions sinus et cosinus",
+      "status": "ok",
+      "definitions": 4,
+      "proprietes_theoremes": 11,
+      "formules": 9,
+      "methodes": 5,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 0
+    },
+    {
+      "theme_id": "primitives-equations-differentielles",
+      "theme_label": "Primitives et équations différentielles",
+      "status": "ok",
+      "definitions": 6,
+      "proprietes_theoremes": 6,
+      "formules": 10,
+      "methodes": 5,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 5
+    },
+    {
+      "theme_id": "calcul-integral",
+      "theme_label": "Calcul intégral",
+      "status": "ok",
+      "definitions": 4,
+      "proprietes_theoremes": 7,
+      "formules": 7,
+      "methodes": 5,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 4
+    },
+    {
+      "theme_id": "bernoulli-binomiale",
+      "theme_label": "Schéma de Bernoulli et loi binomiale",
+      "status": "ok",
+      "definitions": 5,
+      "proprietes_theoremes": 5,
+      "formules": 5,
+      "methodes": 5,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 5
+    },
+    {
+      "theme_id": "variables-aleatoires",
+      "theme_label": "Sommes de variables aléatoires",
+      "status": "ok",
+      "definitions": 5,
+      "proprietes_theoremes": 7,
+      "formules": 10,
+      "methodes": 4,
+      "erreurs_frequentes": 7,
+      "exemples_exercices_associes": 3
+    },
+    {
+      "theme_id": "concentration-grands-nombres",
+      "theme_label": "Concentration et loi des grands nombres",
+      "status": "ok",
+      "definitions": 3,
+      "proprietes_theoremes": 4,
+      "formules": 3,
+      "methodes": 4,
+      "erreurs_frequentes": 6,
+      "exemples_exercices_associes": 0
+    },
+    {
+      "theme_id": "algorithmique-python",
+      "theme_label": "Algorithmique et Python",
+      "status": "ok",
+      "definitions": 9,
+      "proprietes_theoremes": 5,
+      "formules": 4,
+      "methodes": 6,
+      "erreurs_frequentes": 9,
+      "exemples_exercices_associes": 0
+    },
+    {
+      "theme_id": "logique-raisonnement",
+      "theme_label": "Logique, ensembles et raisonnement",
+      "status": "ok",
+      "definitions": 15,
+      "proprietes_theoremes": 7,
+      "formules": 6,
+      "methodes": 6,
+      "erreurs_frequentes": 8,
+      "exemples_exercices_associes": 0
+    }
+  ],
+  "coverage": [
+    {
+      "theme_id": "combinatoire-denombrement",
+      "theme_label": "Combinatoire et dénombrement",
+      "domain_id": "algebre-geometrie",
+      "domain_label": "Algèbre et géométrie",
+      "bloc_programme": "combinatoire-denombrement",
+      "bloc_titre": "combinatoire-denombrement",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "geometrie-vecteurs-espace",
+      "theme_label": "Vecteurs, droites et plans de l’espace",
+      "domain_id": "algebre-geometrie",
+      "domain_label": "Algèbre et géométrie",
+      "bloc_programme": "geometrie-vecteurs-espace",
+      "bloc_titre": "geometrie-vecteurs-espace",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "geometrie-orthogonalite-distances",
+      "theme_label": "Orthogonalité et distances dans l’espace",
+      "domain_id": "algebre-geometrie",
+      "domain_label": "Algèbre et géométrie",
+      "bloc_programme": "geometrie-orthogonalite-distances",
+      "bloc_titre": "geometrie-orthogonalite-distances",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "geometrie-reperage",
+      "theme_label": "Représentations paramétriques et équations cartésiennes",
+      "domain_id": "algebre-geometrie",
+      "domain_label": "Algèbre et géométrie",
+      "bloc_programme": "geometrie-reperage",
+      "bloc_titre": "geometrie-reperage",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "suites",
+      "theme_label": "Suites",
+      "domain_id": "analyse",
+      "domain_label": "Analyse",
+      "bloc_programme": "suites",
+      "bloc_titre": "suites",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "limites-fonctions",
+      "theme_label": "Limites de fonctions",
+      "domain_id": "analyse",
+      "domain_label": "Analyse",
+      "bloc_programme": "limites-fonctions",
+      "bloc_titre": "limites-fonctions",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "derivation-convexite",
+      "theme_label": "Dérivation et convexité",
+      "domain_id": "analyse",
+      "domain_label": "Analyse",
+      "bloc_programme": "derivation-convexite",
+      "bloc_titre": "derivation-convexite",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "continuite",
+      "theme_label": "Continuité et théorème des valeurs intermédiaires",
+      "domain_id": "analyse",
+      "domain_label": "Analyse",
+      "bloc_programme": "continuite",
+      "bloc_titre": "continuite",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "logarithme",
+      "theme_label": "Fonction logarithme",
+      "domain_id": "analyse",
+      "domain_label": "Analyse",
+      "bloc_programme": "logarithme",
+      "bloc_titre": "logarithme",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "trigonometrie",
+      "theme_label": "Fonctions sinus et cosinus",
+      "domain_id": "analyse",
+      "domain_label": "Analyse",
+      "bloc_programme": "trigonometrie",
+      "bloc_titre": "trigonometrie",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "primitives-equations-differentielles",
+      "theme_label": "Primitives et équations différentielles",
+      "domain_id": "analyse",
+      "domain_label": "Analyse",
+      "bloc_programme": "primitives-equations-differentielles",
+      "bloc_titre": "primitives-equations-differentielles",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "calcul-integral",
+      "theme_label": "Calcul intégral",
+      "domain_id": "analyse",
+      "domain_label": "Analyse",
+      "bloc_programme": "calcul-integral",
+      "bloc_titre": "calcul-integral",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "bernoulli-binomiale",
+      "theme_label": "Schéma de Bernoulli et loi binomiale",
+      "domain_id": "probabilites",
+      "domain_label": "Probabilités",
+      "bloc_programme": "bernoulli-binomiale",
+      "bloc_titre": "bernoulli-binomiale",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "variables-aleatoires",
+      "theme_label": "Sommes de variables aléatoires",
+      "domain_id": "probabilites",
+      "domain_label": "Probabilités",
+      "bloc_programme": "variables-aleatoires",
+      "bloc_titre": "variables-aleatoires",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "concentration-grands-nombres",
+      "theme_label": "Concentration et loi des grands nombres",
+      "domain_id": "probabilites",
+      "domain_label": "Probabilités",
+      "bloc_programme": "concentration-grands-nombres",
+      "bloc_titre": "concentration-grands-nombres",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "algorithmique-python",
+      "theme_label": "Algorithmique et Python",
+      "domain_id": "algorithmique-programmation",
+      "domain_label": "Algorithmique et programmation",
+      "bloc_programme": "algorithmique-python",
+      "bloc_titre": "algorithmique-python",
+      "status": "couvert"
+    },
+    {
+      "theme_id": "logique-raisonnement",
+      "theme_label": "Logique, ensembles et raisonnement",
+      "domain_id": "logique-ensembles",
+      "domain_label": "Vocabulaire ensembliste et logique",
+      "bloc_programme": "logique-raisonnement",
+      "bloc_titre": "logique-raisonnement",
+      "status": "couvert"
+    }
+  ]
+}

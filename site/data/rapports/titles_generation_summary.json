@@ -1,0 +1,443 @@
+[
+  {
+    "id": "ex-2021-jour-2-me-21matj2me2page1-exercice-b",
+    "status": "ok",
+    "old_title": "Exercice B au choix",
+    "new_title": "Convexité et point d'inflexion d'une exponentielle",
+    "theme": "derivation-convexite",
+    "reason": "Le titre met en avant les deux notions centrales de l'exercice (convexité, point d'inflexion) et précise le type de fonction étudié (exponentielle), ce qui est discriminant et concret pour un élève cherchant à s'entraîner sur ces notions.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-me-21matj2me3page1-exercice-1",
+    "status": "ok",
+    "old_title": "commun à tous les candidats",
+    "new_title": "Filtrage de spams par arbre et loi binomiale",
+    "theme": "bernoulli-binomiale",
+    "reason": "Le contexte concret (spam), les méthodes clés (arbre pondéré, Bayes, loi binomiale) sont mentionnés en 7 mots, ce qui est informatif et discriminant.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-me-21matj2me3page1-exercice-2",
+    "status": "ok",
+    "old_title": "commun à tous les candidats",
+    "new_title": "QCM géométrie dans l'espace et droites paramétrées",
+    "theme": "geometrie-reperage",
+    "reason": "L'exercice est un QCM portant sur la géométrie de l'espace : appartenance à une droite paramétrée, vecteurs, équation de plan. Le titre mentionne le format QCM, l'objet central (droites paramétrées) et le domaine (géométrie dans l'espace), ce qui est discriminant et concret.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-me-21matj2me3page1-exercice-3",
+    "status": "ok",
+    "old_title": "commun à tous les candidats (sur 6 points)",
+    "new_title": "Distance à l'origine et tangente perpendiculaire",
+    "theme": "derivation-convexite",
+    "reason": "L'exercice porte sur la minimisation d'une distance à l'origine sur la courbe de g(x)=e^{-x} et la perpendicularité d'une tangente, ce qui est le cœur discriminant de l'exercice et aide l'élève à l'identifier rapidement.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-me-21matj2me3page1-exercice-a",
+    "status": "ok",
+    "old_title": "Exercice A au choix",
+    "new_title": "Suites couplées, suite auxiliaire géométrique et convergence",
+    "theme": "suites",
+    "reason": "Le titre mentionne les deux suites couplées (objet central), la suite auxiliaire géométrique (méthode clé) et la convergence (objectif final), ce qui est discriminant et informatif pour un élève cherchant cet exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-me-21matj2me3page1-exercice-b",
+    "status": "ok",
+    "old_title": "Exercice B au choix",
+    "new_title": "Variations et équations avec $(\\ln x)^2 - \\ln x$",
+    "theme": "logarithme",
+    "reason": "Le titre identifie l'objet mathématique central (la fonction composée du logarithme au carré) et les deux grandes tâches de l'exercice : étude des variations et résolution d'équations, ce qui est discriminant et concret pour un élève.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-po-21matj2po1page1-exercice-1",
+    "status": "ok",
+    "old_title": "commun à tous les candidats",
+    "new_title": "Suite récurrente et dynamique de population animale",
+    "theme": "suites",
+    "reason": "Le titre mentionne l'objet mathématique central (suite récurrente) et le contexte applicatif (population animale), ce qui est discriminant et concret pour un élève cherchant cet exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-po-21matj2po1page1-exercice-2",
+    "status": "ok",
+    "old_title": "commun à tous les candidats",
+    "new_title": "Test médical, Bayes et seuil binomial",
+    "theme": "bernoulli-binomiale",
+    "reason": "Le titre mentionne le contexte (test médical), la notion clé de probabilités conditionnelles (Bayes) et la conclusion de l'exercice (recherche d'un seuil avec la loi binomiale), ce qui est discriminant et informatif pour un élève.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-po-21matj2po1page1-exercice-3",
+    "status": "ok",
+    "old_title": "commun à tous les candidats",
+    "new_title": "Cube, plan et volume d'une pyramide",
+    "theme": "geometrie-orthogonalite-distances",
+    "reason": "L'exercice porte sur un cube avec repère orthonormé, l'étude d'un plan (vecteur normal, équation cartésienne, projeté orthogonal) et le calcul du volume d'une pyramide. Ces trois éléments sont les plus discriminants et concrets pour aider l'élève à identifier l'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-po-21matj2po1page1-exercice-a",
+    "status": "ok",
+    "old_title": "Exercice A au choix",
+    "new_title": "Équation différentielle et étude de $(x+2)e^{-x}$",
+    "theme": "primitives-equations-differentielles",
+    "reason": "Le titre mentionne les deux axes principaux de l'exercice : la résolution d'une équation différentielle du premier ordre et l'étude complète de la fonction f(x)=(x+2)e^{-x}, ce qui est concret et discriminant pour un élève cherchant à s'entraîner sur ces notions.",
+    "error": ""
+  },
+  {
+    "id": "ex-2021-jour-2-po-21matj2po1page1-exercice-b",
+    "status": "ok",
+    "old_title": "Exercice B au choix",
+    "new_title": "Optimisation du bénéfice avec logarithme et TVI",
+    "theme": "logarithme",
+    "reason": "Le titre mentionne l'objet central (optimisation d'un bénéfice), la notion clé (logarithme) et la méthode mobilisée (TVI), ce qui permet à l'élève d'identifier rapidement le contenu et le niveau de l'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-an-22matj1an1page-exercice-2",
+    "status": "ok",
+    "old_title": "suites",
+    "new_title": "Refroidissement d'un gâteau et suite géométrique",
+    "theme": "suites",
+    "reason": "L'exercice porte sur la modélisation du refroidissement (loi de Newton) via une suite récurrente ramenée à une suite géométrique, avec récurrence, monotonie, convergence, inéquation logarithmique et algorithme Python. Le titre mentionne le contexte concret et l'objet mathématique central.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-g1-22matj1g11page1-exercice-1",
+    "status": "ok",
+    "old_title": "Fonction logarithme",
+    "new_title": "QCM logarithme : convexité, primitives et inéquations",
+    "theme": "logarithme",
+    "reason": "Le titre mentionne le format QCM, le thème central (logarithme) et trois notions clés discriminantes (convexité, primitives, inéquations) pour aider l'élève à identifier rapidement le contenu de l'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-ja-22matj1ja11-exercice-1",
+    "status": "ok",
+    "old_title": "Principaux domaines abord´es :",
+    "new_title": "Roue, jetons et seuil binomial",
+    "theme": "bernoulli-binomiale",
+    "reason": "Le titre évoque le contexte concret (roue, jetons), la loi binomiale et la recherche de seuil, trois éléments clés de l'exercice, en restant court et discriminant.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-ja-22matj1ja11-exercice-2",
+    "status": "ok",
+    "old_title": "Principaux domaines abord´es :",
+    "new_title": "Suite arithmético-géométrique et modèle médicament",
+    "theme": "suites",
+    "reason": "Le titre mentionne l'objet mathématique central (suite arithmético-géométrique) et le contexte applicatif (modèle médicament), ce qui est discriminant et concret pour un élève cherchant à travailler ce type d'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-ja-22matj1ja11-exercice-3",
+    "status": "ok",
+    "old_title": "Principaux domaines abord´es :",
+    "new_title": "Tétraèdre dans un cube et projeté orthogonal",
+    "theme": "geometrie-orthogonalite-distances",
+    "reason": "L'exercice porte sur un cube en repère orthonormé, avec étude d'un triangle, d'un plan, d'un projeté orthogonal, d'une distance point-plan et d'un volume de tétraèdre. Le titre mentionne les deux objets centraux et discriminants.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-ja-22matj1ja11-exercice-4",
+    "status": "ok",
+    "old_title": "Principaux domaines abord´es :",
+    "new_title": "Étude complète de $f(x) = \\ln(x^2+1)$ : parité, convexité, inflexion",
+    "theme": "logarithme",
+    "reason": "Le titre cite la fonction centrale, les trois grandes notions travaillées (parité, convexité, points d'inflexion) et reste dans la limite de mots souhaitée tout en étant discriminant.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-lr-22matj1lr1page-exercice-1",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Forfaits ski, Bayes et loi binomiale",
+    "theme": "bernoulli-binomiale",
+    "reason": "Le titre mentionne le contexte concret (forfaits ski), la méthode clé de la partie A (formule de Bayes) et la notion centrale de la partie B (loi binomiale), ce qui permet à l'élève d'identifier rapidement les compétences travaillées.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-lr-22matj1lr1page-exercice-2",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "QCM suites et logarithme, convexité",
+    "theme": "suites",
+    "reason": "L'exercice est un QCM mêlant suites géométrique/récurrente et étude d'une fonction logarithme (asymptotes, tangente, convexité), ce qui est précis et discriminant pour un élève cherchant ce type d'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-lr-22matj1lr1page-exercice-3",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Suite récurrente et convergence vers un point fixe",
+    "theme": "suites",
+    "reason": "L'exercice porte sur une suite définie par récurrence u_{n+1} = f(u_n), dont on démontre la monotonie, la majoration et la convergence vers un point fixe ℓ = 4, avec étude préalable de f (exponentielle). Le titre mentionne les deux objets centraux : suite récurrente et point fixe.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-lr-22matj1lr1page-exercice-4",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Plans médiateurs, droite intersection et sphère dans l'espace",
+    "theme": "geometrie-reperage",
+    "reason": "Le titre cite les trois objets mathématiques principaux de l'exercice (plan médiateur, droite intersection de deux plans, sphère circonscrite) ce qui le rend discriminant et concret pour un élève cherchant à travailler ces notions de géométrie dans l'espace.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-nc-22matj1nc1page-exercice-1",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Étude complète de $x^2 - 6x + 4\\ln(x)$",
+    "theme": "logarithme",
+    "reason": "Le titre cite explicitement la fonction étudiée, ce qui est discriminant et concret, tout en signalant qu'il s'agit d'une étude complète (limites, variations, convexité, position relative).",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-nc-22matj1nc1page-exercice-2",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Suite récurrente avec $f(x) = x^3 e^x$ et convergence",
+    "theme": "suites",
+    "reason": "Le titre mentionne l'objet central (suite récurrente), la fonction spécifique qui la définit et la notion clé travaillée (convergence), ce qui permet à l'élève de distinguer cet exercice d'autres exercices sur les suites.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-nc-22matj1nc1page-exercice-3",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Maison modélisée par un parallélépipède et un prisme",
+    "theme": "geometrie-reperage",
+    "reason": "Le titre mentionne le contexte concret (maison) et les solides géométriques en jeu, ce qui est discriminant et informatif pour un élève cherchant un exercice de géométrie dans l'espace avec représentations paramétriques et équations de plans.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-nc-22matj1nc1page-exercice-4",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Transmission binaire, Bayes et loi binomiale",
+    "theme": "bernoulli-binomiale",
+    "reason": "Le titre mentionne le contexte applicatif (transmission binaire), la méthode clé de la première partie (formule de Bayes) et l'outil probabiliste de la seconde partie (loi binomiale), ce qui est discriminant et informatif pour un élève cherchant à travailler ces notions.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-1-po-22matj1po1page-exercice-3",
+    "status": "ok",
+    "old_title": "suites",
+    "new_title": "Suite récurrente, convergence et expression explicite",
+    "theme": "suites",
+    "reason": "Le titre mentionne les trois axes principaux de l'exercice : la suite définie par récurrence, l'étude de sa convergence (décroissante minorée) et la recherche d'une expression explicite démontrée par récurrence. C'est concret, discriminant et dans la fourchette de mots souhaitée.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-ja-22matj2ja11-exercice-1",
+    "status": "ok",
+    "old_title": "Principaux domaines abord´es :",
+    "new_title": "Pyramide dans l'espace : plan, projeté et volume",
+    "theme": "geometrie-orthogonalite-distances",
+    "reason": "Le titre mentionne l'objet central (pyramide), les notions clés travaillées (équation de plan, projeté orthogonal, volume) et situe l'exercice dans la géométrie de l'espace, ce qui est discriminant et concret pour un élève.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-ja-22matj2ja11-exercice-2",
+    "status": "ok",
+    "old_title": "Principaux domaines abord´es :",
+    "new_title": "Étude complète de $\\ln(x^2 - x - 6)$ sur un intervalle",
+    "theme": "logarithme",
+    "reason": "Le titre mentionne explicitement la fonction logarithme composée étudiée et le cadre d'étude (intervalle), ce qui est discriminant et informatif pour un élève cherchant un exercice d'analyse complète avec ln.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-ja-22matj2ja11-exercice-3",
+    "status": "ok",
+    "old_title": "Principaux domaines abord´es :",
+    "new_title": "Surbooking aérien et loi binomiale",
+    "theme": "bernoulli-binomiale",
+    "reason": "Le mot-clé 'surbooking' est concret et discriminant, associé à 'loi binomiale' qui est la notion centrale de la partie 2. La partie 1 sur les probabilités conditionnelles est secondaire. Ce titre aide l'élève à identifier immédiatement le contexte applicatif et la notion mathématique principale.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-ja-22matj2ja11-exercice-4",
+    "status": "ok",
+    "old_title": "Principaux domaines abord´es :",
+    "new_title": "Suite récurrente et modèle de croissance bactérienne",
+    "theme": "suites",
+    "reason": "Le titre mentionne l'objet mathématique central (suite récurrente) et le contexte applicatif (bactérie), ce qui est discriminant et concret pour un élève cherchant cet exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-lr-22matj2lr1page-exercice-1",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Probabilités conditionnelles et loi binomiale en entreprise",
+    "theme": "bernoulli-binomiale",
+    "reason": "Le titre mentionne les deux notions centrales de l'exercice (probabilités conditionnelles et loi binomiale) ainsi que le contexte concret (entreprise), ce qui permet à l'élève d'identifier rapidement le contenu et le cadre applicatif.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-lr-22matj2lr1page-exercice-2",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Géométrie dans un cube : plans, droites et tétraèdre",
+    "theme": "geometrie-reperage",
+    "reason": "Le titre mentionne le cadre (cube), les objets principaux (plans, droites) et la notion finale (tétraèdre), ce qui permet à l'élève d'identifier rapidement le contenu de l'exercice sans être trop générique.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-lr-22matj2lr1page-exercice-3",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "QCM suites et convexité, sept questions",
+    "theme": "suites",
+    "reason": "L'exercice est un QCM de 7 questions mêlant convexité/dérivée seconde et propriétés des suites (bornage, monotonie, récurrence, suite géométrique). Le titre mentionne le format QCM, les deux grands thèmes et le nombre de questions pour aider l'élève à identifier rapidement l'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-lr-22matj2lr1page-exercice-4",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Suites entrelacées et zéro de $e^{-x} + \\ln(x)$",
+    "theme": "suites",
+    "reason": "Le titre mentionne l'objet central (suites entrelacées définies par récurrence croisée) et la fonction étudiée en partie A, ce qui est discriminant et concret pour un élève cherchant cet exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-nc-22matj2nc1page-exercice-1",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Tirs au basket, loi binomiale et seuil",
+    "theme": "bernoulli-binomiale",
+    "reason": "Le contexte (tirs au basket) est concret et discriminant, les notions clés (loi binomiale, seuil) sont explicitement mentionnées, le titre fait 6 mots et respecte toutes les contraintes.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-nc-22matj2nc1page-exercice-2",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Étude complète de $x\\ln(x) - x - 2$",
+    "theme": "logarithme",
+    "reason": "Le titre cite explicitement la fonction étudiée, ce qui est discriminant et concret, et couvre l'ensemble des notions abordées (dérivée, convexité, variations, zéro).",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-nc-22matj2nc1page-exercice-3",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "Maison modélisée : pyramide, plans et droites gauches",
+    "theme": "geometrie-reperage",
+    "reason": "Le titre mentionne le contexte concret (maison modélisée), les objets mathématiques principaux (pyramide, plans, droites gauches) et permet à l'élève de distinguer cet exercice d'un exercice de géométrie dans l'espace plus générique.",
+    "error": ""
+  },
+  {
+    "id": "ex-2022-jour-2-nc-22matj2nc1page-exercice-4",
+    "status": "ok",
+    "old_title": "Principaux domaines abordés :",
+    "new_title": "QCM suites et primitives de fonctions composées",
+    "theme": "suites",
+    "reason": "L'exercice est un QCM couvrant suites alternées, arithmético-géométriques, monotonie et primitives de fonctions composées. Le titre mentionne le format QCM, les deux grands thèmes et reste dans la limite de mots souhaitée.",
+    "error": ""
+  },
+  {
+    "id": "ex-2023-jour-1-li-23matj1li1-exercice-1",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Étude de $g(x) = \\ln(x^2) + x - 2$ et position relative",
+    "theme": "logarithme",
+    "reason": "Le titre identifie la fonction centrale de l'exercice et la notion clé de position relative des courbes, ce qui est concret et discriminant pour un élève cherchant à travailler sur le logarithme et ses applications.",
+    "error": ""
+  },
+  {
+    "id": "ex-2023-jour-2-li-23matj2li1-exercice-2",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Suite récurrente et étude de $f(x) = x - \\ln(1+x)$",
+    "theme": "suites",
+    "reason": "Le titre mentionne l'objet central (suite récurrente) et la fonction logarithmique étudiée en partie A, ce qui est discriminant et concret pour un élève cherchant à travailler ce type d'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2024-jour-1-g1-24matj1g111-exercice-1",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Test antidopage, Bayes et valeur prédictive",
+    "theme": "bernoulli-binomiale",
+    "reason": "Le titre mentionne le contexte concret (test antidopage), la méthode clé (formule de Bayes) et la notion centrale (valeur prédictive positive), ce qui permet à l'élève d'identifier immédiatement le contenu de l'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2024-jour-1-ja-24matj1ja1page-exercice-1",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Étude graphique et analytique de $(4x-2)e^{-x+1}$",
+    "theme": "calcul-integral",
+    "reason": "Le titre mentionne les deux approches (graphique et analytique) et la fonction explicite, ce qui est discriminant et concret pour un élève cherchant à travailler sur les dérivées, primitives et intégrales liées à une fonction exponentielle.",
+    "error": ""
+  },
+  {
+    "id": "ex-2024-jour-2-g1-24matj2g111-exercice-4",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Suite récurrente, nombre d'or et convergence",
+    "theme": "suites",
+    "reason": "Le titre mentionne les trois éléments clés de l'exercice : la suite récurrente définie par f(x)=√(x+1), la convergence vers le nombre d'or (point fixe), et le raisonnement par récurrence. C'est concret, discriminant et tient en 6 mots.",
+    "error": ""
+  },
+  {
+    "id": "ex-2024-jour-2-me-24matj2me3page1-exercice-3",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Fonction logistique, convexité et équation différentielle",
+    "theme": "derivation-convexite",
+    "reason": "Le titre cite l'objet central (fonction logistique), la notion clé de l'analyse (convexité) et la partie B (équation différentielle), ce qui est discriminant et informatif en moins de 8 mots.",
+    "error": ""
+  },
+  {
+    "id": "ex-2025-jour-1-g1-25matj1g111-exercice-3",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Point fixe et suite récurrente avec logarithme",
+    "theme": "suites",
+    "reason": "Le titre met en avant les deux notions centrales de l'exercice (point fixe et suite récurrente) ainsi que la fonction logarithme qui caractérise le contexte, permettant à l'élève d'identifier rapidement le contenu mathématique travaillé.",
+    "error": ""
+  },
+  {
+    "id": "ex-2025-jour-1-g1-25matj1g111-exercice-4",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Équation logistique et croissance bactérienne",
+    "theme": "primitives-equations-differentielles",
+    "reason": "Le titre combine l'objet mathématique central (équation logistique) et le contexte applicatif (croissance bactérienne), ce qui est discriminant et concret pour un élève cherchant à travailler ce type d'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2025-jour-1-me-25matj1me3page1-exercice-1",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Équation différentielle et modélisation de la glycémie",
+    "theme": "primitives-equations-differentielles",
+    "reason": "Le titre mentionne l'objet mathématique central (équation différentielle) et le contexte applicatif (glycémie), ce qui est discriminant et concret pour un élève cherchant cet exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2025-jour-2-g1-25matj2g111-exercice-2",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Fonction logistique : dérivée, TVI et valeur moyenne",
+    "theme": "derivation-convexite",
+    "reason": "Le titre mentionne l'objet central (fonction logistique) et les trois grandes méthodes mobilisées (dérivation pour trouver les constantes, TVI pour l'existence d'un zéro, calcul intégral pour la valeur moyenne), ce qui permet à l'élève d'identifier rapidement le contenu de l'exercice.",
+    "error": ""
+  },
+  {
+    "id": "ex-2025-jour-2-ja-25matj2ja11-exercice-2",
+    "status": "ok",
+    "old_title": "Partie A",
+    "new_title": "Suite arithmético-géométrique et théorème des gendarmes",
+    "theme": "suites",
+    "reason": "Le titre identifie les deux notions centrales de l'exercice : la linéarisation d'une suite récurrente via une suite auxiliaire géométrique, et la convergence prouvée par encadrement. Il est concret, discriminant et tient en 7 mots.",
+    "error": ""
+  }
+]

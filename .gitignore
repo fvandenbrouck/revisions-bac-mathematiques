@@ -1,0 +1,50 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+site/data/generated/
+site/data/raw/
+site/data/intermediate/
+site/img/
+
+# Local secrets and environments
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Backups and working copies
+*.bak
+*.bak*
+*.backup
+scripts/*_corrige.py
+scripts/*_corrige_v*.py
+scripts/*.bak*
+
+# Generated logs and dry-run prompts
+site/data/rapports/logs/
+site/data/rapports/dry_run_*.txt
+
+# Temporary / ignored PDFs
+site/pdf_ignored/
+site/pdf_ignored_duplicates/
+
+# Accidental nested site folder
+site/site/
+
+# Generated backup folders
+site/data/generated/invalid_json_backup/
+site/data/generated/exercises_latex_backup/
+site/data/generated/exercises_a_regenerer_apres_segmentation/
+site/data/generated/exercises_a_revoir/
+site/data/generated/exercises_a_revoir_segmentation/
+
+# JSON backups
+site/data/*.bak*
+site/index.html.bak*

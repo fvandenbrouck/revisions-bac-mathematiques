@@ -1,0 +1,1399 @@
+[
+  {
+    "source_id": "2021-jour-1-me-21matj1me2page1",
+    "page_count": 7,
+    "candidates": 7,
+    "selected": 5,
+    "mode": "numbered_plus_choice_ab",
+    "subject_policy": "common_plus_choice_a_b",
+    "candidate_labels": [
+      "Exercice 1, commun à tous les candidats (4 points)",
+      "Exercice 2, commun à tous les candidats (5 points)",
+      "Exercice 3, commun à tous les candidats (6 points)",
+      "EXERCICE au choix du candidat (5 points)",
+      "Le candidat doit traiter un seul des deux exercices A ou B.",
+      "Exercice A",
+      "Exercice B"
+    ],
+    "selected_labels": [
+      "Exercice 1, commun à tous les candidats (4 points)",
+      "Exercice 2, commun à tous les candidats (5 points)",
+      "Exercice 3, commun à tous les candidats (6 points)",
+      "Exercice A",
+      "Exercice B"
+    ]
+  },
+  {
+    "source_id": "2021-jour-2-me-21matj2me3page1",
+    "page_count": 8,
+    "candidates": 8,
+    "selected": 5,
+    "mode": "numbered_plus_choice_ab",
+    "subject_policy": "common_plus_choice_a_b",
+    "candidate_labels": [
+      "Exercice 1, commun à tous les candidats (4 points)",
+      "Exercice 2, commun à tous les candidats (5 points)",
+      "Exercice 3, commun à tous les candidats (sur 6 points)",
+      "EXERCICE au choix du candidat (5 points)",
+      "Le candidat doit traiter un seul des deux exercices A ou B.",
+      "Exercice A",
+      "Exercice B",
+      "Exercice 3"
+    ],
+    "selected_labels": [
+      "Exercice 1, commun à tous les candidats (4 points)",
+      "Exercice 2, commun à tous les candidats (5 points)",
+      "Exercice 3, commun à tous les candidats (sur 6 points)",
+      "Exercice A",
+      "Exercice B"
+    ]
+  },
+  {
+    "source_id": "2021-jour-2-me-21matj2me2page1",
+    "page_count": 6,
+    "candidates": 7,
+    "selected": 5,
+    "mode": "numbered_plus_choice_ab",
+    "subject_policy": "common_plus_choice_a_b",
+    "candidate_labels": [
+      "Exercice 1, commun à tous les candidats (4 points)",
+      "Exercice 2, commun à tous les candidats (6 points)",
+      "Exercice 3, commun à tous les candidats (5 points)",
+      "EXERCICE au choix du candidat (5 points)",
+      "Le candidat doit traiter un seul des deux exercices A ou B.",
+      "Exercice A",
+      "Exercice B"
+    ],
+    "selected_labels": [
+      "Exercice 1, commun à tous les candidats (4 points)",
+      "Exercice 2, commun à tous les candidats (6 points)",
+      "Exercice 3, commun à tous les candidats (5 points)",
+      "Exercice A",
+      "Exercice B"
+    ]
+  },
+  {
+    "source_id": "2021-jour-1-ja-21matj1ja11",
+    "page_count": 6,
+    "candidates": 7,
+    "selected": 5,
+    "mode": "numbered_plus_choice_ab",
+    "subject_policy": "common_plus_choice_a_b",
+    "candidate_labels": [
+      "EXERCICE 1 commun `a tous les candidats (5 points)",
+      "EXERCICE 2 commun `a tous les candidats (5 points)",
+      "EXERCICE 3 commun `a tous les candidats (5 points)",
+      "EXERCICE au choix du candidat (5 points)",
+      "Le candidat doit traiter UN SEUL des deux exercices A ou B.",
+      "EXERCICE - A",
+      "EXERCICE - B"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 commun `a tous les candidats (5 points)",
+      "EXERCICE 2 commun `a tous les candidats (5 points)",
+      "EXERCICE 3 commun `a tous les candidats (5 points)",
+      "EXERCICE - A",
+      "EXERCICE - B"
+    ]
+  },
+  {
+    "source_id": "2021-jour-2-ja-21matj2ja11",
+    "page_count": 8,
+    "candidates": 7,
+    "selected": 5,
+    "mode": "numbered_plus_choice_ab",
+    "subject_policy": "common_plus_choice_a_b",
+    "candidate_labels": [
+      "EXERCICE 1 commun `a tous les candidats (5 points)",
+      "EXERCICE 2 commun `a tous les candidats (5 points)",
+      "EXERCICE 3 commun `a tous les candidats (5 points)",
+      "EXERCICE au choix du candidat (5 points)",
+      "Le candidat doit traiter UN SEUL des deux exercices A ou B.",
+      "EXERCICE - A",
+      "EXERCICE - B"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 commun `a tous les candidats (5 points)",
+      "EXERCICE 2 commun `a tous les candidats (5 points)",
+      "EXERCICE 3 commun `a tous les candidats (5 points)",
+      "EXERCICE - A",
+      "EXERCICE - B"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-as-22matj1as11",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points) [Probabilités]",
+      "EXERCICE 2 (7 points) [Suites]",
+      "EXERCICE 3 (7 points) [Fonctions, fonction logarithme]",
+      "EXERCICE 4 (7 points) [Géométrie dans l'espace]"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points) [Probabilités]",
+      "EXERCICE 2 (7 points) [Suites]",
+      "EXERCICE 3 (7 points) [Fonctions, fonction logarithme]",
+      "EXERCICE 4 (7 points) [Géométrie dans l'espace]"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-g1-22matj1g11page1",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "Exercice 1 (7 points) Thème : Fonction logarithme",
+      "Exercice 2 (7 points) Thème : Géométrie dans l'espace",
+      "Exercice 3 (7 points) Thèmes : Fonction exponentielle et suite",
+      "Exercice 4 (7 points) Thème : Probabilités"
+    ],
+    "selected_labels": [
+      "Exercice 1 (7 points) Thème : Fonction logarithme",
+      "Exercice 2 (7 points) Thème : Géométrie dans l'espace",
+      "Exercice 3 (7 points) Thèmes : Fonction exponentielle et suite",
+      "Exercice 4 (7 points) Thème : Probabilités"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-me-22matj1me3page1",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "Exercice 1 (7 points) Thèmes : fonctions, suites",
+      "Exercice 2 (7 points) Thème : probabilités",
+      "Exercice 3 (7 points) Thèmes : fonctions logarithme et exponentielle, suites",
+      "Exercice 4 (7 points) Thème : géométrie dans l'espace"
+    ],
+    "selected_labels": [
+      "Exercice 1 (7 points) Thèmes : fonctions, suites",
+      "Exercice 2 (7 points) Thème : probabilités",
+      "Exercice 3 (7 points) Thèmes : fonctions logarithme et exponentielle, suites",
+      "Exercice 4 (7 points) Thème : géométrie dans l'espace"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-nc-22matj1nc1page",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ]
+  },
+  {
+    "source_id": "2022-jour-2-as-22matj2as11",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points) [probabilités]",
+      "EXERCICE 2 (7 points) [Fonctions, fonction logarithme]",
+      "EXERCICE 3 (7 points) [Suites]",
+      "EXERCICE 4 (7 points) [Géométrie dans l'espace]"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points) [probabilités]",
+      "EXERCICE 2 (7 points) [Fonctions, fonction logarithme]",
+      "EXERCICE 3 (7 points) [Suites]",
+      "EXERCICE 4 (7 points) [Géométrie dans l'espace]"
+    ]
+  },
+  {
+    "source_id": "2022-jour-2-g1-22matj2g11page1",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "Exercice n°1 (7 points) Thème : Fonction exponentielle",
+      "Exercice 2 (7 points) Thèmes : Fonction logarithme et suite",
+      "Exercice 3 (7 points) Thème : Géométrie dans l'espace",
+      "Exercice 4 (7 points) Thème : Probabilités"
+    ],
+    "selected_labels": [
+      "Exercice n°1 (7 points) Thème : Fonction exponentielle",
+      "Exercice 2 (7 points) Thèmes : Fonction logarithme et suite",
+      "Exercice 3 (7 points) Thème : Géométrie dans l'espace",
+      "Exercice 4 (7 points) Thème : Probabilités"
+    ]
+  },
+  {
+    "source_id": "2022-jour-2-me-22matj2me3page1",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "Exercice 1 (7 points) Thème : probabilités",
+      "Exercice 2 (7 points) Thèmes : suites, fonctions",
+      "Exercice 3 (7 points) Thèmes : fonction logarithme, suites",
+      "Exercice 4 (7 points) Thème : géométrie dans l'espace"
+    ],
+    "selected_labels": [
+      "Exercice 1 (7 points) Thème : probabilités",
+      "Exercice 2 (7 points) Thèmes : suites, fonctions",
+      "Exercice 3 (7 points) Thèmes : fonction logarithme, suites",
+      "Exercice 4 (7 points) Thème : géométrie dans l'espace"
+    ]
+  },
+  {
+    "source_id": "2022-jour-2-nc-22matj2nc1page",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-1-an-23matj1an1page1",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-2-ja-23matj2ja11",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (6 points)",
+      "EXERCICE 3 (4 points)",
+      "EXERCICE 4 (5 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (6 points)",
+      "EXERCICE 3 (4 points)",
+      "EXERCICE 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-1-lr-23matj1lr1page",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-1-nc-23matj1nc1page",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-2-lr-23matj2lr1page",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-2-nc-23matj2nc1page",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-1-ja-24matj1ja1page",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-1-me-24matj1me1page1",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 (4 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (6 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (4 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (6 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-1-me-24matj1me3page1",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 (6 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (4 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (6 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (4 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-1-po-24matj1po1page",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1. (4 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (5 points)",
+      "Exercice 4. (6 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1. (4 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (5 points)",
+      "Exercice 4. (6 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-2-an-24matj2an11",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (4 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (4 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-2-ja-24matj2ja1page",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5,5 points)",
+      "Exercice 2 (5,5 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5,5 points)",
+      "Exercice 2 (5,5 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-2-me-24matj2me2page1",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (4 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (4 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-2-me-24matj2me3page1",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-2-po-24matj2po1page",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1. (4 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (6 points)",
+      "Exercice 4. (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1. (4 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (6 points)",
+      "Exercice 4. (5 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-1-an-24matj1an11",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (4 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (6 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (4 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (6 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-1-an-25matj1an1",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (6 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (6 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-1-g1-25matj1g111",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (6 points)",
+      "Exercice 2 (4 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (4 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (6 points)",
+      "Exercice 2 (4 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (4 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-1-ja-25matj1ja11",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-1-me-25matj1me1page1",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-1-me-25matj1me3page1",
+    "page_count": 9,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 : (5 points)",
+      "Exercice 2 : (5 points)",
+      "Exercice 3 : (6 points)",
+      "Exercice 4 : (4 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 : (5 points)",
+      "Exercice 2 : (5 points)",
+      "Exercice 3 : (6 points)",
+      "Exercice 4 : (4 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-1-nc-25matj1nc1page",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (4 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (4 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-1-po-25matj1po1page",
+    "page_count": 9,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1. (5 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (5 points)",
+      "Exercice 4. (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1. (5 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (5 points)",
+      "Exercice 4. (5 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-1-po-25matj1po3page",
+    "page_count": 8,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1. (5 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (5 points)",
+      "Exercice 4. (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1. (5 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (5 points)",
+      "Exercice 4. (5 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-2-g1-25matj2g111",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (6 point s)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (4 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (6 point s)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (4 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-2-ja-25matj2ja11",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (5 points)",
+      "EXERCICE 2 (5 points)",
+      "EXERCICE 3 (5 points)",
+      "EXERCICE 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-2-me-25matj2me1page1",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (6 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (4 points)",
+      "Exercice 4 (6 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-2-me-25matj2me3page1",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 : (6 points)",
+      "Exercice 2 : (5 points)",
+      "Exercice 3 : (4 points)",
+      "Exercice 4 : (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 : (6 points)",
+      "Exercice 2 : (5 points)",
+      "Exercice 3 : (4 points)",
+      "Exercice 4 : (5 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-2-nc-25matj2nc1page",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (4 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (4 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2025-jour-2-po-25matj2po1page",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1. (5 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (5 points)",
+      "Exercice 4. (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1. (5 points)",
+      "Exercice 2. (5 points)",
+      "Exercice 3. (5 points)",
+      "Exercice 4. (5 points)"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-me-22matj1me1page1",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "Exercice 1 (7 points) Thèmes : fonction exponentielle, suites.",
+      "Exercice 2 (7 points) Thème : géométrie dans l'espace",
+      "Exercice 3 (7 points) Thème : probabilités",
+      "Exercice 4 (7 points) Thème : fonctions numériques"
+    ],
+    "selected_labels": [
+      "Exercice 1 (7 points) Thèmes : fonction exponentielle, suites.",
+      "Exercice 2 (7 points) Thème : géométrie dans l'espace",
+      "Exercice 3 (7 points) Thème : probabilités",
+      "Exercice 4 (7 points) Thème : fonctions numériques"
+    ]
+  },
+  {
+    "source_id": "2022-jour-2-lr-22matj2lr1page",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-lr-22matj1lr1page",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-po-22matj1po1page",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points) Thèmes : fonctions, suites",
+      "EXERCICE 2 (7 points) Thème : probabilités",
+      "EXERCICE 3 (7 points) Thème : suites",
+      "EXERCICE 4 (7 points) Thèmes : géométrie dans le plan et dans l'espace"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points) Thèmes : fonctions, suites",
+      "EXERCICE 2 (7 points) Thème : probabilités",
+      "EXERCICE 3 (7 points) Thème : suites",
+      "EXERCICE 4 (7 points) Thèmes : géométrie dans le plan et dans l'espace"
+    ]
+  },
+  {
+    "source_id": "2022-jour-2-po-22matj2po1page",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points) Thèmes : fonctions, primitives, probabilités",
+      "EXERCICE 2 (7 points) Thème : probabilités",
+      "EXERCICE 3 (7 points) Thèmes : suites, fonctions",
+      "EXERCICE 4 (7 points) Thème : géométrie dans le plan et dans l'espace"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points) Thèmes : fonctions, primitives, probabilités",
+      "EXERCICE 2 (7 points) Thème : probabilités",
+      "EXERCICE 3 (7 points) Thèmes : suites, fonctions",
+      "EXERCICE 4 (7 points) Thème : géométrie dans le plan et dans l'espace"
+    ]
+  },
+  {
+    "source_id": "2022-jour-2-me-22matj2me1page1",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "Exercice 1 (7 points) Thème : probabilités",
+      "Exercice 2 (7 points) Thèmes : fonctions numériques et suites",
+      "Exercice 3 (7 points) Thème : géométrie dans l'espace",
+      "Exercice 4 (7 points) Thèmes : fonctions numériques, fonction exponentielle"
+    ],
+    "selected_labels": [
+      "Exercice 1 (7 points) Thème : probabilités",
+      "Exercice 2 (7 points) Thèmes : fonctions numériques et suites",
+      "Exercice 3 (7 points) Thème : géométrie dans l'espace",
+      "Exercice 4 (7 points) Thèmes : fonctions numériques, fonction exponentielle"
+    ]
+  },
+  {
+    "source_id": "2023-jour-1-g1-23matj1g11page1",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 : QCM (5 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (3 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 : QCM (5 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (3 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-2-g1-23matj2g11page1",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 : QCM (5 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (3 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 : QCM (5 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (6 points)",
+      "Exercice 4 (3 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-1-po-23matj1po1page",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1. (4 points) Thème : probabilités",
+      "Exercice 2. (5 points) Thème : géométrie dans l'espace",
+      "Exercice 3. (5 points) Thème : fonction exponentielle, algorithmique",
+      "Exercice 4. (6 points) Thèmes : suites, fonctions"
+    ],
+    "selected_labels": [
+      "Exercice 1. (4 points) Thème : probabilités",
+      "Exercice 2. (5 points) Thème : géométrie dans l'espace",
+      "Exercice 3. (5 points) Thème : fonction exponentielle, algorithmique",
+      "Exercice 4. (6 points) Thèmes : suites, fonctions"
+    ]
+  },
+  {
+    "source_id": "2023-jour-2-po-23matj2po1page",
+    "page_count": 7,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1. (5 points) Thèmes : probabilités, suites",
+      "Exercice 2. (5 points) Thème : Géométrie dans l'espace",
+      "Exercice 3 (5 points) Thème : étude de fonctions",
+      "Exercice 4. (5 points) Thème : suites, fonction logarithme, algorithmique"
+    ],
+    "selected_labels": [
+      "Exercice 1. (5 points) Thèmes : probabilités, suites",
+      "Exercice 2. (5 points) Thème : Géométrie dans l'espace",
+      "Exercice 3 (5 points) Thème : étude de fonctions",
+      "Exercice 4. (5 points) Thème : suites, fonction logarithme, algorithmique"
+    ]
+  },
+  {
+    "source_id": "2023-jour-1-me-23matj1me1page1",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-2-me-23matj2me1page1",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "all_4_exercises",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-1-li-23matj1li1",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2023-jour-2-li-23matj2li1",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-ja-22matj1ja11",
+    "page_count": 10,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ]
+  },
+  {
+    "source_id": "2022-jour-2-ja-22matj2ja11",
+    "page_count": 8,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points)",
+      "EXERCICE 2 (7 points)",
+      "EXERCICE 3 (7 points)",
+      "EXERCICE 4 (7 points)"
+    ]
+  },
+  {
+    "source_id": "2021-jour-2-po-21matj2po1page1",
+    "page_count": 9,
+    "candidates": 7,
+    "selected": 5,
+    "mode": "numbered_plus_choice_ab",
+    "subject_policy": "common_plus_choice_a_b",
+    "candidate_labels": [
+      "EXERCICE 1 commun à tous les candidats (5 points)",
+      "EXERCICE 2 commun à tous les candidats (5 points)",
+      "EXERCICE 3 commun à tous les candidats (5 points)",
+      "EXERCICE au choix du candidat (5 points)",
+      "Le candidat doit traiter un seul des deux exercices A ou B.",
+      "EXERCICE - A",
+      "EXERCICE - B"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 commun à tous les candidats (5 points)",
+      "EXERCICE 2 commun à tous les candidats (5 points)",
+      "EXERCICE 3 commun à tous les candidats (5 points)",
+      "EXERCICE - A",
+      "EXERCICE - B"
+    ]
+  },
+  {
+    "source_id": "2021-jour-1-an-21matj1an1page",
+    "page_count": 6,
+    "candidates": 7,
+    "selected": 5,
+    "mode": "numbered_plus_choice_ab",
+    "subject_policy": "common_plus_choice_a_b",
+    "candidate_labels": [
+      "Exercice 1 commun à tous les candidats (5 points)",
+      "Exercice 2 commun à tous les candidats (5 points)",
+      "Exercice 3 commun à tous les candidats (5 points)",
+      "Exercice au choix du candidat (5 points)",
+      "Le candidat doit traiter un seul des deux exercices A ou B.",
+      "Exercice A",
+      "Exercice B"
+    ],
+    "selected_labels": [
+      "Exercice 1 commun à tous les candidats (5 points)",
+      "Exercice 2 commun à tous les candidats (5 points)",
+      "Exercice 3 commun à tous les candidats (5 points)",
+      "Exercice A",
+      "Exercice B"
+    ]
+  },
+  {
+    "source_id": "2021-jour-1-g1-21matj1g11page1",
+    "page_count": 9,
+    "candidates": 7,
+    "selected": 5,
+    "mode": "numbered_plus_choice_ab",
+    "subject_policy": "common_plus_choice_a_b",
+    "candidate_labels": [
+      "EXERCICE 1 commun à tous les candidats (5 points)",
+      "EXERCICE 2 commun à tous les candidats (5 points)",
+      "EXERCICE 3 commun à tous les candidats (5 points)",
+      "EXERCICE au choix du candidat (5 points)",
+      "Le candidat doit traiter un seul des deux exercices A ou B",
+      "EXERCICE A - Géométrie dans l'espace",
+      "EXERCICE B - Équations différentielles"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 commun à tous les candidats (5 points)",
+      "EXERCICE 2 commun à tous les candidats (5 points)",
+      "EXERCICE 3 commun à tous les candidats (5 points)",
+      "EXERCICE A - Géométrie dans l'espace",
+      "EXERCICE B - Équations différentielles"
+    ]
+  },
+  {
+    "source_id": "2021-jour-2-g1-21matj2g11page1",
+    "page_count": 9,
+    "candidates": 7,
+    "selected": 5,
+    "mode": "numbered_plus_choice_ab",
+    "subject_policy": "common_plus_choice_a_b",
+    "candidate_labels": [
+      "EXERCICE 1 commun à tous les candidats (5 points)",
+      "EXERCICE 2 commun à tous les candidats (5 points)",
+      "EXERCICE 3 commun à tous les candidats (5 points)",
+      "EXERCICE au choix du candidat (5 points)",
+      "Le candidat doit traiter un seul des deux exercices A ou B",
+      "EXERCICE A - Fonction 𝐥𝐧",
+      "EXERCICE B - Équation différentielle"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 commun à tous les candidats (5 points)",
+      "EXERCICE 2 commun à tous les candidats (5 points)",
+      "EXERCICE 3 commun à tous les candidats (5 points)",
+      "EXERCICE A - Fonction 𝐥𝐧",
+      "EXERCICE B - Équation différentielle"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-po-22matj1po3page",
+    "page_count": 9,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points) Thème : probabilités",
+      "EXERCICE 2 (7 points) Thème : suites, fonctions",
+      "EXERCICE 3 (7 points) Thème : fonctions",
+      "EXERCICE 4 (7 points) Thème : géométrie dans le plan et dans l'espace"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points) Thème : probabilités",
+      "EXERCICE 2 (7 points) Thème : suites, fonctions",
+      "EXERCICE 3 (7 points) Thème : fonctions",
+      "EXERCICE 4 (7 points) Thème : géométrie dans le plan et dans l'espace"
+    ]
+  },
+  {
+    "source_id": "2022-jour-1-an-22matj1an1page",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "EXERCICE 1 (7 points) Thème : probabilités",
+      "EXERCICE 2 (7 points) Thème : suites",
+      "EXERCICE 3 (7 points) Thème : géométrie dans l'espace",
+      "EXERCICE 4 (7 points) Thème : fonction exponentielle"
+    ],
+    "selected_labels": [
+      "EXERCICE 1 (7 points) Thème : probabilités",
+      "EXERCICE 2 (7 points) Thème : suites",
+      "EXERCICE 3 (7 points) Thème : géométrie dans l'espace",
+      "EXERCICE 4 (7 points) Thème : fonction exponentielle"
+    ]
+  },
+  {
+    "source_id": "2022-jour-2-an-22matj2an1page",
+    "page_count": 8,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "choice_3_of_4",
+    "candidate_labels": [
+      "Exercice 1 (7 points) Thèmes : probabilités, suites",
+      "Exercice 2 (7 points) Thèmes : fonctions, fonction exponentielle",
+      "Exercice 3 (7 points) Thème : géométrie dans l'espace",
+      "Exercice 4 (7 points) Thèmes : fonction logarithme népérien, probabilités"
+    ],
+    "selected_labels": [
+      "Exercice 1 (7 points) Thèmes : probabilités, suites",
+      "Exercice 2 (7 points) Thèmes : fonctions, fonction exponentielle",
+      "Exercice 3 (7 points) Thème : géométrie dans l'espace",
+      "Exercice 4 (7 points) Thèmes : fonction logarithme népérien, probabilités"
+    ]
+  },
+  {
+    "source_id": "2024-jour-1-g1-24matj1g111",
+    "page_count": 6,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (5 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (5 points)"
+    ]
+  },
+  {
+    "source_id": "2024-jour-2-g1-24matj2g111",
+    "page_count": 5,
+    "candidates": 4,
+    "selected": 4,
+    "mode": "numbered_4",
+    "subject_policy": "unknown",
+    "candidate_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (4 points)"
+    ],
+    "selected_labels": [
+      "Exercice 1 (5 points)",
+      "Exercice 2 (6 points)",
+      "Exercice 3 (5 points)",
+      "Exercice 4 (4 points)"
+    ]
+  }
+]

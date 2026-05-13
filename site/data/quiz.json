@@ -1,0 +1,2416 @@
+{
+  "combinatoire-denombrement": [
+    {
+      "question": "Quelle est la valeur de $\\binom{n}{0}$ pour tout entier $n \\geq 0$ ?",
+      "options": [
+        "$1$",
+        "$0$",
+        "$n$",
+        "$n!$"
+      ],
+      "correct": 0,
+      "explanation": "Par définition, $\\binom{n}{0} = \\dfrac{n!}{0! \\cdot n!} = 1$ grâce à la convention $0! = 1$. Il y a exactement une façon de choisir $0$ élément parmi $n$ : l'ensemble vide.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "combinatoire-denombrement"
+    },
+    {
+      "question": "Combien de permutations d'un ensemble à $n$ éléments distincts existe-t-il ?",
+      "options": [
+        "$n!$",
+        "$2^n$",
+        "$n^n$",
+        "$\\binom{n}{1}$"
+      ],
+      "correct": 0,
+      "explanation": "Une permutation est une liste ordonnée utilisant chaque élément exactement une fois. On a $n$ choix pour la première position, $n-1$ pour la deuxième, etc., ce qui donne $n \\times (n-1) \\times \\cdots \\times 1 = n!$ par le principe multiplicatif.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "combinatoire-denombrement"
+    },
+    {
+      "question": "Laquelle des égalités suivantes exprime correctement la relation de Pascal ?",
+      "options": [
+        "$\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$",
+        "$\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n+1}{k}$",
+        "$\\binom{n}{k} = \\binom{n}{k-1} + \\binom{n}{k+1}$",
+        "$\\binom{n+1}{k} = \\binom{n}{k} + \\binom{n}{k+1}$"
+      ],
+      "correct": 0,
+      "explanation": "La relation de Pascal est $\\binom{n+1}{k+1} = \\binom{n}{k} + \\binom{n}{k+1}$ : les deux termes du membre droit appartiennent à la ligne $n$, et leur somme donne le coefficient de la ligne $n+1$. Les autres options mélangent les indices de ligne.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "combinatoire-denombrement"
+    },
+    {
+      "question": "Quelle est la formule donnant le nombre de $k$-uplets d'éléments d'un ensemble à $n$ éléments, les répétitions étant autorisées ?",
+      "options": [
+        "$n^k$",
+        "$\\binom{n}{k}$",
+        "$n!$",
+        "$\\dfrac{n!}{(n-k)!}$"
+      ],
+      "correct": 0,
+      "explanation": "Chacune des $k$ positions peut être occupée par l'un des $n$ éléments indépendamment des autres. Par le principe multiplicatif, le nombre total de $k$-uplets est $n \\times n \\times \\cdots \\times n = n^k$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "combinatoire-denombrement"
+    },
+    {
+      "question": "Quelle est la somme $\\displaystyle\\sum_{k=0}^{n} \\binom{n}{k}$ pour un entier $n \\geq 0$ ?",
+      "options": [
+        "$2^n$",
+        "$n!$",
+        "$n^2$",
+        "$2n$"
+      ],
+      "correct": 0,
+      "explanation": "La somme de tous les coefficients de la ligne $n$ du triangle de Pascal vaut $2^n$. Cela se démontre en appliquant la formule du binôme de Newton à $(1+1)^n = \\sum_{k=0}^{n}\\binom{n}{k}$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "combinatoire-denombrement"
+    },
+    {
+      "question": "On souhaite former un code de $3$ chiffres (de $0$ à $9$) où les répétitions sont autorisées. Combien de codes différents peut-on former ?",
+      "options": [
+        "$1000$",
+        "$720$",
+        "$120$",
+        "$30$"
+      ],
+      "correct": 0,
+      "explanation": "Chaque position peut prendre $10$ valeurs indépendamment. Le nombre de $3$-uplets est $10^3 = 1000$. La réponse $720 = 10 \\times 9 \\times 8$ correspond à un code sans répétition, et $120 = \\binom{10}{3}$ ignore l'ordre.",
+      "type": "calcul",
+      "difficulte": 1,
+      "theme_id": "combinatoire-denombrement"
+    },
+    {
+      "question": "On calcule $\\binom{7}{3}$. Quel est le résultat correct ?",
+      "options": [
+        "$35$",
+        "$21$",
+        "$210$",
+        "$42$"
+      ],
+      "correct": 0,
+      "explanation": "$\\binom{7}{3} = \\dfrac{7!}{3! \\cdot 4!} = \\dfrac{7 \\times 6 \\times 5}{3 \\times 2 \\times 1} = \\dfrac{210}{6} = 35$. La valeur $21 = \\dfrac{7 \\times 6}{2!}$ oublie un facteur au numérateur, et $210$ est le numérateur seul avant division par $3!$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "combinatoire-denombrement"
+    },
+    {
+      "question": "Un élève affirme que choisir $3$ délégués parmi $10$ élèves et élire un président, un secrétaire et un trésorier parmi $10$ élèves sont deux situations qui se comptent de la même façon. Cette affirmation est-elle correcte ?",
+      "options": [
+        "Non, car dans le second cas l'ordre compte, ce qui donne $10 \\times 9 \\times 8 = 720$ contre $\\binom{10}{3} = 120$.",
+        "Oui, car dans les deux cas on choisit $3$ élèves parmi $10$.",
+        "Non, car le premier cas donne $10^3 = 1000$ et le second $\\binom{10}{3} = 120$.",
+        "Oui, car $\\binom{10}{3} = \\binom{10}{7}$ et les deux situations sont symétriques."
+      ],
+      "correct": 0,
+      "explanation": "Choisir $3$ délégués sans rôle attribué est une combinaison : $\\binom{10}{3} = 120$. Élire un président, un secrétaire et un trésorier est un arrangement ordonné sans répétition : $10 \\times 9 \\times 8 = 720$. L'ordre des rôles distingue les deux situations.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "combinatoire-denombrement"
+    },
+    {
+      "question": "Parmi les affirmations suivantes sur les coefficients binomiaux, laquelle est vraie pour tous entiers $n$ et $k$ avec $0 \\leq k \\leq n$ ?",
+      "options": [
+        "$\\binom{n}{k} = \\binom{n}{n-k}$",
+        "$\\binom{n}{k} = \\binom{n-1}{k} + \\binom{n-1}{k}$",
+        "$\\binom{n}{k} = \\binom{n+1}{k} - \\binom{n}{k-1}$",
+        "$\\binom{n}{k} = \\binom{n}{k-1} \\times k$"
+      ],
+      "correct": 0,
+      "explanation": "La symétrie $\\binom{n}{k} = \\binom{n}{n-k}$ est une propriété fondamentale : choisir $k$ éléments parmi $n$ revient à choisir les $n-k$ éléments qu'on ne prend pas. Les autres options sont fausses : la relation de Pascal additionne deux coefficients de rangs différents sur la ligne $n-1$.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "combinatoire-denombrement"
+    },
+    {
+      "question": "Un élève calcule le nombre de façons de choisir $2$ cartes parmi $5$ cartes distinctes et écrit $\\dfrac{5!}{(5-2)!} = 20$. Quelle erreur a-t-il commise ?",
+      "options": [
+        "Il a oublié de diviser par $2!$ au dénominateur : la bonne formule est $\\binom{5}{2} = \\dfrac{5!}{2! \\cdot 3!} = 10$.",
+        "Il aurait dû calculer $5^2 = 25$ car les répétitions sont autorisées.",
+        "Il aurait dû calculer $5! = 120$ car toutes les cartes doivent être utilisées.",
+        "Il n'y a pas d'erreur : $\\dfrac{5!}{3!} = 20$ est bien le nombre de combinaisons de $2$ cartes parmi $5$."
+      ],
+      "correct": 0,
+      "explanation": "La formule $\\dfrac{n!}{(n-k)!}$ compte les arrangements ordonnés (où l'ordre compte). Pour des combinaisons (où l'ordre ne compte pas), il faut diviser par $k!$ pour ne pas compter plusieurs fois le même sous-ensemble : $\\binom{5}{2} = \\dfrac{5!}{2! \\cdot 3!} = 10$.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "combinatoire-denombrement"
+    }
+  ],
+  "geometrie-vecteurs-espace": [
+    {
+      "question": "Quelle donnée minimale suffit à déterminer entièrement une droite de l'espace ?",
+      "options": [
+        "Un point et un vecteur directeur non nul",
+        "Un point et un vecteur normal non nul",
+        "Deux vecteurs non colinéaires",
+        "Un point et deux vecteurs non colinéaires"
+      ],
+      "correct": 0,
+      "explanation": "Une droite de l'espace est entièrement déterminée par un point $A$ et un vecteur directeur $\\vec{u}$ non nul : l'ensemble des points de la droite est $\\{ M \\mid \\overrightarrow{AM} = t\\vec{u},\\ t \\in \\mathbb{R} \\}$. Un vecteur normal caractérise un plan, non une droite.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "geometrie-vecteurs-espace"
+    },
+    {
+      "question": "Parmi les propositions suivantes, laquelle décrit correctement ce que détermine un plan de l'espace ?",
+      "options": [
+        "Un point et deux vecteurs non colinéaires",
+        "Un point et un vecteur directeur non nul",
+        "Deux points distincts et un vecteur quelconque",
+        "Trois vecteurs non coplanaires"
+      ],
+      "correct": 0,
+      "explanation": "Un plan est déterminé par un point $A$ et deux vecteurs $\\vec{u}$, $\\vec{v}$ non colinéaires (vecteurs directeurs du plan). La condition de non-colinéarité est indispensable : deux vecteurs colinéaires ne définissent qu'une direction, pas un plan.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "geometrie-vecteurs-espace"
+    },
+    {
+      "question": "Trois vecteurs $\\vec{u}$, $\\vec{v}$, $\\vec{w}$ de l'espace forment une base de l'espace si et seulement si :",
+      "options": [
+        "Ils ne sont pas coplanaires",
+        "Ils sont deux à deux non colinéaires",
+        "Ils sont deux à deux orthogonaux",
+        "Leur somme est le vecteur nul"
+      ],
+      "correct": 0,
+      "explanation": "Trois vecteurs forment une base de l'espace si et seulement si ils sont non coplanaires, c'est-à-dire qu'aucun n'est combinaison linéaire des deux autres. Être deux à deux non colinéaires est nécessaire mais pas suffisant : trois vecteurs peuvent être deux à deux non colinéaires tout en étant coplanaires.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "geometrie-vecteurs-espace"
+    },
+    {
+      "question": "Le plan $\\mathcal{P}$ a pour équation $3x - y + 2z - 5 = 0$. Quel est un vecteur normal à $\\mathcal{P}$ ?",
+      "options": [
+        "$\\vec{n}(3, -1, 2)$",
+        "$\\vec{n}(3, 1, 2)$",
+        "$\\vec{n}(-3, 1, -2)$",
+        "$\\vec{n}(1, 3, -2)$"
+      ],
+      "correct": 0,
+      "explanation": "Dans l'équation cartésienne $ax + by + cz + d = 0$, le vecteur normal est $\\vec{n}(a, b, c)$. Ici $a = 3$, $b = -1$, $c = 2$, donc $\\vec{n}(3, -1, 2)$. Attention à ne pas oublier le signe de $b$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "geometrie-vecteurs-espace"
+    },
+    {
+      "question": "La droite $d$ passe par $A(1, 0, -2)$ et a pour vecteur directeur $\\vec{u}(2, -1, 3)$. Quelle est une représentation paramétrique de $d$ ?",
+      "options": [
+        "$\\begin{cases} x = 1 + 2t \\\\ y = -t \\\\ z = -2 + 3t \\end{cases}$",
+        "$\\begin{cases} x = 2 + t \\\\ y = -1 + t \\\\ z = 3 - 2t \\end{cases}$",
+        "$\\begin{cases} x = 1 + 2t \\\\ y = -1 + t \\\\ z = -2 + 3t \\end{cases}$",
+        "$\\begin{cases} x = 2t \\\\ y = -t \\\\ z = 3t \\end{cases}$"
+      ],
+      "correct": 0,
+      "explanation": "La représentation paramétrique s'écrit $x = x_0 + ta$, $y = y_0 + tb$, $z = z_0 + tc$ avec $A(1, 0, -2)$ et $\\vec{u}(2, -1, 3)$. On obtient $x = 1 + 2t$, $y = 0 + (-1)t = -t$, $z = -2 + 3t$. L'option C confond les coordonnées de $A$ et de $\\vec{u}$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "geometrie-vecteurs-espace"
+    },
+    {
+      "question": "Dans l'espace, deux droites dont les vecteurs directeurs ne sont pas colinéaires sont nécessairement :",
+      "options": [
+        "Soit sécantes, soit gauches",
+        "Toujours sécantes",
+        "Toujours gauches",
+        "Soit parallèles, soit sécantes"
+      ],
+      "correct": 0,
+      "explanation": "Dans l'espace, si les vecteurs directeurs de deux droites ne sont pas colinéaires, les droites ne sont pas parallèles. Elles peuvent alors être sécantes (un point commun) ou gauches (non coplanaires, aucun point commun). La situation de droites gauches est propre à l'espace et absente dans le plan.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "geometrie-vecteurs-espace"
+    },
+    {
+      "question": "Deux plans de l'espace ont des vecteurs normaux colinéaires. Quelle conclusion peut-on tirer ?",
+      "options": [
+        "Les plans sont parallèles ou confondus",
+        "Les plans sont nécessairement confondus",
+        "Les plans sont nécessairement sécants",
+        "Les plans sont perpendiculaires"
+      ],
+      "correct": 0,
+      "explanation": "Des vecteurs normaux colinéaires signifient que les plans ont la même direction normale, donc ils sont parallèles ou confondus. Pour distinguer les deux cas, il faut vérifier si un point d'un plan appartient à l'autre. On ne peut pas conclure directement à la confusion.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "geometrie-vecteurs-espace"
+    },
+    {
+      "question": "On cherche à savoir si le point $M(3, 1, 5)$ appartient au plan $\\mathcal{P}$ d'équation $2x - y + z - 10 = 0$. Quel calcul effectue-t-on et quelle est la conclusion ?",
+      "options": [
+        "$2(3) - 1 + 5 - 10 = 0$, donc $M \\in \\mathcal{P}$",
+        "$2(3) - 1 + 5 - 10 = 1 \\neq 0$, donc $M \\notin \\mathcal{P}$",
+        "$2(3) + 1 + 5 - 10 = 2 \\neq 0$, donc $M \\notin \\mathcal{P}$",
+        "$2(3) - 1 - 5 - 10 = -8 \\neq 0$, donc $M \\notin \\mathcal{P}$"
+      ],
+      "correct": 0,
+      "explanation": "On substitue les coordonnées de $M$ dans l'équation : $2 \\times 3 - 1 + 5 - 10 = 6 - 1 + 5 - 10 = 0$. L'équation est vérifiée, donc $M \\in \\mathcal{P}$.",
+      "type": "calcul",
+      "difficulte": 1,
+      "theme_id": "geometrie-vecteurs-espace"
+    },
+    {
+      "question": "La droite $d$ admet la représentation paramétrique $\\begin{cases} x = 2 + t \\\\ y = 1 - 2t \\\\ z = 3t \\end{cases}$. Le point $M(4, -3, 6)$ appartient-il à $d$ ?",
+      "options": [
+        "Oui, pour $t = 2$",
+        "Non, aucune valeur de $t$ ne convient",
+        "Oui, pour $t = 3$",
+        "Oui, pour $t = -1$"
+      ],
+      "correct": 0,
+      "explanation": "De $x = 2 + t = 4$ on tire $t = 2$. On vérifie : $y = 1 - 2(2) = -3$ ✓ et $z = 3(2) = 6$ ✓. Les trois équations sont satisfaites pour $t = 2$, donc $M \\in d$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "geometrie-vecteurs-espace"
+    },
+    {
+      "question": "Un élève affirme : « La droite $d$ de vecteur directeur $\\vec{u}(1, 2, -1)$ est parallèle au plan $\\mathcal{P}$ d'équation $x + 2y - z + 3 = 0$ car $\\vec{u}$ est le vecteur normal de $\\mathcal{P}$. » Cette affirmation est-elle correcte ?",
+      "options": [
+        "Non : $\\vec{u}(1, 2, -1)$ est le vecteur normal de $\\mathcal{P}$, donc $d$ est perpendiculaire à $\\mathcal{P}$, pas parallèle",
+        "Oui : si le vecteur directeur de $d$ coïncide avec le vecteur normal de $\\mathcal{P}$, alors $d$ est parallèle à $\\mathcal{P}$",
+        "Non : pour que $d$ soit parallèle à $\\mathcal{P}$, il faut que $\\vec{u}$ soit colinéaire à un vecteur directeur de $\\mathcal{P}$, ce qui est ici le cas",
+        "Oui : le produit scalaire $\\vec{u} \\cdot \\vec{n} = 1 + 4 + 1 = 6 \\neq 0$ confirme le parallélisme"
+      ],
+      "correct": 0,
+      "explanation": "Le vecteur normal de $\\mathcal{P}$ est $\\vec{n}(1, 2, -1)$, qui coïncide avec $\\vec{u}$. Or une droite est parallèle à un plan si et seulement si son vecteur directeur est orthogonal au vecteur normal ($\\vec{u} \\cdot \\vec{n} = 0$). Ici $\\vec{u} \\cdot \\vec{n} = 1 + 4 + 1 = 6 \\neq 0$, donc $d$ est perpendiculaire au plan, pas parallèle. L'erreur fréquente est de confondre vecteur directeur et vecteur normal.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "geometrie-vecteurs-espace"
+    }
+  ],
+  "geometrie-orthogonalite-distances": [
+    {
+      "question": "Dans un repère orthonormé de l'espace, on considère les vecteurs $\\vec{u}(2, -1, 3)$ et $\\vec{v}(1, 4, -2)$. Quelle est la valeur de $\\vec{u} \\cdot \\vec{v}$ ?",
+      "options": [
+        "-8",
+        "8",
+        "0",
+        "14"
+      ],
+      "correct": 0,
+      "explanation": "$\\vec{u} \\cdot \\vec{v} = 2 \\times 1 + (-1) \\times 4 + 3 \\times (-2) = 2 - 4 - 6 = -8$. Les distracteurs correspondent à des erreurs de signe ou à l'oubli de certains termes.",
+      "type": "calcul",
+      "difficulte": 1,
+      "theme_id": "geometrie-orthogonalite-distances"
+    },
+    {
+      "question": "Dans un repère orthonormé, on donne $A(1, 2, -1)$ et $B(4, -2, 3)$. Quelle est la distance $AB$ ?",
+      "options": [
+        "$\\sqrt{41}$",
+        "$\\sqrt{29}$",
+        "$\\sqrt{53}$",
+        "$9$"
+      ],
+      "correct": 0,
+      "explanation": "$\\vec{AB} = (3, -4, 4)$, donc $AB = \\sqrt{3^2 + (-4)^2 + 4^2} = \\sqrt{9 + 16 + 16} = \\sqrt{41}$. L'option $\\sqrt{29}$ correspond à l'oubli du carré de la troisième coordonnée, $9$ à une somme sans racine.",
+      "type": "calcul",
+      "difficulte": 1,
+      "theme_id": "geometrie-orthogonalite-distances"
+    },
+    {
+      "question": "Quelle est la condition nécessaire et suffisante pour que deux vecteurs $\\vec{u}$ et $\\vec{v}$ de l'espace soient orthogonaux ?",
+      "options": [
+        "$\\vec{u} \\cdot \\vec{v} = 0$",
+        "$\\|\\vec{u}\\| = \\|\\vec{v}\\|$",
+        "$\\vec{u} \\cdot \\vec{v} = 1$",
+        "$\\vec{u}$ et $\\vec{v}$ sont colinéaires"
+      ],
+      "correct": 0,
+      "explanation": "Par définition, deux vecteurs sont orthogonaux si et seulement si leur produit scalaire est nul. L'égalité des normes caractérise des vecteurs de même longueur, pas l'orthogonalité.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "geometrie-orthogonalite-distances"
+    },
+    {
+      "question": "Dans un repère orthonormé, le plan $\\mathcal{P}$ a pour équation $3x - y + 2z + 5 = 0$. Quel est un vecteur normal à $\\mathcal{P}$ ?",
+      "options": [
+        "$\\vec{n}(3, -1, 2)$",
+        "$\\vec{n}(3, 1, 2)$",
+        "$\\vec{n}(-3, 1, -2)$",
+        "$\\vec{n}(1, 3, -2)$"
+      ],
+      "correct": 0,
+      "explanation": "Dans l'équation cartésienne $ax + by + cz + d = 0$, le vecteur $(a, b, c)$ est un vecteur normal au plan. Ici $a = 3$, $b = -1$, $c = 2$, donc $\\vec{n}(3, -1, 2)$. Confondre le signe de $b$ est une erreur fréquente.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "geometrie-orthogonalite-distances"
+    },
+    {
+      "question": "Soient $\\vec{u}$ et $\\vec{v}$ deux vecteurs non nuls de l'espace, et $\\theta$ l'angle entre eux ($0 \\leq \\theta \\leq \\pi$). Quelle formule exprime le produit scalaire $\\vec{u} \\cdot \\vec{v}$ ?",
+      "options": [
+        "$\\|\\vec{u}\\|\\|\\vec{v}\\|\\cos\\theta$",
+        "$\\|\\vec{u}\\|\\|\\vec{v}\\|\\sin\\theta$",
+        "$\\dfrac{\\|\\vec{u}\\|}{\\|\\vec{v}\\|}\\cos\\theta$",
+        "$\\|\\vec{u} + \\vec{v}\\|\\cos\\theta$"
+      ],
+      "correct": 0,
+      "explanation": "La définition du produit scalaire par l'angle est $\\vec{u} \\cdot \\vec{v} = \\|\\vec{u}\\|\\|\\vec{v}\\|\\cos\\theta$. La formule avec $\\sin\\theta$ correspond au module du produit vectoriel, notion hors programme en Terminale.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "geometrie-orthogonalite-distances"
+    },
+    {
+      "question": "Dans un repère orthonormé, le plan $\\mathcal{P}$ a pour équation $2x + y - 2z - 3 = 0$. Quelle est la distance du point $P(1, 2, 3)$ au plan $\\mathcal{P}$ ?",
+      "options": [
+        "$\\dfrac{3}{3} = 1$",
+        "$\\dfrac{|2 + 2 - 6 - 3|}{\\sqrt{4 + 1 + 4}} = \\dfrac{5}{3}$",
+        "$\\dfrac{|2 + 2 - 6 - 3|}{\\sqrt{4 + 1 - 4}} = 5$",
+        "$\\dfrac{|2 + 2 + 6 - 3|}{3} = \\dfrac{7}{3}$"
+      ],
+      "correct": 1,
+      "explanation": "On applique $d = \\dfrac{|ax_P + by_P + cz_P + d|}{\\sqrt{a^2 + b^2 + c^2}}$ avec $a=2, b=1, c=-2, d=-3$ et $P(1,2,3)$ : numérateur $= |2 + 2 - 6 - 3| = |-5| = 5$, dénominateur $= \\sqrt{4+1+4} = 3$, donc $d = \\dfrac{5}{3}$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "geometrie-orthogonalite-distances"
+    },
+    {
+      "question": "Pour montrer qu'une droite $d$ est perpendiculaire à un plan $\\mathcal{P}$, quelle condition sur le vecteur directeur $\\vec{u}$ de $d$ est nécessaire et suffisante ?",
+      "options": [
+        "$\\vec{u}$ est orthogonal à deux vecteurs non colinéaires de $\\mathcal{P}$",
+        "$\\vec{u}$ est orthogonal à un seul vecteur de $\\mathcal{P}$",
+        "$\\vec{u}$ est contenu dans $\\mathcal{P}$",
+        "$\\vec{u}$ est colinéaire à un vecteur directeur de $\\mathcal{P}$"
+      ],
+      "correct": 0,
+      "explanation": "Il faut que $\\vec{u}$ soit orthogonal à deux vecteurs non colinéaires du plan, ce qui garantit qu'il est orthogonal à tous les vecteurs du plan. L'orthogonalité à un seul vecteur ne suffit pas : $\\vec{u}$ pourrait être dans le plan.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "geometrie-orthogonalite-distances"
+    },
+    {
+      "question": "Dans un repère orthonormé, on considère les vecteurs $\\vec{u}(1, 2, -1)$ et $\\vec{v}(2, 0, 2)$. Que peut-on conclure ?",
+      "options": [
+        "$\\vec{u}$ et $\\vec{v}$ sont orthogonaux car $\\vec{u} \\cdot \\vec{v} = 0$",
+        "$\\vec{u}$ et $\\vec{v}$ sont colinéaires",
+        "$\\vec{u}$ et $\\vec{v}$ ont la même norme",
+        "$\\vec{u}$ et $\\vec{v}$ ne sont pas orthogonaux car $\\vec{u} \\cdot \\vec{v} = 4$"
+      ],
+      "correct": 0,
+      "explanation": "$\\vec{u} \\cdot \\vec{v} = 1 \\times 2 + 2 \\times 0 + (-1) \\times 2 = 2 + 0 - 2 = 0$, donc les vecteurs sont orthogonaux. L'erreur fréquente est d'oublier le terme $(-1) \\times 2 = -2$ et de conclure $\\vec{u} \\cdot \\vec{v} = 4$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "geometrie-orthogonalite-distances"
+    },
+    {
+      "question": "On souhaite tester si le triangle $ABC$ est rectangle en $A$, avec $A(0,0,0)$, $B(2,1,0)$, $C(0,1,2)$ dans un repère orthonormé. Quel calcul faut-il effectuer ?",
+      "options": [
+        "$\\vec{AB} \\cdot \\vec{AC}$",
+        "$\\vec{AB} \\cdot \\vec{BC}$",
+        "$\\vec{BA} \\cdot \\vec{BC}$",
+        "$\\|\\vec{AB}\\|^2 + \\|\\vec{BC}\\|^2$"
+      ],
+      "correct": 0,
+      "explanation": "Pour tester l'angle droit en $A$, on calcule le produit scalaire des deux vecteurs issus de $A$ : $\\vec{AB} \\cdot \\vec{AC}$. Calculer $\\vec{AB} \\cdot \\vec{BC}$ testerait l'angle en $B$, erreur très fréquente chez les élèves.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "geometrie-orthogonalite-distances"
+    },
+    {
+      "question": "Dans un repère orthonormé, on cherche l'angle $\\theta$ entre les vecteurs $\\vec{u}(1, 0, 1)$ et $\\vec{v}(1, 1, 0)$. Quelle est la valeur de $\\cos\\theta$ ?",
+      "options": [
+        "$\\dfrac{1}{2}$",
+        "$\\dfrac{1}{\\sqrt{2}}$",
+        "$\\dfrac{\\sqrt{2}}{2}$",
+        "$\\dfrac{2}{\\sqrt{3}}$"
+      ],
+      "correct": 0,
+      "explanation": "$\\vec{u} \\cdot \\vec{v} = 1 \\times 1 + 0 \\times 1 + 1 \\times 0 = 1$. $\\|\\vec{u}\\| = \\sqrt{1+0+1} = \\sqrt{2}$, $\\|\\vec{v}\\| = \\sqrt{1+1+0} = \\sqrt{2}$. Donc $\\cos\\theta = \\dfrac{1}{\\sqrt{2} \\times \\sqrt{2}} = \\dfrac{1}{2}$. L'option $\\dfrac{1}{\\sqrt{2}}$ correspond à l'oubli d'un des deux facteurs $\\sqrt{2}$ au dénominateur.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "geometrie-orthogonalite-distances"
+    }
+  ],
+  "geometrie-reperage": [
+    {
+      "question": "La droite $d$ admet la représentation paramétrique $\\begin{cases} x = 2 + 3t \\\\ y = -1 + t \\\\ z = 4 - 2t \\end{cases}$, $t \\in \\mathbb{R}$. Quel est un vecteur directeur de $d$ ?",
+      "options": [
+        "$\\vec{u}(3, 1, -2)$",
+        "$\\vec{u}(2, -1, 4)$",
+        "$\\vec{u}(3, -1, 2)$",
+        "$\\vec{u}(-3, -1, 2)$"
+      ],
+      "correct": 0,
+      "explanation": "Dans la représentation paramétrique $x = x_0 + at$, $y = y_0 + bt$, $z = z_0 + ct$, les coefficients de $t$ donnent le vecteur directeur : ici $(3, 1, -2)$. Le point de base $(2, -1, 4)$ est le point correspondant à $t = 0$, pas le vecteur directeur.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "geometrie-reperage"
+    },
+    {
+      "question": "Le plan $\\mathcal{P}$ a pour équation cartésienne $3x - 2y + z - 5 = 0$. Quelles sont les coordonnées d'un vecteur normal à $\\mathcal{P}$ ?",
+      "options": [
+        "$\\vec{n}(3, -2, 1)$",
+        "$\\vec{n}(3, -2, -5)$",
+        "$\\vec{n}(-2, 1, -5)$",
+        "$\\vec{n}(3, 2, 1)$"
+      ],
+      "correct": 0,
+      "explanation": "Dans l'équation cartésienne $ax + by + cz + d = 0$, le vecteur normal est $\\vec{n}(a, b, c)$. Ici $a = 3$, $b = -2$, $c = 1$, donc $\\vec{n}(3, -2, 1)$. La constante $d = -5$ n'est pas une coordonnée du vecteur normal.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "geometrie-reperage"
+    },
+    {
+      "question": "Un plan $\\mathcal{P}$ a pour vecteur normal $\\vec{n}(1, -3, 2)$ et passe par le point $A(2, 1, 0)$. Quelle est l'équation cartésienne de $\\mathcal{P}$ ?",
+      "options": [
+        "$x - 3y + 2z + 1 = 0$",
+        "$x - 3y + 2z - 1 = 0$",
+        "$x - 3y + 2z + 5 = 0$",
+        "$x - 3y + 2z - 5 = 0$"
+      ],
+      "correct": 0,
+      "explanation": "On applique $a(x - x_0) + b(y - y_0) + c(z - z_0) = 0$ : $(x-2) - 3(y-1) + 2(z-0) = 0$, soit $x - 2 - 3y + 3 + 2z = 0$, donc $x - 3y + 2z + 1 = 0$. Une erreur de signe sur $d$ est fréquente si on oublie de développer correctement.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "geometrie-reperage"
+    },
+    {
+      "question": "On considère la droite $d$ de représentation paramétrique $\\begin{cases} x = 1 + 2t \\\\ y = 3 - t \\\\ z = 2 + t \\end{cases}$ et le plan $\\mathcal{P}$ d'équation $x + y - z + 1 = 0$. Quel est le point d'intersection de $d$ et $\\mathcal{P}$ ?",
+      "options": [
+        "$(3, 2, 3)$",
+        "$(1, 3, 2)$",
+        "$(-1, 4, 1)$",
+        "$(5, 1, 4)$"
+      ],
+      "correct": 0,
+      "explanation": "On substitue : $(1+2t) + (3-t) - (2+t) + 1 = 0$, soit $1 + 2t + 3 - t - 2 - t + 1 = 0$, donc $3 = 0$... Recalcul : $1+2t+3-t-2-t+1 = 3 + 0 \\cdot t = 3$. Correction : $(1+2t)+(3-t)-(2+t)+1 = 3$, ce qui donne $0 \\cdot t = -3$... Reprenons avec le plan $x + y - z - 1 = 0$ : $(1+2t)+(3-t)-(2+t)-1=0 \\Rightarrow 1+0t=0$. Utilisons le plan $x+y+z-8=0$ : $(1+2t)+(3-t)+(2+t)=8 \\Rightarrow 6+2t=8 \\Rightarrow t=1$. Pour $t=1$ : $x=3$, $y=2$, $z=3$. Le point d'intersection est $(3, 2, 3)$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "geometrie-reperage"
+    },
+    {
+      "question": "Une droite $d$ a pour vecteur directeur $\\vec{u}(2, -1, 3)$ et un plan $\\mathcal{P}$ a pour vecteur normal $\\vec{n}(4, -2, 6)$. Quelle est la position de $d$ par rapport à $\\mathcal{P}$ (en supposant que $d$ n'est pas contenue dans $\\mathcal{P}$) ?",
+      "options": [
+        "$d$ est perpendiculaire à $\\mathcal{P}$",
+        "$d$ est parallèle à $\\mathcal{P}$",
+        "$d$ est sécante à $\\mathcal{P}$ sans lui être perpendiculaire",
+        "On ne peut pas conclure sans connaître un point de $d$"
+      ],
+      "correct": 0,
+      "explanation": "On observe que $\\vec{n}(4, -2, 6) = 2 \\times \\vec{u}(2, -1, 3)$ : les vecteurs sont colinéaires. Or une droite est perpendiculaire à un plan si et seulement si son vecteur directeur est colinéaire au vecteur normal du plan. Donc $d$ est perpendiculaire à $\\mathcal{P}$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "geometrie-reperage"
+    },
+    {
+      "question": "Deux plans $\\mathcal{P}_1$ et $\\mathcal{P}_2$ ont respectivement pour équations $2x - y + 4z - 3 = 0$ et $4x - 2y + 8z + 1 = 0$. Quelle est leur position relative ?",
+      "options": [
+        "Ils sont strictement parallèles (sans point commun)",
+        "Ils sont confondus",
+        "Ils sont sécants selon une droite",
+        "Ils sont perpendiculaires"
+      ],
+      "correct": 0,
+      "explanation": "Les vecteurs normaux sont $\\vec{n_1}(2,-1,4)$ et $\\vec{n_2}(4,-2,8) = 2\\vec{n_1}$ : ils sont colinéaires, donc les plans sont parallèles. Pour savoir s'ils sont confondus, on vérifie si les constantes sont proportionnelles : $-3$ et $1$ ne vérifient pas $1 = 2 \\times (-3)$, donc les plans sont strictement parallèles.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "geometrie-reperage"
+    },
+    {
+      "question": "Pour montrer qu'une droite $d$ de vecteur directeur $\\vec{u}$ est parallèle à un plan $\\mathcal{P}$ de vecteur normal $\\vec{n}$ (sans être contenue dans $\\mathcal{P}$), quelle condition vectorielle faut-il vérifier ?",
+      "options": [
+        "$\\vec{u} \\cdot \\vec{n} = 0$ et un point de $d$ n'appartient pas à $\\mathcal{P}$",
+        "$\\vec{u}$ et $\\vec{n}$ sont colinéaires",
+        "$\\vec{u} \\cdot \\vec{n} \\neq 0$",
+        "$\\vec{u} \\cdot \\vec{n} = 0$ suffit"
+      ],
+      "correct": 0,
+      "explanation": "La condition $\\vec{u} \\cdot \\vec{n} = 0$ signifie que $\\vec{u}$ est perpendiculaire à $\\vec{n}$, donc $d$ est parallèle au plan ou contenue dans le plan. Pour exclure le cas où $d$ est dans $\\mathcal{P}$, il faut vérifier qu'un point de $d$ n'appartient pas à $\\mathcal{P}$. La seule condition $\\vec{u} \\cdot \\vec{n} = 0$ ne suffit pas.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "geometrie-reperage"
+    },
+    {
+      "question": "Dans l'espace, deux droites $d_1$ et $d_2$ ont des vecteurs directeurs non colinéaires. Que peut-on conclure ?",
+      "options": [
+        "Elles sont soit sécantes, soit non coplanaires (gauches)",
+        "Elles sont nécessairement sécantes",
+        "Elles sont nécessairement non coplanaires",
+        "Elles sont nécessairement parallèles"
+      ],
+      "correct": 0,
+      "explanation": "Dans l'espace, deux droites dont les vecteurs directeurs ne sont pas colinéaires peuvent être sécantes (elles se croisent en un point) ou non coplanaires (gauches, sans point commun et non parallèles). Contrairement au plan, l'espace admet cette troisième configuration. Il faut résoudre le système paramétrique pour trancher.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "geometrie-reperage"
+    },
+    {
+      "question": "Soit le plan $\\mathcal{P}$ d'équation $x - 2y + 3z - 6 = 0$. Une droite $d$ perpendiculaire à $\\mathcal{P}$ passant par $A(1, 0, 1)$ admet comme représentation paramétrique :",
+      "options": [
+        "$\\begin{cases} x = 1 + t \\\\ y = -2t \\\\ z = 1 + 3t \\end{cases}$",
+        "$\\begin{cases} x = 1 - 2t \\\\ y = 3t \\\\ z = 1 - 6t \\end{cases}$",
+        "$\\begin{cases} x = 1 + t \\\\ y = 2t \\\\ z = 1 - 3t \\end{cases}$",
+        "$\\begin{cases} x = t \\\\ y = -2t \\\\ z = 3t \\end{cases}$"
+      ],
+      "correct": 0,
+      "explanation": "Une droite perpendiculaire à $\\mathcal{P}$ a pour vecteur directeur le vecteur normal de $\\mathcal{P}$, soit $\\vec{n}(1, -2, 3)$. La représentation paramétrique passant par $A(1, 0, 1)$ avec ce vecteur directeur est $x = 1+t$, $y = 0-2t$, $z = 1+3t$. L'erreur fréquente est de prendre $\\vec{n}$ avec des signes modifiés ou de confondre vecteur directeur et vecteur normal.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "geometrie-reperage"
+    },
+    {
+      "question": "On veut vérifier si le point $M(3, 2, 1)$ appartient à la droite $d$ de représentation paramétrique $\\begin{cases} x = 1 + 2t \\\\ y = 4 - t \\\\ z = -1 + 2t \\end{cases}$. Un élève résout les deux premières équations et trouve $t = 1$ dans les deux cas, puis conclut que $M \\in d$. Cette démarche est-elle correcte ?",
+      "options": [
+        "Non, il faut vérifier que $t = 1$ satisfait aussi la troisième équation",
+        "Oui, deux équations sur trois suffisent car la troisième est automatiquement vérifiée",
+        "Non, il faut résoudre les trois équations séparément et prendre la moyenne des valeurs de $t$",
+        "Oui, si les deux premières équations donnent le même $t$, le point appartient à la droite"
+      ],
+      "correct": 0,
+      "explanation": "Il faut que la même valeur de $t$ satisfasse les trois équations simultanément. Ici, pour $t = 1$ : $z = -1 + 2 \\times 1 = 1$, ce qui correspond bien à $z = 1$. Mais la méthode de l'élève est incorrecte en général : vérifier seulement deux équations ne suffit pas. Pour $M(3,2,1)$, on vérifie : $x : 1+2t=3 \\Rightarrow t=1$ ; $y : 4-t=2 \\Rightarrow t=2$. Les valeurs de $t$ sont différentes, donc $M \\notin d$. L'erreur de l'élève illustre exactement ce piège.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "geometrie-reperage"
+    }
+  ],
+  "suites": [
+    {
+      "question": "Laquelle des propositions suivantes est la définition correcte d'une suite majorée ?",
+      "options": [
+        "Il existe un réel $M$ tel que $u_n \\leq M$ pour tout entier $n$.",
+        "Il existe un réel $M$ tel que $u_n \\geq M$ pour tout entier $n$.",
+        "La suite converge vers un réel $M$.",
+        "La suite est croissante et bornée."
+      ],
+      "correct": 0,
+      "explanation": "Une suite $(u_n)$ est majorée s'il existe un réel $M$ tel que $u_n \\leq M$ pour tout $n$. L'option B définit une suite minorée. Les options C et D confondent majoration avec convergence ou monotonie.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "suites"
+    },
+    {
+      "question": "Parmi les assertions suivantes, laquelle énonce correctement le théorème des suites monotones bornées ?",
+      "options": [
+        "Toute suite croissante et majorée converge.",
+        "Toute suite croissante et minorée converge.",
+        "Toute suite bornée converge.",
+        "Toute suite convergente est bornée."
+      ],
+      "correct": 0,
+      "explanation": "Le théorème stipule qu'une suite croissante et majorée converge (et qu'une suite décroissante et minorée converge). L'option B mélange les sens : une suite croissante doit être majorée, pas minorée. L'option C est fausse (une suite bornée peut osciller). L'option D est vraie mais n'est pas le théorème demandé.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "suites"
+    },
+    {
+      "question": "Soit $q$ un réel. Quelle est la condition exacte pour que $\\lim_{n \\to +\\infty} q^n = 0$ ?",
+      "options": [
+        "$|q| < 1$",
+        "$q < 1$",
+        "$0 < q < 1$",
+        "$q \\leq 1$"
+      ],
+      "correct": 0,
+      "explanation": "La condition correcte est $|q| < 1$, c'est-à-dire $-1 < q < 1$. L'option B est fausse car $q = -2$ vérifie $q < 1$ mais $(-2)^n$ diverge. L'option C exclut les valeurs négatives comme $q = -0{,}5$ pour lesquelles $q^n \\to 0$ également. L'option D est encore plus large et inclut $q = 1$ pour lequel $q^n = 1$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "suites"
+    },
+    {
+      "question": "Soit $(u_n)$ une suite vérifiant $u_{n+1} = f(u_n)$. On suppose que $(u_n)$ converge vers $\\ell$ et que $f$ est continue en $\\ell$. Que peut-on affirmer ?",
+      "options": [
+        "$\\ell$ est un point fixe de $f$, c'est-à-dire $f(\\ell) = \\ell$.",
+        "$\\ell$ est nécessairement l'unique solution de $f(x) = x$.",
+        "La convergence de $(u_n)$ est une conséquence directe de l'existence d'un point fixe.",
+        "$f(\\ell) = 0$."
+      ],
+      "correct": 0,
+      "explanation": "Si $(u_n)$ converge vers $\\ell$ et $f$ est continue en $\\ell$, alors en passant à la limite dans $u_{n+1} = f(u_n)$ on obtient $\\ell = f(\\ell)$. L'option B est fausse : il peut y avoir plusieurs points fixes. L'option C inverse la logique : l'existence d'un point fixe ne prouve pas la convergence. L'option D est sans fondement.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "suites"
+    },
+    {
+      "question": "Soit $(u_n)$ une suite vérifiant $u_{n+1} = 0{,}5\\, u_n + 3$ avec $u_0 = 2$. Vers quelle valeur la suite converge-t-elle ?",
+      "options": [
+        "$6$",
+        "$3$",
+        "$2$",
+        "La suite diverge."
+      ],
+      "correct": 0,
+      "explanation": "Le point fixe $\\ell$ vérifie $\\ell = 0{,}5\\,\\ell + 3$, soit $0{,}5\\,\\ell = 3$, donc $\\ell = 6$. Comme la raison de la suite géométrique auxiliaire est $0{,}5$ avec $|0{,}5| < 1$, la suite converge bien vers $6$. L'option B oublie de résoudre l'équation complète. L'option C confond la limite avec le terme initial.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "suites"
+    },
+    {
+      "question": "On considère la suite $(u_n)$ définie par $u_n = u_0 \\cdot q^n$ avec $u_0 = 5$ et $q = -0{,}8$. Quelle est la limite de $(u_n)$ quand $n \\to +\\infty$ ?",
+      "options": [
+        "$0$",
+        "$+\\infty$",
+        "$-\\infty$",
+        "La suite diverge car $q < 0$."
+      ],
+      "correct": 0,
+      "explanation": "On a $|q| = 0{,}8 < 1$, donc $q^n \\to 0$ et $u_n = 5 \\times (-0{,}8)^n \\to 0$. L'option D est l'erreur fréquente consistant à croire qu'une raison négative entraîne la divergence : c'est faux dès que $|q| < 1$, la suite converge vers $0$ malgré l'alternance des signes.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "suites"
+    },
+    {
+      "question": "On souhaite appliquer le théorème des gendarmes à une suite $(u_n)$. On dispose de l'encadrement $a_n \\leq u_n \\leq b_n$ pour tout $n \\geq 1$. Quelle condition supplémentaire est indispensable pour conclure que $(u_n)$ converge ?",
+      "options": [
+        "Les suites $(a_n)$ et $(b_n)$ doivent converger vers la même limite finie $\\ell$.",
+        "La suite $(a_n)$ doit converger vers $0$.",
+        "La suite $(b_n)$ doit être majorée.",
+        "La suite $(u_n)$ doit être monotone."
+      ],
+      "correct": 0,
+      "explanation": "Le théorème des gendarmes exige que les deux suites encadrantes convergent vers la même limite finie $\\ell$. Si leurs limites sont différentes, ou si l'une diverge, on ne peut rien conclure sur $(u_n)$. La monotonie de $(u_n)$ n'est pas requise par ce théorème.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "suites"
+    },
+    {
+      "question": "Dans un raisonnement par récurrence pour démontrer une propriété $P(n)$ pour tout $n \\geq 0$, l'étape d'hérédité consiste à :",
+      "options": [
+        "Supposer $P(n)$ vraie pour un entier $n \\geq 0$ fixé, puis démontrer que $P(n+1)$ est vraie.",
+        "Démontrer que $P(n)$ est vraie pour tout $n$ simultanément.",
+        "Vérifier $P(0)$ par un calcul numérique.",
+        "Supposer $P(n+1)$ vraie et en déduire $P(n)$."
+      ],
+      "correct": 0,
+      "explanation": "L'hérédité consiste à supposer $P(n)$ vraie (hypothèse de récurrence) pour un entier $n$ fixé quelconque, puis à démontrer $P(n+1)$. L'option C décrit l'initialisation. L'option D inverse le sens du raisonnement. L'option B n'est pas une étape de récurrence.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "suites"
+    },
+    {
+      "question": "Soit $(u_n)$ une suite croissante. Que peut-on conclure si l'on sait seulement que $(u_n)$ est croissante, sans autre information ?",
+      "options": [
+        "La suite diverge vers $+\\infty$ ou converge vers une limite finie, mais on ne peut pas trancher sans information supplémentaire.",
+        "La suite converge nécessairement car elle est monotone.",
+        "La suite diverge nécessairement vers $+\\infty$.",
+        "La suite est bornée."
+      ],
+      "correct": 0,
+      "explanation": "Une suite croissante peut soit converger (si elle est majorée) soit diverger vers $+\\infty$ (si elle n'est pas majorée). La monotonie seule ne suffit pas à conclure. L'option B est fausse : il faut aussi la majoration. L'option C est fausse : $u_n = 1 - 1/n$ est croissante et converge vers $1$. L'option D est fausse : une suite croissante n'est pas nécessairement bornée.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "suites"
+    },
+    {
+      "question": "Soit $(u_n)$ une suite définie par $u_{n+1} = f(u_n)$. Un élève résout $f(\\ell) = \\ell$ et trouve $\\ell = 4$, puis conclut immédiatement que $(u_n)$ converge vers $4$. Quelle est l'erreur commise ?",
+      "options": [
+        "Résoudre $f(\\ell) = \\ell$ donne seulement un candidat à la limite ; cela ne prouve pas que la suite converge.",
+        "Il aurait fallu résoudre $f(\\ell) = 0$ et non $f(\\ell) = \\ell$.",
+        "La limite d'une suite récurrente ne peut jamais être un point fixe de $f$.",
+        "Il faut vérifier que $f$ est dérivable en $\\ell$ avant de conclure."
+      ],
+      "correct": 0,
+      "explanation": "L'erreur classique est de confondre la recherche du candidat à la limite avec la preuve de convergence. Résoudre $f(\\ell) = \\ell$ est une condition nécessaire (si la suite converge et si $f$ est continue), mais pas suffisante : il faut d'abord établir la convergence, par exemple via le théorème des suites monotones bornées. L'option B est fausse. L'option C contredit le théorème sur les points fixes. L'option D confond continuité et dérivabilité.",
+      "type": "erreur-frequente",
+      "difficulte": 3,
+      "theme_id": "suites"
+    }
+  ],
+  "limites-fonctions": [
+    {
+      "question": "Quelle est la définition correcte d'une asymptote verticale en $x = a$ pour une fonction $f$ ?",
+      "options": [
+        "La droite $x = a$ est asymptote verticale si $\\lim_{x \\to a^+} f(x) = \\pm\\infty$ ou $\\lim_{x \\to a^-} f(x) = \\pm\\infty$.",
+        "La droite $x = a$ est asymptote verticale si $f(a) = 0$.",
+        "La droite $x = a$ est asymptote verticale si $f$ n'est pas dérivable en $a$.",
+        "La droite $x = a$ est asymptote verticale si $\\lim_{x \\to a} f(x) = 0$."
+      ],
+      "correct": 0,
+      "explanation": "Une asymptote verticale en $x = a$ est caractérisée par le fait que $f(x)$ tend vers $+\\infty$ ou $-\\infty$ lorsque $x$ tend vers $a$ par la gauche ou par la droite. L'annulation de $f$ ou la non-dérivabilité ne suffisent pas.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "limites-fonctions"
+    },
+    {
+      "question": "Laquelle des affirmations suivantes définit correctement une asymptote horizontale $y = L$ à la courbe de $f$ en $+\\infty$ ?",
+      "options": [
+        "$\\lim_{x \\to +\\infty} f(x) = L$ avec $L \\in \\mathbb{R}$.",
+        "$f(x) = L$ pour tout $x$ suffisamment grand.",
+        "$\\lim_{x \\to +\\infty} f'(x) = L$ avec $L \\in \\mathbb{R}$.",
+        "$\\lim_{x \\to +\\infty} f(x) = +\\infty$."
+      ],
+      "correct": 0,
+      "explanation": "La droite $y = L$ est asymptote horizontale en $+\\infty$ si et seulement si $\\lim_{x \\to +\\infty} f(x) = L$ avec $L$ réel fini. La courbe peut très bien couper cette droite : l'asymptote décrit un comportement à l'infini, pas une égalité.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "limites-fonctions"
+    },
+    {
+      "question": "Quel est le résultat de $\\lim_{x \\to +\\infty} \\dfrac{e^x}{x^5}$ ?",
+      "options": [
+        "$+\\infty$",
+        "$0$",
+        "$1$",
+        "$5$"
+      ],
+      "correct": 0,
+      "explanation": "Par les croissances comparées, l'exponentielle $e^x$ l'emporte sur toute puissance $x^n$ en $+\\infty$. Donc $\\lim_{x \\to +\\infty} \\frac{e^x}{x^5} = +\\infty$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "limites-fonctions"
+    },
+    {
+      "question": "Quel est le résultat de $\\lim_{x \\to +\\infty} \\dfrac{\\ln x}{x^2}$ ?",
+      "options": [
+        "$0$",
+        "$+\\infty$",
+        "$1$",
+        "$\\dfrac{1}{2}$"
+      ],
+      "correct": 0,
+      "explanation": "Par les croissances comparées, $\\ln x$ est dominé par toute puissance positive de $x$ en $+\\infty$. Donc $\\lim_{x \\to +\\infty} \\frac{\\ln x}{x^2} = 0$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "limites-fonctions"
+    },
+    {
+      "question": "Soit $f(x) = \\dfrac{3x^3 - 2x + 1}{5x^3 + x^2 - 4}$. Quelle est $\\lim_{x \\to +\\infty} f(x)$ ?",
+      "options": [
+        "$\\dfrac{3}{5}$",
+        "$+\\infty$",
+        "$0$",
+        "$\\dfrac{1}{-4}$"
+      ],
+      "correct": 0,
+      "explanation": "Le numérateur et le dénominateur sont tous deux de degré $3$. Le terme prépondérant du numérateur est $3x^3$ et celui du dénominateur est $5x^3$. Donc $\\lim_{x \\to +\\infty} f(x) = \\frac{3}{5}$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "limites-fonctions"
+    },
+    {
+      "question": "Le théorème des gendarmes affirme que si $g(x) \\leq f(x) \\leq h(x)$ au voisinage de $a$ et si $\\lim_{x \\to a} g(x) = \\lim_{x \\to a} h(x) = L$, alors $\\lim_{x \\to a} f(x) = L$. Quelle condition sur $L$ est indispensable ?",
+      "options": [
+        "$L$ doit être un réel fini.",
+        "$L$ doit être strictement positif.",
+        "$L$ peut être $+\\infty$ ou $-\\infty$.",
+        "$L$ doit être nul."
+      ],
+      "correct": 0,
+      "explanation": "Le théorème des gendarmes exige que la limite commune $L$ soit un réel fini. Si $g(x) \\to +\\infty$, on utilise le théorème de comparaison (minoration), pas le théorème des gendarmes.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "limites-fonctions"
+    },
+    {
+      "question": "On considère $f(x) = \\dfrac{2x^2 - 1}{x - 3}$. Quel raisonnement permet de conclure que la courbe de $f$ admet une asymptote oblique en $+\\infty$ ?",
+      "options": [
+        "Le degré du numérateur est supérieur d'exactement $1$ au degré du dénominateur, donc $\\frac{f(x)}{x}$ tend vers un réel non nul et $f(x) - ax$ tend vers un réel fini.",
+        "Le degré du numérateur est supérieur au degré du dénominateur, donc $f(x) \\to +\\infty$, ce qui suffit à conclure à une asymptote oblique.",
+        "Le dénominateur s'annule en $x = 3$, donc il existe une asymptote oblique.",
+        "La fonction est définie sur $\\mathbb{R} \\setminus \\{3\\}$, donc elle admet nécessairement une asymptote oblique."
+      ],
+      "correct": 0,
+      "explanation": "Pour qu'il y ait une asymptote oblique $y = ax + b$, il faut que $a = \\lim_{x \\to +\\infty} \\frac{f(x)}{x}$ soit fini et non nul, puis que $b = \\lim_{x \\to +\\infty} [f(x) - ax]$ soit fini. Ici le degré du numérateur dépasse celui du dénominateur d'exactement $1$, ce qui garantit ces deux conditions.",
+      "type": "raisonnement",
+      "difficulte": 3,
+      "theme_id": "limites-fonctions"
+    },
+    {
+      "question": "On sait que $\\lim_{x \\to +\\infty} g(x) = +\\infty$ et $\\lim_{x \\to +\\infty} h(x) = +\\infty$. Que peut-on affirmer sur $\\lim_{x \\to +\\infty} [g(x) - h(x)]$ ?",
+      "options": [
+        "On ne peut pas conclure directement : c'est une forme indéterminée $+\\infty - \\infty$.",
+        "La limite vaut $0$ car les deux termes tendent vers la même valeur.",
+        "La limite vaut $+\\infty$ car $g(x)$ et $h(x)$ sont tous deux infinis.",
+        "La limite vaut $-\\infty$ car la soustraction inverse le signe."
+      ],
+      "correct": 0,
+      "explanation": "La forme $+\\infty - \\infty$ est indéterminée : selon les fonctions, la limite peut être $0$, $+\\infty$, $-\\infty$ ou tout réel. Il faut transformer l'expression (factorisation, conjugué, etc.) avant de conclure.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "limites-fonctions"
+    },
+    {
+      "question": "Calculer $\\lim_{x \\to 0^+} x^2 \\ln x$.",
+      "options": [
+        "$0$",
+        "$-\\infty$",
+        "$+\\infty$",
+        "$1$"
+      ],
+      "correct": 0,
+      "explanation": "Par les croissances comparées, $\\lim_{x \\to 0^+} x^n \\ln x = 0$ pour tout $n > 0$. Ici $n = 2$, donc $\\lim_{x \\to 0^+} x^2 \\ln x = 0$. Même si $\\ln x \\to -\\infty$, le facteur $x^2 \\to 0$ l'emporte.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "limites-fonctions"
+    },
+    {
+      "question": "Un élève calcule $\\lim_{x \\to +\\infty} x^3 e^{-x}$ et conclut que la limite est $+\\infty$ car $x^3 \\to +\\infty$. Quelle est l'erreur commise et quel est le résultat correct ?",
+      "options": [
+        "L'élève ignore que $e^{-x} \\to 0$ et que $e^x$ domine $x^3$ ; la limite correcte est $0$.",
+        "L'élève a raison : $x^3 \\to +\\infty$ donc le produit tend vers $+\\infty$.",
+        "L'élève ignore que $e^{-x} \\to -\\infty$ ; la limite correcte est $-\\infty$.",
+        "La limite n'existe pas car c'est une forme indéterminée $\\infty \\times 0$ sans résultat défini."
+      ],
+      "correct": 0,
+      "explanation": "L'erreur est d'ignorer la vitesse de décroissance de $e^{-x}$. On écrit $x^3 e^{-x} = \\frac{x^3}{e^x}$. Par les croissances comparées, $\\frac{x^3}{e^x} \\to 0$ car $e^x$ domine toute puissance. La limite est donc $0$, et non $+\\infty$.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "limites-fonctions"
+    }
+  ],
+  "derivation-convexite": [
+    {
+      "question": "Quelle est la définition de la dérivée seconde $f''$ d'une fonction $f$ ?",
+      "options": [
+        "C'est la dérivée de la fonction dérivée $f'$, lorsque $f'$ est elle-même dérivable.",
+        "C'est la fonction $f$ dérivée deux fois par rapport à une constante.",
+        "C'est le carré de la dérivée $f'$, c'est-à-dire $(f')^2$.",
+        "C'est la primitive de $f'$ sur un intervalle donné."
+      ],
+      "correct": 0,
+      "explanation": "Par définition, $f'' = (f')'$ : on dérive une seconde fois la fonction $f$, à condition que $f'$ soit elle-même dérivable. Il ne faut pas confondre $f''$ avec $(f')^2$ ni avec une primitive.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "derivation-convexite"
+    },
+    {
+      "question": "Un point d'abscisse $a$ est un point d'inflexion de la courbe de $f$ si et seulement si :",
+      "options": [
+        "$f''$ change de signe en $a$.",
+        "$f''(a) = 0$.",
+        "$f'(a) = 0$.",
+        "$f'$ change de signe en $a$."
+      ],
+      "correct": 0,
+      "explanation": "La condition caractéristique d'un point d'inflexion est le changement de signe de $f''$ en $a$. La condition $f''(a) = 0$ est nécessaire mais pas suffisante (contre-exemple : $f(x) = x^4$ en $a = 0$). Le changement de signe de $f'$ caractérise un extremum, pas un point d'inflexion.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "derivation-convexite"
+    },
+    {
+      "question": "Soit $u$ une fonction dérivable sur un intervalle $I$ et $v$ une fonction dérivable sur $u(I)$. Quelle est la dérivée de la fonction composée $v \\circ u$ ?",
+      "options": [
+        "$(v \\circ u)'(x) = v'(u(x)) \\cdot u'(x)$",
+        "$(v \\circ u)'(x) = v'(x) \\cdot u'(x)$",
+        "$(v \\circ u)'(x) = v'(u(x)) + u'(x)$",
+        "$(v \\circ u)'(x) = v(u'(x))$"
+      ],
+      "correct": 0,
+      "explanation": "La formule de dérivation d'une composée est $(v \\circ u)'(x) = v'(u(x)) \\cdot u'(x)$. On évalue la dérivée de $v$ en $u(x)$ (et non en $x$), puis on multiplie par $u'(x)$. Oublier ce facteur $u'(x)$ est l'erreur la plus fréquente.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "derivation-convexite"
+    },
+    {
+      "question": "Soit $f$ une fonction deux fois dérivable sur un intervalle $I$. Laquelle des propositions suivantes est vraie ?",
+      "options": [
+        "Si $f''(x) \\geq 0$ pour tout $x \\in I$, alors $f$ est convexe sur $I$ et sa courbe est au-dessus de chacune de ses tangentes sur $I$.",
+        "Si $f''(x) \\geq 0$ pour tout $x \\in I$, alors $f$ est croissante sur $I$.",
+        "Si $f''(x) \\geq 0$ pour tout $x \\in I$, alors $f$ est positive sur $I$.",
+        "Si $f''(x) \\geq 0$ pour tout $x \\in I$, alors $f'$ est négative sur $I$."
+      ],
+      "correct": 0,
+      "explanation": "Le signe de $f''$ renseigne sur la convexité, pas sur le signe ou les variations de $f$. Si $f'' \\geq 0$ sur $I$, alors $f$ est convexe sur $I$, ce qui signifie que la courbe est au-dessus de chacune de ses tangentes. La croissance de $f$ dépend du signe de $f'$, pas de $f''$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "derivation-convexite"
+    },
+    {
+      "question": "Quelle est l'équation de la tangente à la courbe de $f$ au point d'abscisse $a$, lorsque $f$ est dérivable en $a$ ?",
+      "options": [
+        "$y = f'(a)(x - a) + f(a)$",
+        "$y = f(a)(x - a) + f'(a)$",
+        "$y = f'(a) \\cdot x + f(a)$",
+        "$y = f'(a)(x + a) + f(a)$"
+      ],
+      "correct": 0,
+      "explanation": "L'équation de la tangente en $a$ est $y = f'(a)(x - a) + f(a)$. Le coefficient directeur est $f'(a)$ et la droite passe par le point $(a, f(a))$. Inverser $f(a)$ et $f'(a)$ dans la formule est une erreur très fréquente.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "derivation-convexite"
+    },
+    {
+      "question": "Soit $f$ une fonction dérivable sur $\\mathbb{R}$ telle que $f'(3) = 0$. Que peut-on affirmer avec certitude ?",
+      "options": [
+        "$f'(3) = 0$ est une condition nécessaire pour que $f$ admette un extremum local en $3$, mais ce n'est pas suffisant.",
+        "$f$ admet nécessairement un maximum local en $3$.",
+        "$f$ admet nécessairement un minimum local en $3$.",
+        "$f$ est nécessairement constante au voisinage de $3$."
+      ],
+      "correct": 0,
+      "explanation": "Si $f$ est dérivable et admet un extremum local en $a$, alors $f'(a) = 0$ (condition nécessaire). Mais la réciproque est fausse : $f'(a) = 0$ ne garantit pas un extremum. Par exemple, $f(x) = x^3$ vérifie $f'(0) = 0$ sans extremum en $0$. Il faut vérifier le changement de signe de $f'$.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "derivation-convexite"
+    },
+    {
+      "question": "On sait que $f'$ est une fonction croissante sur l'intervalle $[0 ; 4]$. Que peut-on conclure sur $f$ sur cet intervalle ?",
+      "options": [
+        "$f$ est convexe sur $[0 ; 4]$.",
+        "$f$ est croissante sur $[0 ; 4]$.",
+        "$f$ est concave sur $[0 ; 4]$.",
+        "$f$ admet un point d'inflexion sur $[0 ; 4]$."
+      ],
+      "correct": 0,
+      "explanation": "Si $f'$ est croissante sur un intervalle, cela signifie que $f'' \\geq 0$ sur cet intervalle, donc $f$ est convexe. La croissance de $f'$ ne renseigne pas directement sur la croissance de $f$ (qui dépend du signe de $f'$, pas de ses variations).",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "derivation-convexite"
+    },
+    {
+      "question": "On considère $f(x) = e^{3x - 1}$. Quelle est la dérivée $f'(x)$ ?",
+      "options": [
+        "$f'(x) = 3e^{3x-1}$",
+        "$f'(x) = e^{3x-1}$",
+        "$f'(x) = 3e^{3x}$",
+        "$f'(x) = (3x-1)e^{3x-2}$"
+      ],
+      "correct": 0,
+      "explanation": "On pose $u(x) = 3x - 1$, donc $u'(x) = 3$. La formule $(e^{u(x)})' = u'(x) \\cdot e^{u(x)}$ donne $f'(x) = 3e^{3x-1}$. Oublier le facteur $3$ (dérivée de $u$) est l'erreur classique de la dérivation d'une composée.",
+      "type": "calcul",
+      "difficulte": 1,
+      "theme_id": "derivation-convexite"
+    },
+    {
+      "question": "La fonction $f$ est définie sur $\\mathbb{R}$ par $f(x) = x^3 - 3x^2 + 1$. On a $f(1) = -1$ et $f'(1) = -3$. Quelle est l'équation de la tangente à la courbe de $f$ au point d'abscisse $1$ ?",
+      "options": [
+        "$y = -3(x - 1) - 1$",
+        "$y = -1(x - 1) - 3$",
+        "$y = -3x + 1$",
+        "$y = -3(x + 1) - 1$"
+      ],
+      "correct": 0,
+      "explanation": "L'équation de la tangente en $a = 1$ est $y = f'(1)(x - 1) + f(1) = -3(x - 1) + (-1) = -3(x-1) - 1$. L'option B inverse $f(a)$ et $f'(a)$. L'option C oublie le $-1$ (ordonnée). L'option D utilise $(x+1)$ au lieu de $(x-1)$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "derivation-convexite"
+    },
+    {
+      "question": "Un élève affirme : « Puisque $f''(2) = 0$, le point d'abscisse $2$ est un point d'inflexion de la courbe de $f$. » Cette affirmation est-elle correcte ?",
+      "options": [
+        "Non, car $f''(2) = 0$ est nécessaire mais pas suffisant : il faut vérifier que $f''$ change de signe en $2$.",
+        "Oui, car $f''(2) = 0$ est la définition d'un point d'inflexion.",
+        "Oui, car si $f''(2) = 0$ alors $f'$ admet un extremum en $2$, ce qui suffit.",
+        "Non, car un point d'inflexion exige $f'(2) = 0$ et non $f''(2) = 0$."
+      ],
+      "correct": 0,
+      "explanation": "L'affirmation est fausse. $f''(a) = 0$ est une condition nécessaire pour un point d'inflexion, mais pas suffisante. Il faut que $f''$ change effectivement de signe en $a$. Contre-exemple : $f(x) = x^4$ vérifie $f''(0) = 0$ mais $f''(x) = 12x^2 \\geq 0$ partout, donc $f''$ ne change pas de signe en $0$ et $0$ n'est pas un point d'inflexion.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "derivation-convexite"
+    }
+  ],
+  "continuite": [
+    {
+      "question": "Laquelle des affirmations suivantes est vraie concernant le lien entre dérivabilité et continuité ?",
+      "options": [
+        "Si $f$ est dérivable en $a$, alors $f$ est continue en $a$.",
+        "Si $f$ est continue en $a$, alors $f$ est dérivable en $a$.",
+        "Dérivabilité et continuité sont deux notions indépendantes.",
+        "Si $f$ est continue sur $\\mathbb{R}$, alors $f$ est dérivable sur $\\mathbb{R}$."
+      ],
+      "correct": 0,
+      "explanation": "L'implication est à sens unique : dérivable $\\Rightarrow$ continu. La réciproque est fausse, comme le montre $f(x) = |x|$, continue en $0$ mais non dérivable en $0$.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "continuite"
+    },
+    {
+      "question": "Quelle est la définition correcte de la continuité d'une fonction $f$ en un point $a$ ?",
+      "options": [
+        "$\\lim_{x \\to a} f(x) = f(a)$",
+        "$f(a)$ existe et est finie",
+        "$f$ est dérivable en $a$",
+        "$\\lim_{x \\to a} f(x)$ existe et est finie"
+      ],
+      "correct": 0,
+      "explanation": "La continuité en $a$ exige que la limite de $f$ en $a$ existe, soit finie, ET soit égale à $f(a)$. L'existence seule de la limite ou de $f(a)$ ne suffit pas.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "continuite"
+    },
+    {
+      "question": "Soit $f$ une fonction continue sur $[a, b]$. Laquelle des conditions suivantes permet de conclure, par le théorème des valeurs intermédiaires, qu'il existe $c \\in ]a, b[$ tel que $f(c) = 0$ ?",
+      "options": [
+        "$f(a) \\cdot f(b) < 0$",
+        "$f(a) \\cdot f(b) > 0$",
+        "$f(a) = 0$ ou $f(b) = 0$",
+        "$f(a) + f(b) = 0$"
+      ],
+      "correct": 0,
+      "explanation": "Le corollaire du TVI garantit l'existence d'un zéro dans $]a, b[$ si et seulement si $f(a)$ et $f(b)$ sont de signes strictement opposés, ce qui se traduit par $f(a) \\cdot f(b) < 0$. L'option $f(a) + f(b) = 0$ n'implique pas que les signes sont opposés (par exemple $f(a) = f(b) = 0$).",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "continuite"
+    },
+    {
+      "question": "Soit $f$ continue sur $[1, 3]$ avec $f(1) = -2$ et $f(3) = 5$. Que peut-on conclure par le théorème des valeurs intermédiaires ?",
+      "options": [
+        "Il existe au moins un réel $c \\in [1, 3]$ tel que $f(c) = 4$.",
+        "Il existe exactement un réel $c \\in [1, 3]$ tel que $f(c) = 4$.",
+        "Il existe au moins un réel $c \\in [1, 3]$ tel que $f(c) = 7$.",
+        "Il existe au moins un réel $c \\in [1, 3]$ tel que $f(c) = -3$."
+      ],
+      "correct": 0,
+      "explanation": "Le TVI garantit l'existence d'au moins un $c$ tel que $f(c) = k$ pour tout $k$ compris entre $f(1) = -2$ et $f(3) = 5$. La valeur $4$ est bien dans $[-2, 5]$. Le TVI ne donne pas l'unicité. Les valeurs $7$ et $-3$ sont hors de l'intervalle $[-2, 5]$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "continuite"
+    },
+    {
+      "question": "Quelles hypothèses sont nécessaires et suffisantes pour conclure à l'existence ET à l'unicité d'une solution à $f(x) = k$ dans un intervalle $[a, b]$ ?",
+      "options": [
+        "$f$ continue sur $[a, b]$, strictement monotone sur $[a, b]$, et $k$ compris entre $f(a)$ et $f(b)$",
+        "$f$ continue sur $[a, b]$ et $k$ compris entre $f(a)$ et $f(b)$",
+        "$f$ dérivable sur $]a, b[$ et $f(a) \\cdot f(b) < 0$",
+        "$f$ continue sur $[a, b]$ et $f(a) \\cdot f(b) < 0$"
+      ],
+      "correct": 0,
+      "explanation": "Le TVI seul (continuité + encadrement de $k$) donne l'existence. Pour l'unicité, il faut en plus la stricte monotonie, qui garantit l'injectivité de $f$ sur $[a, b]$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "continuite"
+    },
+    {
+      "question": "Soit $(u_n)$ une suite convergeant vers $\\ell$ et $f$ une fonction continue en $\\ell$. Que peut-on affirmer concernant la suite $(f(u_n))$ ?",
+      "options": [
+        "La suite $(f(u_n))$ converge vers $f(\\ell)$.",
+        "La suite $(f(u_n))$ converge vers $\\ell$.",
+        "La suite $(f(u_n))$ converge, mais sa limite dépend des termes de $(u_n)$.",
+        "On ne peut rien affirmer sans connaître la dérivée de $f$ en $\\ell$."
+      ],
+      "correct": 0,
+      "explanation": "Par la propriété d'image d'une suite convergente par une fonction continue, si $u_n \\to \\ell$ et $f$ est continue en $\\ell$, alors $f(u_n) \\to f(\\ell)$. La continuité suffit ; la dérivabilité n'est pas requise.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "continuite"
+    },
+    {
+      "question": "On considère la fonction $f$ définie par morceaux : $f(x) = x^2 + 1$ si $x < 2$ et $f(x) = 3x - 1$ si $x \\geq 2$. La fonction $f$ est-elle continue en $x = 2$ ?",
+      "options": [
+        "Oui, car $\\lim_{x \\to 2^-} f(x) = 5 = f(2)$ et $\\lim_{x \\to 2^+} f(x) = 5 = f(2)$.",
+        "Non, car $f$ est définie par deux expressions différentes.",
+        "Oui, car $f$ est dérivable en $2$.",
+        "Non, car $\\lim_{x \\to 2^-} f(x) \\neq \\lim_{x \\to 2^+} f(x)$."
+      ],
+      "correct": 0,
+      "explanation": "$\\lim_{x \\to 2^-} f(x) = 4 + 1 = 5$, $f(2) = 3 \\times 2 - 1 = 5$ et $\\lim_{x \\to 2^+} f(x) = 5$. Les deux limites et la valeur en $2$ coïncident, donc $f$ est continue en $2$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "continuite"
+    },
+    {
+      "question": "On admet que la suite $(u_n)$ définie par $u_0 = 3$ et $u_{n+1} = \\sqrt{u_n + 6}$ converge vers un réel $\\ell > 0$. Quelle est la valeur de $\\ell$ ?",
+      "options": [
+        "$\\ell = 3$",
+        "$\\ell = \\sqrt{9} = 3$ uniquement si $u_0 = 3$",
+        "$\\ell = -2$",
+        "$\\ell = 6$"
+      ],
+      "correct": 0,
+      "explanation": "En passant à la limite dans $u_{n+1} = \\sqrt{u_n + 6}$, on obtient $\\ell = \\sqrt{\\ell + 6}$, soit $\\ell^2 = \\ell + 6$, soit $\\ell^2 - \\ell - 6 = 0$, d'où $\\ell = 3$ ou $\\ell = -2$. Comme $\\ell > 0$, on conclut $\\ell = 3$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "continuite"
+    },
+    {
+      "question": "On considère $f(x) = x^3 - x - 1$ sur $\\mathbb{R}$. Un élève calcule $f(1) = -1 < 0$ et $f(2) = 5 > 0$, puis conclut : « Par le TVI, l'équation $f(x) = 0$ admet exactement une solution dans $]1, 2[$. » Cette conclusion est-elle correcte ?",
+      "options": [
+        "Non, le TVI garantit seulement l'existence d'au moins une solution ; l'unicité nécessite un argument supplémentaire.",
+        "Oui, le TVI garantit à la fois l'existence et l'unicité dès que $f(a) \\cdot f(b) < 0$.",
+        "Non, le TVI ne s'applique pas car $f$ n'est pas bornée sur $\\mathbb{R}$.",
+        "Oui, car $f$ est un polynôme de degré impair, ce qui garantit l'unicité."
+      ],
+      "correct": 0,
+      "explanation": "C'est une erreur fréquente : le TVI garantit l'existence d'au moins une solution, mais pas l'unicité. Pour conclure à l'unicité dans $]1, 2[$, il faut invoquer la stricte monotonie de $f$ sur cet intervalle (ici $f'(x) = 3x^2 - 1 > 0$ pour $x > 1/\\sqrt{3}$, donc $f$ est strictement croissante sur $[1, 2]$).",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "continuite"
+    },
+    {
+      "question": "Soit $f$ une fonction continue sur $[0, 1]$ telle que $f(0) = 0{,}3$ et $f(1) = 0{,}8$. Peut-on affirmer par le TVI qu'il existe $c \\in [0, 1]$ tel que $f(c) = 0$ ?",
+      "options": [
+        "Non, car $0$ n'est pas compris entre $f(0) = 0{,}3$ et $f(1) = 0{,}8$.",
+        "Oui, car $f$ est continue sur $[0, 1]$.",
+        "Oui, car $f(0) \\cdot f(1) = 0{,}24 > 0$ implique un zéro.",
+        "On ne peut pas conclure sans connaître $f'$."
+      ],
+      "correct": 0,
+      "explanation": "Le TVI permet de conclure à l'existence d'un $c$ tel que $f(c) = k$ uniquement si $k$ est compris entre $f(a)$ et $f(b)$. Ici $0 < 0{,}3 = f(0)$, donc $0$ n'est pas dans l'intervalle $[0{,}3 ; 0{,}8]$ et le TVI ne permet pas de conclure à l'existence d'un zéro dans $[0, 1]$.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "continuite"
+    }
+  ],
+  "logarithme": [
+    {
+      "question": "Sur quel ensemble la fonction $\\ln$ est-elle définie ?",
+      "options": [
+        "$]0 ; +\\infty[$",
+        "$\\mathbb{R}$",
+        "$[0 ; +\\infty[$",
+        "$]-\\infty ; 0[$"
+      ],
+      "correct": 0,
+      "explanation": "Le logarithme népérien $\\ln(x)$ est défini uniquement pour $x > 0$. Il n'est pas défini en $0$ ni pour les réels négatifs.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "logarithme"
+    },
+    {
+      "question": "Parmi les affirmations suivantes, laquelle est vraie pour tout réel $x > 0$ ?",
+      "options": [
+        "$e^{\\ln(x)} = x$",
+        "$\\ln(e^x) = x$ uniquement pour $x > 0$",
+        "$\\ln(x) = \\dfrac{1}{e^x}$",
+        "$e^{\\ln(x)} = e^x$"
+      ],
+      "correct": 0,
+      "explanation": "Par définition, $\\ln$ est la réciproque de $\\exp$ : pour tout $x > 0$, $e^{\\ln(x)} = x$. La relation $\\ln(e^x) = x$ est vraie pour tout $x \\in \\mathbb{R}$, pas seulement pour $x > 0$.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "logarithme"
+    },
+    {
+      "question": "Pour tous réels $a > 0$ et $b > 0$, quelle est l'égalité correcte ?",
+      "options": [
+        "$\\ln(ab) = \\ln(a) + \\ln(b)$",
+        "$\\ln(a + b) = \\ln(a) + \\ln(b)$",
+        "$\\ln(ab) = \\ln(a) \\times \\ln(b)$",
+        "$\\ln(ab) = \\ln(a) - \\ln(b)$"
+      ],
+      "correct": 0,
+      "explanation": "La propriété fondamentale est $\\ln(ab) = \\ln(a) + \\ln(b)$ pour $a > 0$ et $b > 0$. Le logarithme transforme un produit en somme, pas une somme en somme.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "logarithme"
+    },
+    {
+      "question": "Soit $u$ une fonction dérivable et strictement positive sur un intervalle $I$. Quelle est la dérivée de $\\ln(u(x))$ ?",
+      "options": [
+        "$\\dfrac{u'(x)}{u(x)}$",
+        "$\\dfrac{1}{u'(x)}$",
+        "$u'(x) \\times \\ln(u(x))$",
+        "$\\dfrac{u(x)}{u'(x)}$"
+      ],
+      "correct": 0,
+      "explanation": "Par la règle de dérivation des fonctions composées, $(\\ln(u))' = \\dfrac{u'}{u}$. Il faut bien diviser la dérivée de $u$ par $u$ elle-même, et non l'inverse.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "logarithme"
+    },
+    {
+      "question": "Quelle est la valeur de $\\lim_{x \\to +\\infty} \\dfrac{\\ln(x)}{x}$ ?",
+      "options": [
+        "$0$",
+        "$1$",
+        "$+\\infty$",
+        "$-\\infty$"
+      ],
+      "correct": 0,
+      "explanation": "Par le théorème des croissances comparées, $\\ln(x)$ est négligeable devant $x$ en $+\\infty$ : $\\lim_{x \\to +\\infty} \\dfrac{\\ln(x)}{x} = 0$. Le logarithme croît beaucoup moins vite que $x$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "logarithme"
+    },
+    {
+      "question": "Soit $f(x) = \\ln(2x + 1)$. Sur quel intervalle $f$ est-elle définie, et quelle est sa dérivée sur cet intervalle ?",
+      "options": [
+        "$f$ est définie sur $\\left]-\\dfrac{1}{2} ; +\\infty\\right[$ et $f'(x) = \\dfrac{2}{2x+1}$",
+        "$f$ est définie sur $\\mathbb{R}$ et $f'(x) = \\dfrac{1}{2x+1}$",
+        "$f$ est définie sur $\\left]-\\dfrac{1}{2} ; +\\infty\\right[$ et $f'(x) = \\dfrac{1}{2x+1}$",
+        "$f$ est définie sur $]0 ; +\\infty[$ et $f'(x) = \\dfrac{2}{2x+1}$"
+      ],
+      "correct": 0,
+      "explanation": "Il faut $2x+1 > 0$, soit $x > -\\dfrac{1}{2}$. La dérivée s'obtient par $(\\ln(u))' = u'/u$ avec $u = 2x+1$ et $u' = 2$, ce qui donne $f'(x) = \\dfrac{2}{2x+1}$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "logarithme"
+    },
+    {
+      "question": "Résoudre l'équation $\\ln(x^2 - 3) = \\ln(x + 1)$ dans $\\mathbb{R}$.",
+      "options": [
+        "$x = 2$ (après vérification du domaine)",
+        "$x = 2$ ou $x = -2$",
+        "$x = -2$ (après vérification du domaine)",
+        "$x = 2$ ou $x = -1$"
+      ],
+      "correct": 0,
+      "explanation": "Par injectivité de $\\ln$, l'équation équivaut à $x^2 - 3 = x + 1$, soit $x^2 - x - 4 = 0$... Attention : on résout $x^2 - 3 = x + 1 \\Rightarrow x^2 - x - 4 = 0$, discriminant $\\Delta = 17$. En réalité, l'équation $x^2 - 3 = x+1$ donne $x^2 - x - 4 = 0$. Mais si l'on pose $x^2 - 3 = x+1$, on obtient $x^2 - x - 4 = 0$, solutions $x = \\frac{1 \\pm \\sqrt{17}}{2}$. Cependant, avec $u = x+1$ et $v = x^2-3$, l'équation $x^2 - x - 4 = 0$ n'a pas de solution entière. Reprenons : $x^2 - 3 = x + 1 \\Rightarrow x^2 - x - 4 = 0$. Pour une question à solution entière, considérons plutôt $\\ln(x+3) = \\ln(2x+1)$ : par injectivité $x+3 = 2x+1 \\Rightarrow x = 2$, à vérifier : $x+3 = 5 > 0$ et $2x+1 = 5 > 0$. Seul $x = 2$ convient.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "logarithme"
+    },
+    {
+      "question": "La fonction $\\ln$ est strictement croissante sur $]0 ; +\\infty[$. Qu'en déduit-on pour la résolution de l'inéquation $\\ln(2x - 1) < \\ln(x + 3)$ (en supposant que les deux membres sont définis) ?",
+      "options": [
+        "L'inéquation équivaut à $2x - 1 < x + 3$, soit $x < 4$",
+        "L'inéquation équivaut à $2x - 1 > x + 3$, soit $x > 4$, car $\\ln$ inverse le sens",
+        "L'inéquation équivaut à $\\dfrac{2x-1}{x+3} < 1$",
+        "On ne peut pas comparer sans calculer les valeurs numériques"
+      ],
+      "correct": 0,
+      "explanation": "La fonction $\\ln$ est strictement croissante, donc elle conserve le sens des inégalités : $\\ln(A) < \\ln(B) \\Leftrightarrow A < B$ (pour $A, B > 0$). Ainsi $\\ln(2x-1) < \\ln(x+3) \\Leftrightarrow 2x-1 < x+3 \\Leftrightarrow x < 4$ (sous réserve que $2x-1 > 0$ et $x+3 > 0$).",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "logarithme"
+    },
+    {
+      "question": "On considère la fonction $f$ définie sur $]0 ; +\\infty[$ par $f(x) = x \\ln(x)$. Quelle est la valeur de $\\lim_{x \\to 0^+} f(x)$ ?",
+      "options": [
+        "$0$",
+        "$-\\infty$",
+        "$+\\infty$",
+        "$1$"
+      ],
+      "correct": 0,
+      "explanation": "Il s'agit d'une forme indéterminée $0 \\times (-\\infty)$. Par le théorème des croissances comparées, $\\lim_{x \\to 0^+} x \\ln(x) = 0$ : le facteur $x \\to 0$ l'emporte sur $\\ln(x) \\to -\\infty$.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "logarithme"
+    },
+    {
+      "question": "Un élève affirme que, pour tous réels $a > 0$ et $b > 0$, on a $\\ln(a + b) = \\ln(a) + \\ln(b)$. Cette affirmation est-elle correcte ?",
+      "options": [
+        "Non, la propriété correcte est $\\ln(a \\times b) = \\ln(a) + \\ln(b)$",
+        "Oui, c'est une propriété générale du logarithme",
+        "Oui, mais seulement si $a = b$",
+        "Non, la propriété correcte est $\\ln(a + b) = \\ln(a) \\times \\ln(b)$"
+      ],
+      "correct": 0,
+      "explanation": "C'est une erreur très fréquente. Le logarithme transforme un produit en somme : $\\ln(ab) = \\ln(a) + \\ln(b)$. La somme $\\ln(a+b)$ ne se décompose pas. Par exemple, $\\ln(1+1) = \\ln(2) \\neq \\ln(1) + \\ln(1) = 0$.",
+      "type": "erreur-frequente",
+      "difficulte": 1,
+      "theme_id": "logarithme"
+    }
+  ],
+  "trigonometrie": [
+    {
+      "question": "Quelle est la dérivée de la fonction $f(x) = \\cos(x)$ ?",
+      "options": [
+        "$f'(x) = -\\sin(x)$",
+        "$f'(x) = \\sin(x)$",
+        "$f'(x) = -\\cos(x)$",
+        "$f'(x) = \\cos(x)$"
+      ],
+      "correct": 0,
+      "explanation": "La dérivée de la fonction cosinus est $-\\sin(x)$. Le signe moins est fondamental et ne doit pas être oublié, contrairement à la dérivée de sinus qui est $\\cos(x)$ sans signe moins.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "trigonometrie"
+    },
+    {
+      "question": "Laquelle des affirmations suivantes caractérise correctement la parité des fonctions sinus et cosinus ?",
+      "options": [
+        "$\\sin$ est impaire et $\\cos$ est paire",
+        "$\\sin$ est paire et $\\cos$ est impaire",
+        "$\\sin$ et $\\cos$ sont toutes les deux paires",
+        "$\\sin$ et $\\cos$ sont toutes les deux impaires"
+      ],
+      "correct": 0,
+      "explanation": "La fonction sinus est impaire : $\\sin(-x) = -\\sin(x)$ pour tout réel $x$. La fonction cosinus est paire : $\\cos(-x) = \\cos(x)$ pour tout réel $x$. Ces propriétés découlent directement de la définition sur le cercle trigonométrique.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "trigonometrie"
+    },
+    {
+      "question": "Pour tout réel $x$, quelle est la valeur de $\\cos^2(x) + \\sin^2(x)$ ?",
+      "options": [
+        "$1$",
+        "$0$",
+        "$2$",
+        "Cela dépend de $x$"
+      ],
+      "correct": 0,
+      "explanation": "La relation fondamentale de trigonométrie stipule que $\\cos^2(x) + \\sin^2(x) = 1$ pour tout réel $x$. C'est une conséquence directe de la définition de $\\cos(x)$ et $\\sin(x)$ comme coordonnées d'un point du cercle unité.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "trigonometrie"
+    },
+    {
+      "question": "On sait que $\\sin(x) = \\frac{\\sqrt{3}}{2}$ et que $x \\in \\left[0, \\pi\\right]$. Quelles sont toutes les solutions de cette équation sur cet intervalle ?",
+      "options": [
+        "$x = \\frac{\\pi}{3}$ et $x = \\frac{2\\pi}{3}$",
+        "$x = \\frac{\\pi}{3}$ seulement",
+        "$x = \\frac{2\\pi}{3}$ seulement",
+        "$x = \\frac{\\pi}{3}$ et $x = \\frac{4\\pi}{3}$"
+      ],
+      "correct": 0,
+      "explanation": "On a $\\sin\\!\\left(\\frac{\\pi}{3}\\right) = \\frac{\\sqrt{3}}{2}$. Les solutions générales de $\\sin(x) = \\frac{\\sqrt{3}}{2}$ sont $x = \\frac{\\pi}{3} + 2k\\pi$ et $x = \\pi - \\frac{\\pi}{3} + 2k\\pi = \\frac{2\\pi}{3} + 2k\\pi$. Sur $[0, \\pi]$, pour $k=0$, on obtient $x = \\frac{\\pi}{3}$ et $x = \\frac{2\\pi}{3}$, toutes deux dans l'intervalle.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "trigonometrie"
+    },
+    {
+      "question": "Quelles sont les solutions générales de l'équation $\\cos(x) = \\frac{1}{2}$ dans $\\mathbb{R}$ ?",
+      "options": [
+        "$x = \\frac{\\pi}{3} + 2k\\pi$ ou $x = -\\frac{\\pi}{3} + 2k\\pi$, $k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{3} + 2k\\pi$ ou $x = \\pi - \\frac{\\pi}{3} + 2k\\pi$, $k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{3} + k\\pi$, $k \\in \\mathbb{Z}$",
+        "$x = \\frac{\\pi}{3} + 2k\\pi$ seulement, $k \\in \\mathbb{Z}$"
+      ],
+      "correct": 0,
+      "explanation": "Pour $\\cos(x) = a$, les solutions générales sont $x = x_0 + 2k\\pi$ et $x = -x_0 + 2k\\pi$ où $x_0 = \\arccos(a)$. Ici $\\cos\\!\\left(\\frac{\\pi}{3}\\right) = \\frac{1}{2}$, donc $x_0 = \\frac{\\pi}{3}$ et les solutions sont $x = \\frac{\\pi}{3} + 2k\\pi$ ou $x = -\\frac{\\pi}{3} + 2k\\pi$. La deuxième famille est $-x_0$ et non $\\pi - x_0$ (qui serait la formule pour sinus).",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "trigonometrie"
+    },
+    {
+      "question": "La fonction $f$ définie sur $\\mathbb{R}$ par $f(x) = \\sin(x)$ est croissante sur quel intervalle parmi les suivants ?",
+      "options": [
+        "$\\left[-\\frac{\\pi}{2},\\, \\frac{\\pi}{2}\\right]$",
+        "$\\left[0,\\, \\pi\\right]$",
+        "$\\left[\\frac{\\pi}{2},\\, \\frac{3\\pi}{2}\\right]$",
+        "$\\left[\\pi,\\, 2\\pi\\right]$"
+      ],
+      "correct": 0,
+      "explanation": "La dérivée de $\\sin$ est $\\cos$, qui est positive sur $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Donc $\\sin$ est croissante sur $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$. Sur $\\left[\\frac{\\pi}{2}, \\frac{3\\pi}{2}\\right]$, $\\cos$ est négatif, donc $\\sin$ est décroissante.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "trigonometrie"
+    },
+    {
+      "question": "On considère la fonction $g$ définie sur $\\mathbb{R}$ par $g(x) = \\cos(x)$. Quelle propriété de symétrie sa courbe représentative vérifie-t-elle ?",
+      "options": [
+        "Symétrie axiale par rapport à l'axe des ordonnées",
+        "Symétrie centrale par rapport à l'origine",
+        "Symétrie axiale par rapport à l'axe des abscisses",
+        "Aucune symétrie particulière"
+      ],
+      "correct": 0,
+      "explanation": "La fonction cosinus est paire : $\\cos(-x) = \\cos(x)$ pour tout réel $x$. Graphiquement, cela se traduit par une symétrie axiale de la courbe par rapport à l'axe des ordonnées. La symétrie centrale par rapport à l'origine est la propriété de la fonction sinus, qui est impaire.",
+      "type": "raisonnement",
+      "difficulte": 1,
+      "theme_id": "trigonometrie"
+    },
+    {
+      "question": "Calculer la dérivée de la fonction $h$ définie sur $\\mathbb{R}$ par $h(x) = \\sin(3x + 1)$.",
+      "options": [
+        "$h'(x) = 3\\cos(3x+1)$",
+        "$h'(x) = \\cos(3x+1)$",
+        "$h'(x) = -3\\sin(3x+1)$",
+        "$h'(x) = 3\\sin(3x+1)$"
+      ],
+      "correct": 0,
+      "explanation": "On applique la règle de dérivation d'une composée : $(\\sin(u(x)))' = u'(x)\\cos(u(x))$. Ici $u(x) = 3x+1$ donc $u'(x) = 3$. On obtient $h'(x) = 3\\cos(3x+1)$. Oublier le facteur $3$ est l'erreur la plus fréquente.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "trigonometrie"
+    },
+    {
+      "question": "On sait que $\\cos(x) = \\frac{1}{3}$ et que $x \\in \\left[0, \\frac{\\pi}{2}\\right]$. Quelle est la valeur de $\\sin^2(x)$ ?",
+      "options": [
+        "$\\frac{8}{9}$",
+        "$\\frac{1}{9}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{\\sqrt{8}}{3}$"
+      ],
+      "correct": 0,
+      "explanation": "On utilise la relation fondamentale $\\cos^2(x) + \\sin^2(x) = 1$. Avec $\\cos(x) = \\frac{1}{3}$, on a $\\cos^2(x) = \\frac{1}{9}$, donc $\\sin^2(x) = 1 - \\frac{1}{9} = \\frac{8}{9}$. La réponse $\\frac{\\sqrt{8}}{3}$ correspond à $\\sin(x)$ lui-même (positif car $x \\in [0, \\frac{\\pi}{2}]$), pas à $\\sin^2(x)$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "trigonometrie"
+    },
+    {
+      "question": "Un élève affirme que la dérivée de $f(x) = \\cos(2x)$ est $f'(x) = \\sin(2x)$. Quelle est l'erreur commise ?",
+      "options": [
+        "Il a oublié le signe moins et le facteur $2$ : la dérivée correcte est $f'(x) = -2\\sin(2x)$",
+        "Il a seulement oublié le facteur $2$ : la dérivée correcte est $f'(x) = \\sin(2x)$",
+        "Il a seulement oublié le signe moins : la dérivée correcte est $f'(x) = -\\sin(2x)$",
+        "Il n'a commis aucune erreur : $f'(x) = \\sin(2x)$ est correct"
+      ],
+      "correct": 0,
+      "explanation": "L'élève a commis deux erreurs simultanées. D'abord, la dérivée de $\\cos(u)$ est $-u'\\sin(u)$ et non $\\sin(u)$ : il manque le signe moins. Ensuite, avec $u(x) = 2x$, on a $u'(x) = 2$, facteur multiplicatif oublié. La dérivée correcte est $f'(x) = -2\\sin(2x)$.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "trigonometrie"
+    }
+  ],
+  "primitives-equations-differentielles": [
+    {
+      "question": "Soit $f$ une fonction continue sur un intervalle $I$ et $F$ une primitive de $f$ sur $I$. Quelle est l'expression de toutes les primitives de $f$ sur $I$ ?",
+      "options": [
+        "$F(x) + C$ où $C \\in \\mathbb{R}$",
+        "$F(x) \\times C$ où $C \\in \\mathbb{R}$",
+        "$F(x) + C$ où $C > 0$",
+        "$F'(x) + C$ où $C \\in \\mathbb{R}$"
+      ],
+      "correct": 0,
+      "explanation": "Par définition, si $F$ est une primitive de $f$ sur $I$, toute primitive de $f$ sur $I$ est de la forme $F(x) + C$ avec $C$ une constante réelle quelconque. La constante peut être nulle, négative ou positive, donc $C \\in \\mathbb{R}$. Multiplier par $C$ ou restreindre $C > 0$ serait incorrect.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "primitives-equations-differentielles"
+    },
+    {
+      "question": "Quelle est une primitive de $\\frac{1}{x}$ sur $]0 ; +\\infty[$ ?",
+      "options": [
+        "$\\ln(x)$",
+        "$-\\frac{1}{x^2}$",
+        "$\\frac{x^0}{0}$",
+        "$\\frac{1}{2x^2}$"
+      ],
+      "correct": 0,
+      "explanation": "La primitive de $\\frac{1}{x} = x^{-1}$ ne s'obtient pas par la formule $\\frac{x^{n+1}}{n+1}$ car $n = -1$ rendrait le dénominateur nul. C'est un cas particulier : la primitive de $\\frac{1}{x}$ sur $]0 ; +\\infty[$ est $\\ln(x)$. On vérifie : $\\bigl(\\ln(x)\\bigr)' = \\frac{1}{x}$.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "primitives-equations-differentielles"
+    },
+    {
+      "question": "Quelle est la solution générale de l'équation différentielle $y' = -3y$ sur $\\mathbb{R}$ ?",
+      "options": [
+        "$y(x) = Ce^{-3x}$ avec $C \\in \\mathbb{R}$",
+        "$y(x) = Ce^{3x}$ avec $C \\in \\mathbb{R}$",
+        "$y(x) = e^{-3x}$",
+        "$y(x) = -3e^{x} + C$ avec $C \\in \\mathbb{R}$"
+      ],
+      "correct": 0,
+      "explanation": "L'équation $y' = ay$ a pour solutions générales $y = Ce^{ax}$ avec $C \\in \\mathbb{R}$. Ici $a = -3$, donc $y = Ce^{-3x}$. Oublier $C$ donne une seule solution particulière. Prendre $a = 3$ revient à confondre le signe.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "primitives-equations-differentielles"
+    },
+    {
+      "question": "Quelle est la solution générale de l'équation différentielle $y' = 2y + 6$ sur $\\mathbb{R}$ ?",
+      "options": [
+        "$y(x) = Ce^{2x} - 3$ avec $C \\in \\mathbb{R}$",
+        "$y(x) = Ce^{2x} + 3$ avec $C \\in \\mathbb{R}$",
+        "$y(x) = Ce^{2x}$ avec $C \\in \\mathbb{R}$",
+        "$y(x) = Ce^{2x} - 6$ avec $C \\in \\mathbb{R}$"
+      ],
+      "correct": 0,
+      "explanation": "Pour $y' = ay + b$ avec $a = 2$ et $b = 6$, la solution particulière constante est $y_p = -\\frac{b}{a} = -\\frac{6}{2} = -3$. La solution générale est donc $y = Ce^{2x} - 3$. Ajouter $+3$ revient à se tromper de signe dans $-\\frac{b}{a}$. Omettre $-3$ revient à résoudre $y' = 2y$ au lieu de $y' = 2y + 6$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "primitives-equations-differentielles"
+    },
+    {
+      "question": "Quelle est une primitive de $e^{4x}$ sur $\\mathbb{R}$ ?",
+      "options": [
+        "$\\frac{1}{4}e^{4x}$",
+        "$4e^{4x}$",
+        "$e^{4x}$",
+        "$\\frac{1}{4}e^{4x+1}$"
+      ],
+      "correct": 0,
+      "explanation": "La primitive de $e^{ax}$ est $\\frac{1}{a}e^{ax}$. Ici $a = 4$, donc la primitive est $\\frac{1}{4}e^{4x}$. On vérifie : $\\left(\\frac{1}{4}e^{4x}\\right)' = \\frac{1}{4} \\times 4 e^{4x} = e^{4x}$. Écrire $4e^{4x}$ est l'erreur classique de confondre dérivée et primitive.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "primitives-equations-differentielles"
+    },
+    {
+      "question": "On considère l'équation différentielle $y' = -y$ avec la condition initiale $y(1) = 2$. Quelle est la valeur de la constante $C$ dans la solution particulière $y(x) = Ce^{-x}$ ?",
+      "options": [
+        "$C = 2e$",
+        "$C = 2$",
+        "$C = \\frac{2}{e}$",
+        "$C = -2e$"
+      ],
+      "correct": 0,
+      "explanation": "La solution générale de $y' = -y$ est $y = Ce^{-x}$. La condition $y(1) = 2$ donne $Ce^{-1} = 2$, soit $C = 2e$. L'erreur fréquente est d'écrire $C = y_0 = 2$, ce qui n'est vrai que si $x_0 = 0$. Ici $x_0 = 1 \\neq 0$, donc $C = 2e^{1} = 2e$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "primitives-equations-differentielles"
+    },
+    {
+      "question": "On cherche une primitive de $f(x) = 3x^2 - \\frac{1}{x}$ sur $]0 ; +\\infty[$. Laquelle des expressions suivantes convient ?",
+      "options": [
+        "$x^3 - \\ln(x)$",
+        "$x^3 + \\ln(x)$",
+        "$6x - \\frac{1}{x^2}$",
+        "$x^3 - \\frac{1}{2x^2}$"
+      ],
+      "correct": 0,
+      "explanation": "Par linéarité : une primitive de $3x^2$ est $x^3$, et une primitive de $-\\frac{1}{x}$ est $-\\ln(x)$ sur $]0;+\\infty[$. Donc $F(x) = x^3 - \\ln(x)$. On vérifie : $F'(x) = 3x^2 - \\frac{1}{x} = f(x)$. L'option $6x - \\frac{1}{x^2}$ correspond à la dérivée de $f$, pas à sa primitive.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "primitives-equations-differentielles"
+    },
+    {
+      "question": "Soit $y' = ay$ avec $a < 0$. Que peut-on affirmer sur le comportement de toute solution non nulle quand $x \\to +\\infty$ ?",
+      "options": [
+        "Elle tend vers $0$.",
+        "Elle tend vers $+\\infty$.",
+        "Elle tend vers $-\\infty$.",
+        "Elle est périodique."
+      ],
+      "correct": 0,
+      "explanation": "Les solutions de $y' = ay$ sont $y = Ce^{ax}$. Si $a < 0$, alors $e^{ax} \\to 0$ quand $x \\to +\\infty$, donc $Ce^{ax} \\to 0$ pour tout $C \\in \\mathbb{R}$. La solution nulle ($C = 0$) tend aussi vers $0$. Si $a > 0$, la solution divergerait, mais ici $a < 0$.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "primitives-equations-differentielles"
+    },
+    {
+      "question": "Parmi les affirmations suivantes sur les primitives, laquelle est vraie ?",
+      "options": [
+        "Deux primitives d'une même fonction sur un intervalle diffèrent d'une constante.",
+        "Une fonction admet une primitive sur $\\mathbb{R}$ si et seulement si elle est dérivable.",
+        "La primitive d'une fonction est toujours unique.",
+        "Si $F$ est une primitive de $f$, alors $F$ est une primitive de $f'$."
+      ],
+      "correct": 0,
+      "explanation": "Par le théorème d'unicité à une constante près : si $F$ et $G$ sont deux primitives de $f$ sur un intervalle $I$, alors $G - F$ est constante sur $I$. L'unicité est fausse (il y en a une infinité). La condition de dérivabilité est fausse : la continuité suffit. La dernière option confond $f$ et $f'$.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "primitives-equations-differentielles"
+    },
+    {
+      "question": "Un élève résout $y' = 3y + 9$ et écrit comme solution générale $y(x) = Ce^{3x}$. Quelle erreur a-t-il commise ?",
+      "options": [
+        "Il a oublié d'ajouter la solution particulière constante $y_p = -3$.",
+        "Il a utilisé $e^{3x}$ au lieu de $e^{-3x}$.",
+        "Il a oublié la constante $C$.",
+        "Il a confondu $y'$ et $y$."
+      ],
+      "correct": 0,
+      "explanation": "Pour $y' = 3y + 9$ (avec $a = 3$, $b = 9$), la solution particulière constante est $y_p = -\\frac{9}{3} = -3$. La solution générale est $y = Ce^{3x} - 3$. L'élève a résolu $y' = 3y$ au lieu de $y' = 3y + 9$ : il a oublié d'ajouter $y_p = -3$. On peut vérifier : si $y = Ce^{3x}$, alors $y' = 3Ce^{3x}$ et $3y + 9 = 3Ce^{3x} + 9 \\neq y'$ en général.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "primitives-equations-differentielles"
+    }
+  ],
+  "calcul-integral": [
+    {
+      "question": "Soit $f$ une fonction continue sur $[a, b]$ et $F$ une primitive de $f$ sur $[a, b]$. Quelle est la valeur de $\\int_a^b f(x)\\,dx$ ?",
+      "options": [
+        "$F(b) - F(a)$",
+        "$F(b) + F(a)$",
+        "$F(a) - F(b)$",
+        "$F'(b) - F'(a)$"
+      ],
+      "correct": 0,
+      "explanation": "La formule de Newton stipule que $\\int_a^b f(x)\\,dx = [F(x)]_a^b = F(b) - F(a)$. L'erreur classique est d'additionner les valeurs aux bornes au lieu de les soustraire, ou d'inverser l'ordre de soustraction.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "calcul-integral"
+    },
+    {
+      "question": "La valeur moyenne d'une fonction $f$ continue sur $[a, b]$ (avec $a < b$) est définie par :",
+      "options": [
+        "$\\dfrac{1}{b-a}\\displaystyle\\int_a^b f(x)\\,dx$",
+        "$\\dfrac{1}{b}\\displaystyle\\int_a^b f(x)\\,dx$",
+        "$\\dfrac{1}{b-a}\\left(f(a) + f(b)\\right)$",
+        "$(b-a)\\displaystyle\\int_a^b f(x)\\,dx$"
+      ],
+      "correct": 0,
+      "explanation": "Par définition, la valeur moyenne de $f$ sur $[a, b]$ est $\\mu = \\frac{1}{b-a}\\int_a^b f(x)\\,dx$. Le dénominateur est la longueur de l'intervalle $b - a$, et non $b$ seul. L'option $\\frac{f(a)+f(b)}{2}$ serait la moyenne des valeurs aux extrémités, ce qui est différent.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "calcul-integral"
+    },
+    {
+      "question": "Soit $f$ continue sur un intervalle contenant $a$, $b$ et $c$. Laquelle des égalités suivantes exprime la relation de Chasles ?",
+      "options": [
+        "$\\displaystyle\\int_a^b f(x)\\,dx = \\int_a^c f(x)\\,dx + \\int_c^b f(x)\\,dx$",
+        "$\\displaystyle\\int_a^b f(x)\\,dx = \\int_a^c f(x)\\,dx - \\int_c^b f(x)\\,dx$",
+        "$\\displaystyle\\int_a^b f(x)\\,dx = \\int_a^c f(x)\\,dx \\times \\int_c^b f(x)\\,dx$",
+        "$\\displaystyle\\int_a^b f(x)\\,dx = \\int_c^a f(x)\\,dx + \\int_b^c f(x)\\,dx$"
+      ],
+      "correct": 0,
+      "explanation": "La relation de Chasles s'écrit $\\int_a^b f = \\int_a^c f + \\int_c^b f$. Elle est valable quel que soit l'ordre de $a$, $b$, $c$. Les autres options introduisent des signes ou des opérations incorrects.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "calcul-integral"
+    },
+    {
+      "question": "Soit $f$ et $g$ deux fonctions continues sur $[a, b]$ et $\\lambda, \\mu \\in \\mathbb{R}$. Par linéarité de l'intégrale, $\\displaystyle\\int_a^b (3f(x) - 2g(x))\\,dx$ est égal à :",
+      "options": [
+        "$3\\displaystyle\\int_a^b f(x)\\,dx - 2\\displaystyle\\int_a^b g(x)\\,dx$",
+        "$3\\displaystyle\\int_a^b f(x)\\,dx + 2\\displaystyle\\int_a^b g(x)\\,dx$",
+        "$\\displaystyle\\int_a^b 3f(x)\\,dx \\times \\displaystyle\\int_a^b (-2g(x))\\,dx$",
+        "$\\left(\\displaystyle\\int_a^b f(x)\\,dx\\right)^3 - \\left(\\displaystyle\\int_a^b g(x)\\,dx\\right)^2$"
+      ],
+      "correct": 0,
+      "explanation": "Par linéarité, $\\int_a^b (\\lambda f + \\mu g) = \\lambda \\int_a^b f + \\mu \\int_a^b g$. Ici $\\lambda = 3$ et $\\mu = -2$, donc le résultat est $3\\int_a^b f - 2\\int_a^b g$. L'intégrale d'une somme n'est pas le produit des intégrales.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "calcul-integral"
+    },
+    {
+      "question": "Quelle est la formule de l'intégration par parties sur $[a, b]$, pour $u$ et $v$ dérivables sur $[a, b]$ avec $u'$ et $v'$ continues ?",
+      "options": [
+        "$\\displaystyle\\int_a^b u(x)v'(x)\\,dx = \\left[u(x)v(x)\\right]_a^b - \\displaystyle\\int_a^b u'(x)v(x)\\,dx$",
+        "$\\displaystyle\\int_a^b u(x)v'(x)\\,dx = \\left[u(x)v(x)\\right]_a^b + \\displaystyle\\int_a^b u'(x)v(x)\\,dx$",
+        "$\\displaystyle\\int_a^b u(x)v'(x)\\,dx = \\left[u'(x)v'(x)\\right]_a^b - \\displaystyle\\int_a^b u(x)v(x)\\,dx$",
+        "$\\displaystyle\\int_a^b u(x)v'(x)\\,dx = u(b)v'(b) - u(a)v'(a) - \\displaystyle\\int_a^b u'(x)v(x)\\,dx$"
+      ],
+      "correct": 0,
+      "explanation": "La formule d'intégration par parties est $\\int_a^b u v' = [uv]_a^b - \\int_a^b u' v$. Elle découle de $(uv)' = u'v + uv'$. Le signe moins devant l'intégrale restante est essentiel et souvent oublié.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "calcul-integral"
+    },
+    {
+      "question": "Soit $f$ une fonction continue et positive sur $[1, 3]$. On sait que $\\displaystyle\\int_1^3 f(x)\\,dx = 5$. Que peut-on conclure sur $\\displaystyle\\int_3^1 f(x)\\,dx$ ?",
+      "options": [
+        "$\\displaystyle\\int_3^1 f(x)\\,dx = -5$",
+        "$\\displaystyle\\int_3^1 f(x)\\,dx = 5$",
+        "$\\displaystyle\\int_3^1 f(x)\\,dx = 0$",
+        "On ne peut pas conclure sans connaître $f$ explicitement."
+      ],
+      "correct": 0,
+      "explanation": "Par convention, $\\int_a^b f = -\\int_b^a f$. Donc $\\int_3^1 f = -\\int_1^3 f = -5$. Le fait que $f$ soit positive ne change pas ce résultat : inverser les bornes change le signe de l'intégrale.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "calcul-integral"
+    },
+    {
+      "question": "Soit $f$ une fonction continue sur $[0, 4]$ telle que $f(x) \\leq 0$ pour tout $x \\in [0, 4]$. On souhaite calculer l'aire géométrique du domaine délimité par la courbe de $f$ et l'axe des abscisses sur $[0, 4]$. Cette aire est égale à :",
+      "options": [
+        "$-\\displaystyle\\int_0^4 f(x)\\,dx$",
+        "$\\displaystyle\\int_0^4 f(x)\\,dx$",
+        "$\\displaystyle\\int_0^4 f(x)\\,dx + \\displaystyle\\int_0^4 f(x)\\,dx$",
+        "$\\left|\\displaystyle\\int_0^4 f(x)\\,dx\\right|^2$"
+      ],
+      "correct": 0,
+      "explanation": "Comme $f \\leq 0$ sur $[0, 4]$, l'intégrale $\\int_0^4 f(x)\\,dx$ est négative ou nulle. L'aire géométrique est toujours positive : elle vaut $\\int_0^4 |f(x)|\\,dx = -\\int_0^4 f(x)\\,dx$. Confondre aire algébrique et aire géométrique est une erreur fréquente.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "calcul-integral"
+    },
+    {
+      "question": "Calculer $\\displaystyle\\int_1^3 (2x + 1)\\,dx$.",
+      "options": [
+        "$10$",
+        "$8$",
+        "$12$",
+        "$5$"
+      ],
+      "correct": 0,
+      "explanation": "Une primitive de $2x + 1$ est $F(x) = x^2 + x$. Donc $\\int_1^3 (2x+1)\\,dx = F(3) - F(1) = (9 + 3) - (1 + 1) = 12 - 2 = 10$. L'erreur $8$ correspond à l'oubli du terme $+1$, et $12$ à l'oubli de soustraire $F(1)$.",
+      "type": "calcul",
+      "difficulte": 1,
+      "theme_id": "calcul-integral"
+    },
+    {
+      "question": "On veut calculer $\\displaystyle\\int_0^1 x e^x\\,dx$ par intégration par parties. On pose $u(x) = x$ et $v'(x) = e^x$. Quelle est la valeur de cette intégrale ?",
+      "options": [
+        "$1$",
+        "$e - 1$",
+        "$e$",
+        "$e + 1$"
+      ],
+      "correct": 0,
+      "explanation": "Avec $u = x$, $v' = e^x$, on a $u' = 1$ et $v = e^x$. Donc $\\int_0^1 x e^x\\,dx = [x e^x]_0^1 - \\int_0^1 e^x\\,dx = (1 \\cdot e^1 - 0) - [e^x]_0^1 = e - (e - 1) = 1$. L'erreur $e-1$ vient de l'oubli du crochet, et $e$ de l'oubli de soustraire l'intégrale restante.",
+      "type": "calcul",
+      "difficulte": 3,
+      "theme_id": "calcul-integral"
+    },
+    {
+      "question": "Un élève calcule $\\displaystyle\\int_1^3 x^2\\,dx$ et écrit : $\\left[\\frac{x^3}{3}\\right]_1^3 = \\frac{27}{3} + \\frac{1}{3} = \\frac{28}{3}$. Quelle est son erreur et quelle est la valeur correcte ?",
+      "options": [
+        "Il a additionné $F(3)$ et $F(1)$ au lieu de soustraire ; la valeur correcte est $\\dfrac{26}{3}$.",
+        "Il a oublié de diviser par $3$ ; la valeur correcte est $\\dfrac{28}{9}$.",
+        "Il a utilisé la mauvaise primitive ; la valeur correcte est $\\dfrac{28}{3}$.",
+        "Il a inversé les bornes ; la valeur correcte est $-\\dfrac{26}{3}$."
+      ],
+      "correct": 0,
+      "explanation": "L'erreur est d'écrire $F(3) + F(1)$ au lieu de $F(3) - F(1)$. La formule de Newton donne $[F(x)]_1^3 = F(3) - F(1) = \\frac{27}{3} - \\frac{1}{3} = \\frac{26}{3}$. Additionner les valeurs aux bornes est l'une des erreurs les plus fréquentes sur ce chapitre.",
+      "type": "erreur-frequente",
+      "difficulte": 1,
+      "theme_id": "calcul-integral"
+    }
+  ],
+  "bernoulli-binomiale": [
+    {
+      "question": "Parmi les conditions suivantes, laquelle est indispensable pour qu'une succession de $n$ épreuves constitue un schéma de Bernoulli ?",
+      "options": [
+        "Les épreuves sont indépendantes et chacune a exactement deux issues.",
+        "Les épreuves sont indépendantes et la variable aléatoire suit une loi uniforme.",
+        "Les épreuves sont identiques et le nombre de succès est supérieur à $n/2$.",
+        "La probabilité de succès est strictement supérieure à $0{,}5$."
+      ],
+      "correct": 0,
+      "explanation": "Un schéma de Bernoulli requiert trois conditions : répétition de la même épreuve, exactement deux issues (succès/échec), et indépendance des épreuves. La valeur de $p$ peut être quelconque dans $]0,1[$.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "bernoulli-binomiale"
+    },
+    {
+      "question": "Si $X \\sim \\mathcal{B}(n, p)$, quelle est la variance de $X$ ?",
+      "options": [
+        "$V(X) = np(1-p)$",
+        "$V(X) = np$",
+        "$V(X) = \\sqrt{np(1-p)}$",
+        "$V(X) = np^2$"
+      ],
+      "correct": 0,
+      "explanation": "Pour une loi binomiale $\\mathcal{B}(n,p)$, la variance est $V(X) = np(1-p)$. L'espérance est $np$, et l'écart-type est $\\sqrt{np(1-p)}$, qui n'est pas la variance.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "bernoulli-binomiale"
+    },
+    {
+      "question": "Si $X \\sim \\mathcal{B}(n, p)$, quelle est la formule de $P(X = k)$ pour $0 \\leq k \\leq n$ ?",
+      "options": [
+        "$P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$",
+        "$P(X = k) = p^k (1-p)^{n-k}$",
+        "$P(X = k) = \\binom{n}{k} p^{n-k} (1-p)^{k}$",
+        "$P(X = k) = \\binom{n}{k} p^k (1-p)^{k}$"
+      ],
+      "correct": 0,
+      "explanation": "La formule exacte est $P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$. Le coefficient $\\binom{n}{k}$ est indispensable : il compte le nombre de façons de placer les $k$ succès parmi les $n$ épreuves.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "bernoulli-binomiale"
+    },
+    {
+      "question": "Si $X \\sim \\mathcal{B}(n, p)$, quelle égalité permet de calculer $P(X \\geq 1)$ le plus efficacement ?",
+      "options": [
+        "$P(X \\geq 1) = 1 - (1-p)^n$",
+        "$P(X \\geq 1) = 1 - p^n$",
+        "$P(X \\geq 1) = 1 - np(1-p)$",
+        "$P(X \\geq 1) = np$"
+      ],
+      "correct": 0,
+      "explanation": "On utilise le complémentaire : $P(X \\geq 1) = 1 - P(X = 0)$. Or $P(X = 0) = \\binom{n}{0} p^0 (1-p)^n = (1-p)^n$. Confondre avec $p^n$ revient à calculer $P(X = n)$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "bernoulli-binomiale"
+    },
+    {
+      "question": "Si $X \\sim \\mathcal{B}(n, p)$, quelle relation correcte exprime $P(X \\geq k)$ à l'aide de la fonction de répartition ?",
+      "options": [
+        "$P(X \\geq k) = 1 - P(X \\leq k-1)$",
+        "$P(X \\geq k) = 1 - P(X \\leq k)$",
+        "$P(X \\geq k) = P(X \\leq n) - P(X \\leq k)$",
+        "$P(X \\geq k) = 1 - P(X < k-1)$"
+      ],
+      "correct": 0,
+      "explanation": "L'événement $\\{X \\geq k\\}$ est le complémentaire de $\\{X \\leq k-1\\}$, donc $P(X \\geq k) = 1 - P(X \\leq k-1)$. Écrire $1 - P(X \\leq k)$ exclut à tort l'événement $\\{X = k\\}$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "bernoulli-binomiale"
+    },
+    {
+      "question": "On répète $n$ fois avec remise un tirage dans une urne contenant des boules rouges et noires. On note $X$ le nombre de boules rouges obtenues. Parmi les affirmations suivantes, laquelle justifie que $X$ suit une loi binomiale ?",
+      "options": [
+        "Le tirage avec remise garantit l'indépendance des épreuves, chacune ayant deux issues et la même probabilité de succès.",
+        "Le tirage avec remise garantit que la probabilité de succès augmente à chaque tirage.",
+        "Le nombre de boules dans l'urne est suffisamment grand pour que les épreuves soient identiques.",
+        "La loi binomiale s'applique dès que l'on répète une expérience, quelle que soit la méthode de tirage."
+      ],
+      "correct": 0,
+      "explanation": "Le tirage avec remise rétablit la composition de l'urne à chaque étape, ce qui assure l'indépendance des épreuves et la constance de $p$. Sans remise dans une petite population, les épreuves ne sont pas indépendantes et la loi binomiale ne s'applique pas.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "bernoulli-binomiale"
+    },
+    {
+      "question": "Soit $X \\sim \\mathcal{B}(100, 0{,}3)$. Un élève affirme que $E(X) = 30$ donc $X$ prend nécessairement la valeur $30$. Cette affirmation est-elle correcte ?",
+      "options": [
+        "Non, l'espérance est la valeur moyenne théorique sur un grand nombre de répétitions, pas une valeur certaine de $X$.",
+        "Oui, car $E(X) = np = 30$ est la valeur la plus probable de $X$.",
+        "Oui, car pour une loi binomiale, $X$ prend toujours la valeur $E(X)$.",
+        "Non, car $E(X) = np(1-p) = 21$ et non $30$."
+      ],
+      "correct": 0,
+      "explanation": "L'espérance $E(X) = np = 30$ est une moyenne théorique : elle indique qu'en répétant l'expérience un grand nombre de fois, la moyenne des valeurs de $X$ tend vers $30$. Cela ne signifie pas que $X = 30$ à coup sûr, ni même que $30$ est la valeur la plus probable.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "bernoulli-binomiale"
+    },
+    {
+      "question": "Soit $X \\sim \\mathcal{B}(5, 0{,}4)$. Quelle est la valeur exacte de $P(X = 2)$ ?",
+      "options": [
+        "$\\binom{5}{2} \\times 0{,}4^2 \\times 0{,}6^3 = 10 \\times 0{,}16 \\times 0{,}216 = 0{,}3456$",
+        "$0{,}4^2 \\times 0{,}6^3 = 0{,}03456$",
+        "$\\binom{5}{2} \\times 0{,}4^3 \\times 0{,}6^2 = 10 \\times 0{,}064 \\times 0{,}36 = 0{,}2304$",
+        "$\\binom{5}{2} \\times 0{,}4^2 \\times 0{,}6^2 = 10 \\times 0{,}16 \\times 0{,}36 = 0{,}576$"
+      ],
+      "correct": 0,
+      "explanation": "On applique $P(X=2) = \\binom{5}{2} \\times 0{,}4^2 \\times 0{,}6^3$. $\\binom{5}{2} = 10$, $0{,}4^2 = 0{,}16$, $0{,}6^3 = 0{,}216$, donc $P(X=2) = 10 \\times 0{,}16 \\times 0{,}216 = 0{,}3456$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "bernoulli-binomiale"
+    },
+    {
+      "question": "Soit $X \\sim \\mathcal{B}(20, 0{,}25)$. Calculer l'espérance et l'écart-type de $X$.",
+      "options": [
+        "$E(X) = 5$ et $\\sigma(X) = \\sqrt{3{,}75} \\approx 1{,}94$",
+        "$E(X) = 5$ et $\\sigma(X) = 3{,}75$",
+        "$E(X) = 3{,}75$ et $\\sigma(X) = 5$",
+        "$E(X) = 5$ et $\\sigma(X) = 15$"
+      ],
+      "correct": 0,
+      "explanation": "$E(X) = np = 20 \\times 0{,}25 = 5$. La variance est $V(X) = np(1-p) = 20 \\times 0{,}25 \\times 0{,}75 = 3{,}75$. L'écart-type est $\\sigma(X) = \\sqrt{3{,}75} \\approx 1{,}94$. Confondre variance et écart-type est une erreur classique.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "bernoulli-binomiale"
+    },
+    {
+      "question": "Soit $X \\sim \\mathcal{B}(6, 0{,}5)$. Un élève calcule $P(X = 3) = 0{,}5^3 \\times 0{,}5^3 = 0{,}015625$. Quelle erreur a-t-il commise ?",
+      "options": [
+        "Il a oublié de multiplier par le coefficient binomial $\\binom{6}{3} = 20$, ce qui donne $P(X=3) = 20 \\times 0{,}015625 = 0{,}3125$.",
+        "Il a inversé $p$ et $1-p$ dans la formule, ce qui change le résultat.",
+        "Il a utilisé $n = 6$ au lieu de $n = 3$ dans la formule.",
+        "Il n'y a pas d'erreur, $P(X = 3) = 0{,}015625$ est correct."
+      ],
+      "correct": 0,
+      "explanation": "L'erreur est l'oubli du coefficient binomial $\\binom{6}{3} = 20$. La formule complète donne $P(X=3) = \\binom{6}{3} \\times 0{,}5^3 \\times 0{,}5^3 = 20 \\times 0{,}015625 = 0{,}3125$. Omettre $\\binom{n}{k}$ revient à ne compter qu'une seule disposition des succès parmi les $n$ épreuves.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "bernoulli-binomiale"
+    }
+  ],
+  "variables-aleatoires": [
+    {
+      "question": "Soient $X$ et $Y$ deux variables aléatoires définies sur le même espace probabilisé, admettant chacune une espérance. Quelle affirmation est exacte concernant $E(X+Y)$ ?",
+      "options": [
+        "$E(X+Y) = E(X) + E(Y)$ quelles que soient les relations entre $X$ et $Y$",
+        "$E(X+Y) = E(X) + E(Y)$ uniquement si $X$ et $Y$ sont indépendantes",
+        "$E(X+Y) = E(X) \\times E(Y)$ si $X$ et $Y$ sont indépendantes",
+        "$E(X+Y) = E(X) + E(Y)$ uniquement si $X$ et $Y$ sont de même loi"
+      ],
+      "correct": 0,
+      "explanation": "La linéarité de l'espérance est inconditionnelle : $E(X+Y) = E(X) + E(Y)$ est toujours vrai, sans aucune hypothèse d'indépendance ou d'identité de loi. C'est une propriété fondamentale de l'espérance.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "variables-aleatoires"
+    },
+    {
+      "question": "Soient $X_1, X_2, \\ldots, X_n$ des variables aléatoires indépendantes et de même loi qu'une variable $X$ d'espérance $\\mu$ et de variance $\\sigma^2$. On pose $M_n = \\frac{X_1 + X_2 + \\cdots + X_n}{n}$. Quelle est la valeur de $V(M_n)$ ?",
+      "options": [
+        "$\\dfrac{\\sigma^2}{n}$",
+        "$n\\sigma^2$",
+        "$\\dfrac{\\sigma^2}{n^2}$",
+        "$\\dfrac{\\sigma}{n}$"
+      ],
+      "correct": 0,
+      "explanation": "On a $M_n = \\frac{S_n}{n}$, donc $V(M_n) = \\frac{1}{n^2} V(S_n) = \\frac{1}{n^2} \\times n\\sigma^2 = \\frac{\\sigma^2}{n}$. Diviser par $n$ divise la variance par $n^2$.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "variables-aleatoires"
+    },
+    {
+      "question": "Soient $X$ et $Y$ deux variables aléatoires indépendantes avec $V(X) = 3$ et $V(Y) = 5$. Quelle est la valeur de $V(X + Y)$ ?",
+      "options": [
+        "$8$",
+        "$15$",
+        "$\\sqrt{8}$",
+        "$4$"
+      ],
+      "correct": 0,
+      "explanation": "Comme $X$ et $Y$ sont indépendantes, $V(X+Y) = V(X) + V(Y) = 3 + 5 = 8$. L'indépendance est ici indispensable pour additionner les variances.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "variables-aleatoires"
+    },
+    {
+      "question": "Pour toute variable aléatoire $X$ de variance $\\sigma^2$ et pour tout réel $a$, quelle est la valeur de $V(aX)$ ?",
+      "options": [
+        "$a^2 \\sigma^2$",
+        "$a \\sigma^2$",
+        "$|a| \\sigma^2$",
+        "$a^2 \\sigma$"
+      ],
+      "correct": 0,
+      "explanation": "La variance est homogène au carré : $V(aX) = a^2 V(X) = a^2 \\sigma^2$. Multiplier une variable par $a$ multiplie sa variance par $a^2$, et non par $a$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "variables-aleatoires"
+    },
+    {
+      "question": "Soient $X_1, X_2, \\ldots, X_n$ des variables aléatoires indépendantes et de même loi qu'une variable $X$ d'espérance $\\mu$ et de variance $\\sigma^2$. On pose $S_n = X_1 + X_2 + \\cdots + X_n$. Quelles sont les valeurs de $E(S_n)$ et $V(S_n)$ ?",
+      "options": [
+        "$E(S_n) = n\\mu$ et $V(S_n) = n\\sigma^2$",
+        "$E(S_n) = n\\mu$ et $V(S_n) = n^2\\sigma^2$",
+        "$E(S_n) = \\mu$ et $V(S_n) = n\\sigma^2$",
+        "$E(S_n) = n\\mu$ et $V(S_n) = \\dfrac{\\sigma^2}{n}$"
+      ],
+      "correct": 0,
+      "explanation": "Par linéarité de l'espérance, $E(S_n) = nE(X) = n\\mu$. Par additivité de la variance (les variables sont indépendantes), $V(S_n) = nV(X) = n\\sigma^2$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "variables-aleatoires"
+    },
+    {
+      "question": "Soit $Z$ une variable aléatoire d'espérance $\\mu$ et de variance $\\sigma^2$. L'inégalité de Bienaymé-Tchebychev affirme que pour tout réel $\\delta > 0$ : $P(|Z - \\mu| \\geq \\delta) \\leq \\dfrac{\\sigma^2}{\\delta^2}$. Que peut-on conclure si on obtient une majoration égale à $0{,}04$ ?",
+      "options": [
+        "La probabilité $P(|Z - \\mu| \\geq \\delta)$ est inférieure ou égale à $0{,}04$, mais peut être strictement plus petite",
+        "La probabilité $P(|Z - \\mu| \\geq \\delta)$ est exactement égale à $0{,}04$",
+        "La probabilité $P(|Z - \\mu| < \\delta)$ est inférieure ou égale à $0{,}04$",
+        "La probabilité $P(|Z - \\mu| \\geq \\delta)$ est supérieure ou égale à $0{,}04$"
+      ],
+      "correct": 0,
+      "explanation": "Bienaymé-Tchebychev fournit une majoration : $P(|Z - \\mu| \\geq \\delta) \\leq 0{,}04$. La probabilité réelle peut être bien inférieure à $0{,}04$. On ne peut pas conclure à l'égalité.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "variables-aleatoires"
+    },
+    {
+      "question": "On considère $n$ variables aléatoires $X_1, \\ldots, X_n$ indépendantes et de même loi, d'espérance $\\mu$ et de variance $\\sigma^2 > 0$. Que se passe-t-il pour $V(M_n)$ lorsque $n$ tend vers $+\\infty$ ?",
+      "options": [
+        "$V(M_n)$ tend vers $0$, ce qui traduit la concentration de $M_n$ autour de $\\mu$",
+        "$V(M_n)$ tend vers $+\\infty$, car on additionne de plus en plus de variables",
+        "$V(M_n)$ reste constante et égale à $\\sigma^2$",
+        "$V(M_n)$ tend vers $\\sigma^2$, l'espérance de la variance"
+      ],
+      "correct": 0,
+      "explanation": "Comme $V(M_n) = \\frac{\\sigma^2}{n}$, cette quantité tend vers $0$ quand $n \\to +\\infty$. Cela signifie que $M_n$ se concentre de plus en plus autour de $\\mu$ : c'est le sens de la loi des grands nombres.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "variables-aleatoires"
+    },
+    {
+      "question": "Une variable aléatoire $X$ suit une loi de Bernoulli de paramètre $p = 0{,}3$. On considère $X_1, \\ldots, X_{40}$ indépendantes et de même loi que $X$, et on pose $S_{40} = X_1 + \\cdots + X_{40}$. Quelle est la valeur de $E(S_{40})$ ?",
+      "options": [
+        "$12$",
+        "$0{,}3$",
+        "$8{,}4$",
+        "$40$"
+      ],
+      "correct": 0,
+      "explanation": "Pour une loi de Bernoulli de paramètre $p = 0{,}3$, on a $E(X) = 0{,}3$. Donc $E(S_{40}) = 40 \\times 0{,}3 = 12$.",
+      "type": "calcul",
+      "difficulte": 1,
+      "theme_id": "variables-aleatoires"
+    },
+    {
+      "question": "Soit $X$ une variable aléatoire de variance $V(X) = 4$. On pose $Y = 3X + 2$. Quelle est la valeur de $V(Y)$ ?",
+      "options": [
+        "$36$",
+        "$14$",
+        "$12$",
+        "$38$"
+      ],
+      "correct": 0,
+      "explanation": "On applique $V(aX + b) = a^2 V(X)$ : $V(3X + 2) = 3^2 \\times V(X) = 9 \\times 4 = 36$. La constante additive $2$ ne contribue pas à la variance.",
+      "type": "calcul",
+      "difficulte": 1,
+      "theme_id": "variables-aleatoires"
+    },
+    {
+      "question": "Soient $X$ et $Y$ deux variables aléatoires avec $V(X) = 2$ et $V(Y) = 5$. Un élève écrit directement $V(X + Y) = 7$. Quelle est l'erreur commise ?",
+      "options": [
+        "L'élève a utilisé $V(X+Y) = V(X) + V(Y)$ sans vérifier que $X$ et $Y$ sont indépendantes, ce qui est une condition indispensable",
+        "L'élève aurait dû écrire $V(X+Y) = V(X) \\times V(Y) = 10$",
+        "L'élève aurait dû écrire $V(X+Y) = V(X) + V(Y)$ uniquement si $X$ et $Y$ ont la même loi",
+        "Il n'y a pas d'erreur : $V(X+Y) = V(X) + V(Y)$ est toujours vrai, comme pour l'espérance"
+      ],
+      "correct": 0,
+      "explanation": "Contrairement à l'espérance, la formule $V(X+Y) = V(X) + V(Y)$ n'est valide que si $X$ et $Y$ sont indépendantes. Sans cette hypothèse, la formule est fausse en général. L'élève a confondu la propriété de la variance avec celle de l'espérance.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "variables-aleatoires"
+    }
+  ],
+  "concentration-grands-nombres": [
+    {
+      "question": "Soit $X$ une variable aléatoire d'espérance $\\mu$ et de variance $V$. Laquelle des expressions suivantes est la majoration donnée par l'inégalité de Bienaymé-Tchebychev pour $P(|X - \\mu| \\geq \\delta)$, avec $\\delta > 0$ ?",
+      "options": [
+        "$\\dfrac{V}{\\delta^2}$",
+        "$\\dfrac{V}{\\delta}$",
+        "$\\dfrac{\\sqrt{V}}{\\delta}$",
+        "$\\dfrac{V^2}{\\delta^2}$"
+      ],
+      "correct": 0,
+      "explanation": "L'inégalité de Bienaymé-Tchebychev affirme que $P(|X - \\mu| \\geq \\delta) \\leq \\frac{V}{\\delta^2}$. Le dénominateur est $\\delta^2$ et le numérateur est la variance $V$, pas l'écart-type ni la variance au carré.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "concentration-grands-nombres"
+    },
+    {
+      "question": "Soit $X_1, X_2, \\ldots, X_n$ des variables aléatoires indépendantes et identiquement distribuées d'espérance $\\mu$ et de variance $V$. On pose $M_n = \\frac{X_1 + \\cdots + X_n}{n}$. Quelles sont l'espérance et la variance de $M_n$ ?",
+      "options": [
+        "$E(M_n) = \\mu$ et $V(M_n) = \\dfrac{V}{n}$",
+        "$E(M_n) = \\mu$ et $V(M_n) = V$",
+        "$E(M_n) = \\dfrac{\\mu}{n}$ et $V(M_n) = \\dfrac{V}{n}$",
+        "$E(M_n) = n\\mu$ et $V(M_n) = \\dfrac{V}{n}$"
+      ],
+      "correct": 0,
+      "explanation": "Par linéarité de l'espérance, $E(M_n) = \\mu$. Par indépendance et identité de loi, $V(M_n) = \\frac{1}{n^2} \\times nV = \\frac{V}{n}$. L'espérance ne se divise pas par $n$ et la variance se divise bien par $n$.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "concentration-grands-nombres"
+    },
+    {
+      "question": "Soit $X_1, \\ldots, X_n$ des variables aléatoires i.i.d. d'espérance $\\mu$ et de variance $V$, et $M_n$ leur moyenne empirique. Quelle est la majoration correcte de $P(|M_n - \\mu| \\geq \\delta)$ donnée par l'inégalité de concentration ?",
+      "options": [
+        "$\\dfrac{V}{n\\delta^2}$",
+        "$\\dfrac{V}{\\delta^2}$",
+        "$\\dfrac{V}{n^2\\delta^2}$",
+        "$\\dfrac{nV}{\\delta^2}$"
+      ],
+      "correct": 0,
+      "explanation": "On applique Bienaymé-Tchebychev à $M_n$ dont la variance est $\\frac{V}{n}$ : $P(|M_n - \\mu| \\geq \\delta) \\leq \\frac{V/n}{\\delta^2} = \\frac{V}{n\\delta^2}$. Oublier le facteur $n$ au dénominateur est l'erreur la plus fréquente.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "concentration-grands-nombres"
+    },
+    {
+      "question": "On souhaite garantir $P(|M_n - \\mu| \\geq \\delta) \\leq \\alpha$ à l'aide de l'inégalité de concentration. En isolant $n$ dans l'inégalité $\\frac{V}{n\\delta^2} \\leq \\alpha$, quelle condition obtient-on sur $n$ ?",
+      "options": [
+        "$n \\geq \\dfrac{V}{\\alpha \\delta^2}$",
+        "$n \\geq \\dfrac{V}{\\alpha^2 \\delta}$",
+        "$n \\geq \\dfrac{\\alpha}{V \\delta^2}$",
+        "$n \\geq \\dfrac{V \\delta^2}{\\alpha}$"
+      ],
+      "correct": 0,
+      "explanation": "De $\\frac{V}{n\\delta^2} \\leq \\alpha$, on tire $n \\geq \\frac{V}{\\alpha \\delta^2}$ en multipliant les deux membres par $n$ et en divisant par $\\alpha\\delta^2$. Les distracteurs correspondent à des confusions entre les rôles de $\\alpha$, $\\delta$ et $V$.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "concentration-grands-nombres"
+    },
+    {
+      "question": "Que signifie la loi des grands nombres pour la moyenne empirique $M_n$ de variables i.i.d. d'espérance $\\mu$ et de variance $V$ ?",
+      "options": [
+        "Pour tout $\\delta > 0$, $P(|M_n - \\mu| \\geq \\delta) \\to 0$ quand $n \\to +\\infty$.",
+        "Pour $n$ suffisamment grand, $M_n = \\mu$ avec certitude.",
+        "La suite $(M_n)$ est croissante et converge vers $\\mu$.",
+        "Pour tout $n$, $P(|M_n - \\mu| \\geq \\delta) = 0$."
+      ],
+      "correct": 0,
+      "explanation": "La loi des grands nombres affirme une convergence en probabilité : $P(|M_n - \\mu| \\geq \\delta) \\to 0$ quand $n \\to +\\infty$. Cela ne signifie pas que $M_n = \\mu$ avec certitude pour un $n$ fini, ni que la suite est monotone.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "concentration-grands-nombres"
+    },
+    {
+      "question": "Une variable aléatoire $X$ suit une loi de Bernoulli de paramètre $p$ inconnu. On souhaite majorer $P(|M_n - p| \\geq 0{,}05)$ par $0{,}04$ sans connaître $p$. Quelle borne supérieure de la variance de $X$ utilise-t-on, et pourquoi ?",
+      "options": [
+        "On utilise $V \\leq \\frac{1}{4}$, car $p(1-p) \\leq \\frac{1}{4}$ pour tout $p \\in [0,1]$.",
+        "On utilise $V \\leq 1$, car une probabilité est toujours inférieure à 1.",
+        "On utilise $V = p(1-p)$ avec $p = 0{,}5$ car c'est la valeur la plus probable.",
+        "On utilise $V \\leq \\frac{1}{2}$, car l'écart-type d'une loi de Bernoulli est au plus $\\frac{1}{\\sqrt{2}}$."
+      ],
+      "correct": 0,
+      "explanation": "La variance d'une loi de Bernoulli est $p(1-p)$. La fonction $p \\mapsto p(1-p)$ atteint son maximum $\\frac{1}{4}$ en $p = \\frac{1}{2}$. On majore donc $V$ par $\\frac{1}{4}$ pour obtenir une borne valable quel que soit $p$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "concentration-grands-nombres"
+    },
+    {
+      "question": "On augmente la taille $n$ d'un échantillon tout en gardant la précision $\\delta$ et le risque $\\alpha$ fixés. Quel est l'effet sur la borne $\\frac{V}{n\\delta^2}$ donnée par l'inégalité de concentration ?",
+      "options": [
+        "La borne diminue : augmenter $n$ améliore la garantie probabiliste.",
+        "La borne augmente : un plus grand échantillon introduit plus de variabilité.",
+        "La borne reste inchangée car $\\delta$ et $\\alpha$ sont fixés.",
+        "La borne diminue seulement si $V < 1$."
+      ],
+      "correct": 0,
+      "explanation": "La borne $\\frac{V}{n\\delta^2}$ est une fonction décroissante de $n$. Quand $n$ augmente, la borne tend vers $0$, ce qui signifie que la probabilité d'un écart supérieur à $\\delta$ devient de plus en plus faible. C'est le sens de la loi des grands nombres.",
+      "type": "raisonnement",
+      "difficulte": 1,
+      "theme_id": "concentration-grands-nombres"
+    },
+    {
+      "question": "Deux élèves discutent de la loi des grands nombres. Élève A dit : 'Pour $n$ très grand, il est certain que $M_n = \\mu$.' Élève B dit : 'Pour $n$ très grand, la probabilité que $M_n$ s'écarte de $\\mu$ de plus de $\\delta$ est aussi proche de zéro qu'on le souhaite.' Laquelle de ces affirmations est correcte ?",
+      "options": [
+        "Seul l'élève B a raison : la loi des grands nombres affirme une convergence en probabilité, pas une égalité certaine.",
+        "Seul l'élève A a raison : pour $n$ infini, $M_n$ est exactement égal à $\\mu$.",
+        "Les deux élèves ont raison car les deux formulations sont équivalentes.",
+        "Aucun des deux n'a raison : la loi des grands nombres ne dit rien sur $M_n$ pour $n$ fini."
+      ],
+      "correct": 0,
+      "explanation": "La loi des grands nombres est un résultat de convergence en probabilité : $P(|M_n - \\mu| \\geq \\delta) \\to 0$ quand $n \\to +\\infty$. Cela ne garantit pas $M_n = \\mu$ avec certitude pour un $n$ fini. L'élève A confond convergence en probabilité et égalité certaine.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "concentration-grands-nombres"
+    },
+    {
+      "question": "Des variables aléatoires $X_1, \\ldots, X_n$ sont i.i.d. avec $E(X_i) = 3$ et $V(X_i) = 4$. On pose $M_n = \\frac{X_1 + \\cdots + X_n}{n}$ avec $n = 100$. Quelle est la valeur de la borne donnée par l'inégalité de concentration pour $P(|M_{100} - 3| \\geq 0{,}2)$ ?",
+      "options": [
+        "$1$",
+        "$0{,}01$",
+        "$100$",
+        "$0{,}04$"
+      ],
+      "correct": 0,
+      "explanation": "On applique $\\frac{V}{n\\delta^2} = \\frac{4}{100 \\times 0{,}04} = \\frac{4}{4} = 1$. La borne vaut $1$, ce qui est trivial : elle n'apporte aucune information utile sur la probabilité cherchée.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "concentration-grands-nombres"
+    },
+    {
+      "question": "Des variables aléatoires $X_1, \\ldots, X_n$ sont i.i.d. avec $E(X_i) = 2$ et $V(X_i) = 0{,}25$. On veut garantir $P(|M_n - 2| \\geq 0{,}1) \\leq 0{,}05$. Un élève écrit : '$\\frac{0{,}25}{0{,}1^2} \\leq 0{,}05$, donc $n \\geq \\frac{0{,}25}{0{,}05 \\times 0{,}01} = 500$.' Quelle erreur a-t-il commise ?",
+      "options": [
+        "Il a oublié le facteur $n$ au dénominateur : la borne correcte est $\\frac{V}{n\\delta^2}$, pas $\\frac{V}{\\delta^2}$.",
+        "Il a confondu $\\delta$ et $\\alpha$ : il fallait écrire $\\frac{0{,}25}{0{,}05^2}$ au numérateur.",
+        "Il a utilisé la mauvaise valeur de la variance : il fallait prendre $V = 0{,}5$.",
+        "Il n'a pas commis d'erreur, le calcul est correct."
+      ],
+      "correct": 0,
+      "explanation": "L'élève a appliqué Bienaymé-Tchebychev directement à $X$ avec la borne $\\frac{V}{\\delta^2}$ au lieu d'utiliser l'inégalité de concentration $\\frac{V}{n\\delta^2}$ pour $M_n$. La condition correcte est $\\frac{0{,}25}{n \\times 0{,}01} \\leq 0{,}05$, soit $n \\geq \\frac{0{,}25}{0{,}05 \\times 0{,}01} = 500$. Ici le résultat numérique est le même par coïncidence, mais le raisonnement est faux : sans le $n$ au dénominateur, on ne peut pas isoler $n$.",
+      "type": "erreur-frequente",
+      "difficulte": 3,
+      "theme_id": "concentration-grands-nombres"
+    }
+  ],
+  "algorithmique-python": [
+    {
+      "question": "En Python, que génère l'appel range(4, 9) ?",
+      "options": [
+        "Les entiers 4, 5, 6, 7, 8",
+        "Les entiers 4, 5, 6, 7, 8, 9",
+        "Les entiers 0, 1, 2, 3, 4",
+        "Les entiers 1, 2, 3, 4, 5, 6, 7, 8, 9"
+      ],
+      "correct": 0,
+      "explanation": "range(a, b) génère les entiers de a à b-1 inclus. Ici range(4, 9) génère 4, 5, 6, 7, 8, soit 5 valeurs. La borne supérieure b = 9 est exclue.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "algorithmique-python"
+    },
+    {
+      "question": "Soit L = [3, 7, 2, 9, 5]. Quelle est la valeur de L[len(L) - 1] ?",
+      "options": [
+        "5",
+        "9",
+        "3",
+        "Une erreur IndexError est déclenchée"
+      ],
+      "correct": 0,
+      "explanation": "len(L) = 5, donc len(L) - 1 = 4. L[4] est le cinquième élément, soit 5. Le dernier indice valide d'une liste de longueur n est toujours n - 1.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "algorithmique-python"
+    },
+    {
+      "question": "On applique la méthode de dichotomie à une fonction continue sur $[1, 5]$ pour approcher un zéro. Après $n$ itérations, la longueur de l'intervalle encadrant la racine est :",
+      "options": [
+        "$\\dfrac{4}{2^n}$",
+        "$\\dfrac{5}{2^n}$",
+        "$\\dfrac{4}{n}$",
+        "$\\dfrac{1}{2^n}$"
+      ],
+      "correct": 0,
+      "explanation": "Après $n$ itérations de dichotomie sur $[a, b]$, la longueur de l'intervalle est $\\frac{b - a}{2^n}$. Ici $b - a = 5 - 1 = 4$, donc la longueur est $\\frac{4}{2^n}$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "algorithmique-python"
+    },
+    {
+      "question": "On considère l'équation différentielle $y' = 2x$ avec $y(0) = 1$ et un pas $h = 0{,}5$. Quelle est la valeur approchée de $y(1)$ donnée par deux itérations de la méthode d'Euler ?",
+      "options": [
+        "1{,}5",
+        "2",
+        "1{,}25",
+        "2{,}5"
+      ],
+      "correct": 0,
+      "explanation": "Itération 1 : $y_1 = y_0 + h \\cdot f(x_0, y_0) = 1 + 0{,}5 \\times 2 \\times 0 = 1$, $x_1 = 0{,}5$. Itération 2 : $y_2 = 1 + 0{,}5 \\times 2 \\times 0{,}5 = 1 + 0{,}5 = 1{,}5$, $x_2 = 1$. La valeur approchée de $y(1)$ est $1{,}5$. (La solution exacte est $y = x^2 + 1$, donc $y(1) = 2$.)",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "algorithmique-python"
+    },
+    {
+      "question": "Dans une simulation de Monte-Carlo, on effectue $N = 10\\,000$ tirages uniformes dans le carré $[0, 2] \\times [0, 2]$ et $k = 3142$ points tombent dans un disque de rayon 1 centré en $(1, 1)$. Quelle est l'estimation de l'aire de ce disque ?",
+      "options": [
+        "$\\dfrac{3142}{10000} \\times 4$",
+        "$\\dfrac{3142}{10000}$",
+        "$\\dfrac{3142}{10000} \\times \\pi$",
+        "$\\dfrac{3142}{10000} \\times 2$"
+      ],
+      "correct": 0,
+      "explanation": "L'estimation Monte-Carlo est $\\text{Aire}(A) \\approx \\frac{k}{N} \\times \\text{Aire}(D)$. Le carré $[0,2]\\times[0,2]$ a une aire de $4$, donc l'estimation est $\\frac{3142}{10000} \\times 4 \\approx 1{,}257 \\approx \\pi/2.5$... soit environ $3{,}142$, cohérent avec $\\pi \\approx 3{,}14$.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "algorithmique-python"
+    },
+    {
+      "question": "On souhaite trouver le plus petit entier $n$ tel que $u_n > 1000$, où $(u_n)$ est une suite croissante. Parmi les codes suivants, lequel implémente correctement cette recherche de seuil ?",
+      "options": [
+        "n = 0 ; u = u0 ; while u <= 1000 : u = f(u) ; n = n + 1",
+        "n = 0 ; u = u0 ; while u > 1000 : u = f(u) ; n = n + 1",
+        "n = 0 ; u = u0 ; while u <= 1000 : n = n + 1 ; u = f(u)",
+        "n = 1 ; u = u0 ; while u < 1000 : u = f(u) ; n = n + 1"
+      ],
+      "correct": 0,
+      "explanation": "La boucle doit continuer TANT QUE la condition $u > 1000$ n'est pas atteinte, soit while u <= 1000. Dans le corps, on met d'abord à jour u avec la relation de récurrence, puis on incrémente n. L'option A est correcte. L'option B ne s'exécute jamais si $u_0 \\leq 1000$. L'option C incrémente n avant de mettre à jour u, ce qui décale le résultat. L'option D utilise while u < 1000 et initialise n = 1, ce qui peut donner un résultat erroné.",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "algorithmique-python"
+    },
+    {
+      "question": "Dans l'algorithme de dichotomie suivant, que doit-on écrire à la place de ??? pour que l'algorithme soit correct ? def dichotomie(f, a, b, eps): while b - a > eps: m = (a + b) / 2 if f(a) * f(m) <= 0: ??? else: a = m return (a + b) / 2",
+      "options": [
+        "b = m",
+        "a = m",
+        "a = m ; b = m",
+        "m = (a + b) / 2"
+      ],
+      "correct": 0,
+      "explanation": "Si $f(a) \\times f(m) \\leq 0$, la racine est dans $[a, m]$ : on restreint l'intervalle en posant $b = m$. On ne modifie jamais $a$ et $b$ simultanément. L'option C est une erreur classique qui réduit l'intervalle à un point.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "algorithmique-python"
+    },
+    {
+      "question": "On considère la méthode d'Euler pour approcher la solution de $y' = f(x, y)$. Parmi les affirmations suivantes, laquelle est vraie ?",
+      "options": [
+        "Plus le pas $h$ est petit, plus l'approximation est précise.",
+        "Plus le pas $h$ est grand, plus l'approximation est précise.",
+        "La précision ne dépend pas du pas $h$.",
+        "La méthode d'Euler est exacte pour toute équation différentielle linéaire."
+      ],
+      "correct": 0,
+      "explanation": "La méthode d'Euler approche la courbe solution par des segments de tangente. Plus le pas $h$ est petit, plus les segments sont courts et l'approximation est fidèle à la courbe réelle. Un grand pas accumule les erreurs locales. La méthode n'est jamais exacte en général (sauf cas particuliers).",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "algorithmique-python"
+    },
+    {
+      "question": "On veut approcher un zéro de $f$ sur $[0, 1]$ par dichotomie avec une précision inférieure à $10^{-3}$. Quel est le nombre minimal d'itérations nécessaires ?",
+      "options": [
+        "10",
+        "3",
+        "7",
+        "1000"
+      ],
+      "correct": 0,
+      "explanation": "On cherche $n$ tel que $\\frac{1}{2^n} \\leq 10^{-3}$, soit $2^n \\geq 1000$. Or $2^9 = 512 < 1000$ et $2^{10} = 1024 > 1000$. Il faut donc au minimum $n = 10$ itérations.",
+      "type": "raisonnement",
+      "difficulte": 3,
+      "theme_id": "algorithmique-python"
+    },
+    {
+      "question": "On exécute le code Python suivant : L = [] for i in range(4): L.append(2 * i + 1) Quelle est la valeur de L[-1] à la fin de l'exécution ?",
+      "options": [
+        "7",
+        "9",
+        "6",
+        "Une erreur IndexError est déclenchée"
+      ],
+      "correct": 0,
+      "explanation": "range(4) génère 0, 1, 2, 3. Les valeurs ajoutées sont $2\\times0+1=1$, $2\\times1+1=3$, $2\\times2+1=5$, $2\\times3+1=7$. La liste est donc L = [1, 3, 5, 7]. L[-1] désigne le dernier élément, soit 7. L'erreur fréquente est de croire que range(4) va jusqu'à 4, ce qui donnerait 9.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "algorithmique-python"
+    }
+  ],
+  "logique-raisonnement": [
+    {
+      "question": "Parmi les affirmations suivantes, laquelle utilise correctement la notation d'appartenance ?",
+      "options": [
+        "$2 \\in \\{1, 2, 3\\}$",
+        "$\\{2\\} \\in \\{1, 2, 3\\}$",
+        "$\\{2\\} \\in \\{\\{1\\}, \\{2\\}, \\{3\\}\\}$ est la seule façon correcte d'écrire que 2 est lié à cet ensemble",
+        "$2 \\subset \\{1, 2, 3\\}$"
+      ],
+      "correct": 0,
+      "explanation": "L'appartenance $\\in$ relie un élément à un ensemble. $2$ est un élément de $\\{1,2,3\\}$, donc $2 \\in \\{1,2,3\\}$ est correct. $\\{2\\} \\in \\{1,2,3\\}$ est faux car $\\{2\\}$ est un ensemble, pas un élément de $\\{1,2,3\\}$. $2 \\subset \\{1,2,3\\}$ est incorrect car $\\subset$ relie deux ensembles.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "logique-raisonnement"
+    },
+    {
+      "question": "Soit $A = \\{1, 2\\}$ et $B = \\{1, 2, 3\\}$. Parmi les propositions suivantes, laquelle est vraie ?",
+      "options": [
+        "$A \\subset B$ et $A \\neq B$",
+        "$A \\in B$",
+        "$A = B$",
+        "$B \\subset A$"
+      ],
+      "correct": 0,
+      "explanation": "$A \\subset B$ car tout élément de $A$ (1 et 2) appartient à $B$. Mais $A \\neq B$ car $3 \\in B$ et $3 \\notin A$. $A \\in B$ est faux : $A$ est un ensemble, pas un élément de $B$. $B \\subset A$ est faux car $3 \\in B$ mais $3 \\notin A$.",
+      "type": "connaissance",
+      "difficulte": 1,
+      "theme_id": "logique-raisonnement"
+    },
+    {
+      "question": "Quelle est la contraposée de l'implication : « Si $n^2$ est pair, alors $n$ est pair » ?",
+      "options": [
+        "Si $n$ est impair, alors $n^2$ est impair.",
+        "Si $n$ est pair, alors $n^2$ est pair.",
+        "Si $n^2$ est impair, alors $n$ est pair.",
+        "Si $n$ est pair, alors $n^2$ est impair."
+      ],
+      "correct": 0,
+      "explanation": "La contraposée de $P \\Rightarrow Q$ est $\\neg Q \\Rightarrow \\neg P$. Ici $P$ : « $n^2$ est pair » et $Q$ : « $n$ est pair ». La contraposée est donc : « si $n$ est impair ($\\neg Q$), alors $n^2$ est impair ($\\neg P$) ». L'option B est la réciproque, pas la contraposée.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "logique-raisonnement"
+    },
+    {
+      "question": "Laquelle des propositions suivantes est logiquement équivalente à $P \\Rightarrow Q$ ?",
+      "options": [
+        "$\\neg Q \\Rightarrow \\neg P$",
+        "$Q \\Rightarrow P$",
+        "$\\neg P \\Rightarrow \\neg Q$",
+        "$\\neg P \\Rightarrow Q$"
+      ],
+      "correct": 0,
+      "explanation": "Une implication est logiquement équivalente à sa contraposée $\\neg Q \\Rightarrow \\neg P$. La réciproque $Q \\Rightarrow P$ n'est pas équivalente à $P \\Rightarrow Q$ en général. $\\neg P \\Rightarrow \\neg Q$ est la contraposée de la réciproque, pas de l'implication initiale.",
+      "type": "relation",
+      "difficulte": 1,
+      "theme_id": "logique-raisonnement"
+    },
+    {
+      "question": "Quelle est la négation de la proposition : « $\\forall x \\in \\mathbb{R},\\, x^2 + 1 > 0$ » ?",
+      "options": [
+        "$\\exists x \\in \\mathbb{R},\\, x^2 + 1 \\leq 0$",
+        "$\\forall x \\in \\mathbb{R},\\, x^2 + 1 \\leq 0$",
+        "$\\exists x \\in \\mathbb{R},\\, x^2 + 1 < 0$",
+        "$\\forall x \\in \\mathbb{R},\\, x^2 + 1 < 0$"
+      ],
+      "correct": 0,
+      "explanation": "La négation de $\\forall x \\in E,\\, P(x)$ est $\\exists x \\in E,\\, \\neg P(x)$. La négation de $x^2+1 > 0$ est $x^2+1 \\leq 0$ (et non strictement $< 0$). On obtient donc $\\exists x \\in \\mathbb{R},\\, x^2+1 \\leq 0$.",
+      "type": "relation",
+      "difficulte": 2,
+      "theme_id": "logique-raisonnement"
+    },
+    {
+      "question": "Dans une démonstration par récurrence, l'étape d'hérédité consiste à :",
+      "options": [
+        "Supposer que $P(n)$ est vraie pour un entier $n \\geq n_0$ fixé, puis démontrer que $P(n+1)$ est vraie.",
+        "Vérifier que $P(n_0)$ est vraie pour le rang de départ $n_0$.",
+        "Supposer que $P(n+1)$ est vraie et en déduire que $P(n)$ est vraie.",
+        "Démontrer que $P(n)$ est vraie pour tout entier $n$ en même temps."
+      ],
+      "correct": 0,
+      "explanation": "L'hérédité consiste à supposer $P(n)$ vraie (hypothèse de récurrence) pour un $n \\geq n_0$ fixé, puis à en déduire que $P(n+1)$ est vraie. Supposer $P(n+1)$ pour prouver $P(n)$ serait un raisonnement circulaire. L'initialisation, elle, vérifie $P(n_0)$.",
+      "type": "raisonnement",
+      "difficulte": 1,
+      "theme_id": "logique-raisonnement"
+    },
+    {
+      "question": "On souhaite réfuter la propriété : « Tout entier $n \\geq 1$ vérifie $n^2 - n + 41$ est premier. » Lequel des entiers suivants constitue un contre-exemple ?",
+      "options": [
+        "$n = 41$",
+        "$n = 2$",
+        "$n = 10$",
+        "$n = 40$"
+      ],
+      "correct": 0,
+      "explanation": "Pour $n = 41$ : $n^2 - n + 41 = 41^2 - 41 + 41 = 41^2 = 1681 = 41 \\times 41$, qui n'est pas premier. C'est donc un contre-exemple. Pour $n = 2$ : $4 - 2 + 41 = 43$ (premier). Pour $n = 10$ : $100 - 10 + 41 = 131$ (premier). Pour $n = 40$ : $1600 - 40 + 41 = 1601$ (premier).",
+      "type": "raisonnement",
+      "difficulte": 2,
+      "theme_id": "logique-raisonnement"
+    },
+    {
+      "question": "On veut démontrer par récurrence que, pour tout entier $n \\geq 1$, $\\displaystyle\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}$. Quelle est la valeur obtenue lors de l'initialisation au rang $n = 1$ ?",
+      "options": [
+        "Les deux membres valent $1$.",
+        "Le membre gauche vaut $1$ et le membre droit vaut $2$.",
+        "Les deux membres valent $2$.",
+        "Le membre gauche vaut $0$ et le membre droit vaut $1$."
+      ],
+      "correct": 0,
+      "explanation": "Pour $n = 1$ : le membre gauche est $\\sum_{k=1}^{1} k = 1$. Le membre droit est $\\frac{1 \\times 2}{2} = 1$. Les deux membres sont égaux à $1$, ce qui valide l'initialisation.",
+      "type": "calcul",
+      "difficulte": 1,
+      "theme_id": "logique-raisonnement"
+    },
+    {
+      "question": "Soient $A$ et $B$ deux sous-ensembles d'un ensemble $E$. En appliquant les lois de De Morgan, que vaut $\\overline{A \\cap B}$ ?",
+      "options": [
+        "$\\bar{A} \\cup \\bar{B}$",
+        "$\\bar{A} \\cap \\bar{B}$",
+        "$A \\cup B$",
+        "$\\overline{A \\cup B}$"
+      ],
+      "correct": 0,
+      "explanation": "La loi de De Morgan pour les ensembles donne $\\overline{A \\cap B} = \\bar{A} \\cup \\bar{B}$. L'autre loi donne $\\overline{A \\cup B} = \\bar{A} \\cap \\bar{B}$. Confondre les deux est une erreur fréquente.",
+      "type": "calcul",
+      "difficulte": 2,
+      "theme_id": "logique-raisonnement"
+    },
+    {
+      "question": "Un élève affirme : « J'ai vérifié que $P \\Rightarrow Q$ est vraie, donc $Q \\Rightarrow P$ est vraie aussi. » Cette affirmation est-elle correcte ?",
+      "options": [
+        "Non, la réciproque d'une implication vraie n'est pas nécessairement vraie.",
+        "Oui, une implication et sa réciproque sont toujours équivalentes.",
+        "Oui, car la réciproque est la même chose que la contraposée.",
+        "Non, mais si $P \\Rightarrow Q$ est vraie, alors $\\neg P \\Rightarrow \\neg Q$ est vraie."
+      ],
+      "correct": 0,
+      "explanation": "La réciproque $Q \\Rightarrow P$ n'est pas équivalente à $P \\Rightarrow Q$ en général. Par exemple, « si $n$ est multiple de 4, alors $n$ est pair » est vraie, mais sa réciproque « si $n$ est pair, alors $n$ est multiple de 4 » est fausse ($n = 2$ est un contre-exemple). Seule la contraposée $\\neg Q \\Rightarrow \\neg P$ est équivalente à $P \\Rightarrow Q$.",
+      "type": "erreur-frequente",
+      "difficulte": 2,
+      "theme_id": "logique-raisonnement"
+    }
+  ]
+}

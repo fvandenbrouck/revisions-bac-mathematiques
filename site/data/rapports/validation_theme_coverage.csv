@@ -1,0 +1,19 @@
+theme,label,raw_hint_count,generated_count,missing_generation_count
+combinatoire-denombrement,Combinatoire et dénombrement,0,2,0
+geometrie-vecteurs-espace,"Vecteurs, droites et plans de l’espace",0,0,0
+geometrie-orthogonalite-distances,Orthogonalité et distances dans l’espace,45,51,0
+geometrie-reperage,Représentations paramétriques et équations cartésiennes,23,17,0
+suites,Suites,85,66,0
+limites-fonctions,Limites de fonctions,0,1,0
+derivation-convexite,Dérivation et convexité,27,32,0
+continuite,Continuité et théorème des valeurs intermédiaires,0,0,0
+logarithme,Fonction logarithme,14,25,0
+trigonometrie,Fonctions sinus et cosinus,0,0,0
+primitives-equations-differentielles,Primitives et équations différentielles,9,17,0
+calcul-integral,Calcul intégral,2,4,0
+bernoulli-binomiale,Schéma de Bernoulli et loi binomiale,75,63,0
+variables-aleatoires,Sommes de variables aléatoires,0,3,0
+concentration-grands-nombres,Concentration et loi des grands nombres,0,0,0
+algorithmique-python,Algorithmique et Python,0,0,0
+logique-raisonnement,"Logique, ensembles et raisonnement",0,0,0
+non_classe,non_classe,1,0,0

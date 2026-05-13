@@ -1,0 +1,18 @@
+domain_id,domain_title,theme_id,theme_title,total_blocs,couverts,manquants,coverage_rate,has_course,nb_exercices,nb_quiz
+algebre-geometrie,Algèbre et géométrie,combinatoire-denombrement,Combinatoire et dénombrement,5,5,0,1.0,True,38,10
+algebre-geometrie,Algèbre et géométrie,geometrie-vecteurs-espace,"Vecteurs, droites et plans de l’espace",4,4,0,1.0,True,65,10
+algebre-geometrie,Algèbre et géométrie,geometrie-orthogonalite-distances,Orthogonalité et distances dans l’espace,4,4,0,1.0,True,69,10
+algebre-geometrie,Algèbre et géométrie,geometrie-reperage,Représentations paramétriques et équations cartésiennes,4,4,0,1.0,True,67,10
+algorithmique-programmation,Algorithmique et programmation,algorithmique-python,Algorithmique et Python,8,8,0,1.0,True,57,10
+analyse,Analyse,suites,Suites,5,5,0,1.0,True,85,10
+analyse,Analyse,limites-fonctions,Limites de fonctions,5,5,0,1.0,True,54,10
+analyse,Analyse,derivation-convexite,Dérivation et convexité,6,6,0,1.0,True,114,10
+analyse,Analyse,continuite,Continuité et théorème des valeurs intermédiaires,4,4,0,1.0,True,53,10
+analyse,Analyse,logarithme,Fonction logarithme,5,5,0,1.0,True,67,10
+analyse,Analyse,trigonometrie,Fonctions sinus et cosinus,5,5,0,1.0,True,3,10
+analyse,Analyse,primitives-equations-differentielles,Primitives et équations différentielles,5,5,0,1.0,True,38,10
+analyse,Analyse,calcul-integral,Calcul intégral,6,6,0,1.0,True,29,10
+logique-ensembles,Vocabulaire ensembliste et logique,logique-raisonnement,"Logique, ensembles et raisonnement",6,6,0,1.0,True,13,10
+probabilites,Probabilités,bernoulli-binomiale,Schéma de Bernoulli et loi binomiale,5,5,0,1.0,True,75,10
+probabilites,Probabilités,variables-aleatoires,Sommes de variables aléatoires,5,5,0,1.0,True,24,10
+probabilites,Probabilités,concentration-grands-nombres,Concentration et loi des grands nombres,4,4,0,1.0,True,17,10
