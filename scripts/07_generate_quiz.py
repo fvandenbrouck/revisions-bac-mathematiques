@@ -524,6 +524,37 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+
+def shuffle_quiz_options_in_place(quiz_data, seed=20260513):
+    """Mélange les options de chaque question et recalcule l'indice correct."""
+    import random
+    rng = random.Random(seed)
+
+    for theme_id, questions in (quiz_data or {}).items():
+        if not isinstance(questions, list):
+            continue
+
+        for q in questions:
+            options = q.get("options")
+            correct = q.get("correct")
+
+            if not isinstance(options, list) or len(options) != 4:
+                continue
+            if correct not in [0, 1, 2, 3]:
+                continue
+
+            indexed = list(enumerate(options))
+            rng.shuffle(indexed)
+
+            q["options"] = [option for old_index, option in indexed]
+            q["correct"] = next(
+                i for i, (old_index, _) in enumerate(indexed)
+                if old_index == correct
+            )
+
+    return quiz_data
+
+
 def main() -> int:
     if load_dotenv:
         load_dotenv(project_root_from_script() / ".env")
