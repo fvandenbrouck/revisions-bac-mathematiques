@@ -711,11 +711,67 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+
+def normalize_pdf_path_for_site(value):
+    """Normalise un chemin PDF pour le site publié depuis le dossier site/."""
+    value = str(value or "").strip()
+    if not value:
+        return ""
+    value = value.replace("\\", "/")
+    value = value.replace("site/", "")
+    value = value.replace("./", "")
+    value = value.lstrip("/")
+    if not value.startswith("pdf/"):
+        name = value.split("/")[-1]
+        if name.lower().endswith(".pdf"):
+            value = "pdf/" + name
+    return value
+
+def attach_pdf_paths_to_exercises(exercices, manifest_rows=None):
+    """Ajoute pdf_path aux exercices à partir du manifest via source_id."""
+    if manifest_rows is None:
+        manifest = read_json(MANIFEST_JSON_PATH, default=[])
+        if isinstance(manifest, dict):
+            manifest_rows = list(manifest.values())
+        elif isinstance(manifest, list):
+            manifest_rows = manifest
+        else:
+            manifest_rows = []
+
+    by_id = {}
+    for row in manifest_rows or []:
+        if not isinstance(row, dict):
+            continue
+        sid = str(row.get("id") or row.get("source_id") or "").strip()
+        if sid:
+            by_id[sid] = row
+
+    patched = 0
+
+    for ex in exercices or []:
+        if not isinstance(ex, dict):
+            continue
+
+        sid = str(ex.get("source_id") or ex.get("sujet_id") or "").strip()
+        row = by_id.get(sid)
+
+        if not row:
+            continue
+
+        pdf = normalize_pdf_path_for_site(row.get("pdf_path") or row.get("pdf") or "")
+        if pdf:
+            ex["pdf_path"] = pdf
+            patched += 1
+
+    return patched
+
+
 def main() -> int:
     args = parse_args()
 
     exercices, source_used = load_exercises(args.source)
     exercices.sort(key=exercise_sort_key)
+    pdf_patched = attach_pdf_paths_to_exercises(exercices)
 
     if not exercices and not args.allow_empty_exercises:
         print(
@@ -751,6 +807,7 @@ def main() -> int:
 
     print(f"Source exercices : {source_used}")
     print(f"Exercices écrits : {SITE_EXERCISES_PATH} ({len(exercices)})")
+    print(f"PDF rattachés    : {pdf_patched}")
     print(f"Data site écrit  : {DATA_JSON}")
     print(f"Manifest         : {len(manifest)} sujet(s)")
     print(f"Cours            : {sum(1 for v in cours.values() if isinstance(v, dict) and v.get('synthese'))}/{len(THEME_ORDER)} thème(s) généré(s)")

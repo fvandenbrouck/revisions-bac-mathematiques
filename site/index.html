@@ -221,8 +221,44 @@ function renderQuiz(){const ids=detailedThemeIdsForCurrentSelection();const qs=i
 function renderCorrige(ex){const c=ex.corrige;if(!c)return'<p>Corrigé non disponible.</p>';if(typeof c==='string')return fmt(c);const qs=c.questions||[];if(Array.isArray(qs)&&qs.length){return qs.map(q=>`<div class="corrige-question"><h4>Question ${esc(q.numero||'')}</h4><div>${fmt(q.reponse||q.réponse||'')}</div>${q.points_attention||q.vigilance?`<p class="source-note"><strong>Point d’attention :</strong> ${esc(q.points_attention||q.vigilance)}</p>`:''}</div>`).join('');}return `<pre>${esc(JSON.stringify(c,null,2))}</pre>`;}
 function exerciseImages(ex){if(ex.page_images?.length)return ex.page_images;if(ex.source?.images?.length)return ex.source.images;if(ex.image_page)return[ex.image_page];return[];}
 function exercisePages(ex){if(ex.pages?.length)return ex.pages;if(ex.source?.pages?.length)return ex.source.pages;return[];}
-function exercisePdfUrl(ex){if(ex.pdf_embed_url)return ex.pdf_embed_url;if(ex.pdf_url&&ex.pdf_page)return`${ex.pdf_url}#page=${ex.pdf_page}`;if(ex.pdf_path&&exercisePages(ex)[0])return`${ex.pdf_path}#page=${exercisePages(ex)[0]}`;if(ex.pdf_path)return ex.pdf_path;if(ex.source?.pdf){const p=exercisePages(ex)[0];return ex.source.pdf+(p?`#page=${p}`:'');}return'';}
-function openEx(id,pane='enonce'){modalEx=DATA.exercices.find(e=>e.id===id);if(!modalEx)return;pageIndex=0;zoom=1;$('#zoom').value='1';const t=themeById(modalEx.thematique_id);$('#modalTitle').textContent=modalEx.titre||'Exercice';$('#modalMeta').textContent=`${modalEx.annee||''} · ${modalEx.session||''} · ${modalEx.zone||''} · ${modalEx.points||''} points · difficulté ${modalEx.difficulte||'?'} · ${t.titre||''}`;$('#modalHelp').innerHTML=asArray(modalEx.aide).length?'<ul>'+asArray(modalEx.aide).map(a=>`<li>${fmt(a)}</li>`).join('')+'</ul>':'<p>Aide non disponible.</p>';$('#modalSolution').innerHTML=renderCorrige(modalEx);$('#modalNotions').innerHTML=[...asArray(modalEx.notions),...asArray(modalEx.mots_cles)].map(n=>`<span class="tag">${esc(n)}</span>`).join('')||'<p>Aucune notion renseignée.</p>';const pages=exercisePages(modalEx),imgs=exerciseImages(modalEx),pdfUrl=exercisePdfUrl(modalEx);$('#modalSource').textContent=`Source : ${modalEx.pdf_path||modalEx.pdf_url||modalEx.source?.pdf||'PDF'} · pages ${pages.join(', ')||'non renseignées'}`;$('#openPdf').href=pdfUrl||modalEx.pdf_path||modalEx.pdf_url||'#';$('#sourceNote').textContent=pdfUrl?`PDF · ${imgs.length} image(s) disponible(s)`: `${imgs.length} page(s) image`;$('#masterBtn').textContent=mastered.has(modalEx.id)?'✅ Maîtrisé':'○ Marquer comme maîtrisé';$('#overlay').classList.add('open');showPane(pane);renderPage();renderMath($('#pane-aide'));renderMath($('#pane-corrige'));}
+function exercisePdfUrl(ex){
+  if(!ex) return '';
+
+  if(ex.pdf_embed_url) return ex.pdf_embed_url;
+
+  let path =
+    ex.pdf_url ||
+    ex.pdf_path ||
+    ex.source_pdf ||
+    ex.source?.pdf ||
+    ex.source?.pdf_path ||
+    '';
+
+  path = String(path || '').trim();
+  if(!path) return '';
+
+  if(path.startsWith('http://') || path.startsWith('https://')){
+    const p = ex.pdf_page || exercisePages(ex)[0];
+    return path + (p ? `#page=${p}` : '');
+  }
+
+  // Normalisation pour GitHub Pages : le site est publié depuis /site
+  // donc les chemins doivent être relatifs à la racine publiée : pdf/...
+  path = path.replace(/^site\//, '');
+  path = path.replace(/^\.\//, '');
+  path = path.replace(/^\/+/, '');
+
+  if(!path.startsWith('pdf/')){
+    const filename = path.split('/').pop();
+    if(filename && filename.toLowerCase().endsWith('.pdf')){
+      path = 'pdf/' + filename;
+    }
+  }
+
+  const page = ex.pdf_page || exercisePages(ex)[0];
+  return encodeURI(path + (page ? `#page=${page}` : ''));
+}
+function openEx(id,pane='enonce'){modalEx=DATA.exercices.find(e=>e.id===id);if(!modalEx)return;pageIndex=0;zoom=1;$('#zoom').value='1';const t=themeById(modalEx.thematique_id);$('#modalTitle').textContent=modalEx.titre||'Exercice';$('#modalMeta').textContent=`${modalEx.annee||''} · ${modalEx.session||''} · ${modalEx.zone||''} · ${modalEx.points||''} points · difficulté ${modalEx.difficulte||'?'} · ${t.titre||''}`;$('#modalHelp').innerHTML=asArray(modalEx.aide).length?'<ul>'+asArray(modalEx.aide).map(a=>`<li>${fmt(a)}</li>`).join('')+'</ul>':'<p>Aide non disponible.</p>';$('#modalSolution').innerHTML=renderCorrige(modalEx);$('#modalNotions').innerHTML=[...asArray(modalEx.notions),...asArray(modalEx.mots_cles)].map(n=>`<span class="tag">${esc(n)}</span>`).join('')||'<p>Aucune notion renseignée.</p>';const pages=exercisePages(modalEx),imgs=exerciseImages(modalEx),pdfUrl=exercisePdfUrl(modalEx);$('#modalSource').textContent=`Source : ${modalEx.pdf_path||modalEx.pdf_url||modalEx.source?.pdf||'PDF'} · pages ${pages.join(', ')||'non renseignées'}`;$('#openPdf').href=pdfUrl||'#';$('#sourceNote').textContent=pdfUrl?`PDF · ${imgs.length} image(s) disponible(s)`: `${imgs.length} page(s) image`;$('#masterBtn').textContent=mastered.has(modalEx.id)?'✅ Maîtrisé':'○ Marquer comme maîtrisé';$('#overlay').classList.add('open');showPane(pane);renderPage();renderMath($('#pane-aide'));renderMath($('#pane-corrige'));}
 function showPane(name){$$('.modal-tab').forEach(b=>b.classList.toggle('active',b.dataset.pane===name));$$('.pane').forEach(p=>p.classList.remove('active'));const p=$('#pane-'+name);p.classList.add('active');renderMath(p);}
 function renderPage(){const stage=$('#imageStage');const imgs=exerciseImages(modalEx);const pages=exercisePages(modalEx);if(imgs.length){pageIndex=Math.max(0,Math.min(pageIndex,imgs.length-1));$('#pageInfo').textContent=`${pageIndex+1}/${imgs.length} · page ${pages[pageIndex]||'?'}`;$('#prevPage').disabled=pageIndex===0;$('#nextPage').disabled=pageIndex===imgs.length-1;stage.innerHTML=`<img class="page-img" src="${esc(imgs[pageIndex])}" alt="Page ${esc(pages[pageIndex]||'')} du sujet" style="width:${Math.round(830*zoom)}px">`;return;}const pdfUrl=exercisePdfUrl(modalEx);if(pdfUrl){$('#pageInfo').textContent=pages.length?`PDF · page ${pages[0]}`:'PDF';$('#prevPage').disabled=true;$('#nextPage').disabled=true;stage.innerHTML=`<iframe src="${esc(pdfUrl)}" title="Énoncé PDF" style="width:100%;height:76vh;border:0;background:#fff;border-radius:8px"></iframe>`;return;}const enonce=modalEx?.enonce||modalEx?.texte_extrait||'';stage.innerHTML=enonce?`<div class="page-error"><h3>Énoncé extrait</h3><div class="textblock">${fmt(enonce)}</div></div>`:'<div class="page-error">Aucun PDF ni aucune image de page n’est associée à cet exercice.</div>';}
 function navPage(d){if(!modalEx)return;const len=exerciseImages(modalEx).length;if(!len)return;const ni=Math.max(0,Math.min(len-1,pageIndex+d));if(ni!==pageIndex){pageIndex=ni;renderPage();}}
